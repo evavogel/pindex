@@ -3,13 +3,14 @@
 Sources:
   food2050 (ZFV / UZH mensas): weekly page lists dishes; each dish detail page carries
       nutrition per portion and per 100 g, total weight, prices and allergens.
-  cookpit (ETH API, used by Octavo): nutrition per 100 g only, so per-portion values are
+  cookpit (ETH API, used by the ETH mensas and Octavo): nutrition per 100 g only, so per-portion values are
       estimated with the median food2050 portion weight of the same run.
 
 Writes the JSON file named in mensas.json ("output") and archives each day's dishes in the
 CSV named in "history". Standard library only.
 """
 import csv
+import functools
 import json
 import re
 import statistics
@@ -29,6 +30,7 @@ TZ = ZoneInfo(CONFIG["timezone"])
 EXCLUDE = re.compile(CONFIG["exclude"], re.I)
 HEADERS = {"User-Agent": "protein-mensa/1.0 (daily lunch macro ranking)"}
 COOKPIT = "https://idapps.ethz.ch/cookpit-pub-services/v1/weeklyrotas"
+LUNCH = re.compile(r"mittag|lunch|pranzo", re.I)  # meal-time names vary by facility
 
 NUTRIENTS = {
     "Kalorien": "kcal", "Fett": "fat", "davon gesättigte Fettsäuren": "satfat",
@@ -68,6 +70,8 @@ def nice_name(name):
 
 def price_group(label):
     label = label.lower()
+    if label.startswith("alle"):
+        return ["stud", "staff", "ext"]
     if label.startswith(("stud", "intern")):
         return ["stud", "staff"] if "intern" in label else ["stud"]
     if label.startswith(("mitarb", "angest", "staff", "doz")):
@@ -164,23 +168,31 @@ def food2050_dishes(mensa, today, week_end, pool, known):
 
 # ---------- cookpit (Octavo) ----------
 
-def cookpit_dishes(mensa, today, week_end):
+@functools.cache
+def cookpit_rotas(client_id, today, week_end):
+    """All facilities' weekly rotas for one client in a single request (shared by every ETH mensa)."""
     query = urllib.parse.urlencode({
-        "client-id": mensa["client_id"], "lang": "de", "facility": mensa["facility"], "rs-first": 0,
-        "rs-size": 10, "valid-after": today.isoformat(), "valid-before": (week_end + timedelta(days=1)).isoformat(),
+        "client-id": client_id, "lang": "de", "rs-first": 0, "rs-size": 100,
+        "valid-after": today.isoformat(), "valid-before": (week_end + timedelta(days=1)).isoformat(),
     })
-    data = json.loads(get(f"{COOKPIT}?{query}"))
+    return json.loads(get(f"{COOKPIT}?{query}")).get("weekly-rota-array", [])
+
+
+def cookpit_dishes(mensa, today, week_end):
     out = []
-    for rota in data.get("weekly-rota-array", []):
-        start = date.fromisoformat(rota["valid-from"])
-        monday = start - timedelta(days=start.weekday())
+    for rota in cookpit_rotas(mensa["client_id"], today, week_end):
+        if rota["facility-id"] != mensa["facility"]:
+            continue
+        # A rota repeats its weekdays for its whole validity (some standing menus run for months).
+        valid_from, valid_to = date.fromisoformat(rota["valid-from"]), date.fromisoformat(rota["valid-to"])
+        monday = today - timedelta(days=today.weekday())
         for day in rota.get("day-of-week-array", []):
             d = monday + timedelta(days=day["day-of-week-code"] - 1)
-            if not today <= d <= week_end:
+            if not (today <= d <= week_end and valid_from <= d <= valid_to):
                 continue
             for hours in day.get("opening-hour-array", []):
                 for meal_time in hours.get("meal-time-array", []):
-                    if "mittag" not in meal_time["name"].lower():
+                    if not LUNCH.search(meal_time["name"]):
                         continue
                     for line in meal_time.get("line-array", []):
                         meal = line.get("meal")
@@ -205,14 +217,15 @@ def cookpit_dish(mensa, d, line, meal):
         diet = "vegetarian"
     elif "Fisch" in classes or any(m["desc"].startswith("Fisch") for m in meal.get("meat-type-array", [])):
         diet = "fish"
-    elif classes or meal.get("meat-type-array"):
+    elif "Fleisch" in classes or meal.get("meat-type-array"):
         diet = "meat"
-    else:
+    else:  # Swiss menus must declare meat origin, so no meat type and no "Fleisch" class means no meat
         diet = "vegetarian"
     prices = {}
     for p in meal.get("meal-price-array", []):
         for g in price_group(p["customer-group-desc"]):
-            prices.setdefault(g, p["price"])
+            if p["price"]:
+                prices.setdefault(g, p["price"])
     desc = meal.get("description") or ""
     return {
         "mensa": mensa["id"], "date": d.isoformat(), "line": line,

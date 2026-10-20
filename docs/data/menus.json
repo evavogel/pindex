@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T11:51+02:00",
+ "generated": "2026-10-20T12:41+02:00",
  "today": "2026-10-20",
  "estimated_portion_g": 548,
  "mensas": [
@@ -7,79 +7,79 @@
    "id": "obere",
    "name": "Obere Mensa",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/zfv/universitat-zurich%2Ccampus-zentrum/obere-mensa/lunch/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-zentrum/obere-mensa/lunch/menu/weekly"
   },
   {
    "id": "untere",
    "name": "Untere Mensa",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ccampus-zentrum/untere-mensa/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-zentrum/untere-mensa/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "raemi59",
    "name": "Rämi 59",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Crami-59/rami-59/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,rami-59/rami-59/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "platte14",
    "name": "Platte 14",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Cplatte-14/platte-14/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/platte-14/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "insieme",
    "name": "Insieme Rämi 74",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Cplatte-14/insieme/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/insieme/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "zzm",
    "name": "ZZM Mensa",
    "campus": "Zentrum",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Czentrum-fur-zahnmedizin/zzm/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "irchel",
    "name": "Mensa Irchel",
    "campus": "Irchel",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ccampus-irchel/mensa/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/mensa/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "yard",
    "name": "The Yard",
    "campus": "Irchel",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ccampus-irchel%2Cks-oerlikon/the-yard/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel,ks-oerlikon/the-yard/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "greenlab",
    "name": "Green Kitchen Lab",
    "campus": "Irchel",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich,campus-irchel/green-kitchen-lab/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/green-kitchen-lab/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "tierspital",
    "name": "Tierspital",
    "campus": "Irchel",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ctierspital-1/tierspital/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,tierspital-1/tierspital/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "binzmuehle",
    "name": "Mensa Binzmühle",
    "campus": "Oerlikon",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ccampus-oerlikon/mensa-binzmuhle/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "bim11",
    "name": "BIM11",
    "campus": "Oerlikon",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich,campus-oerlikon/bim11/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/bim11/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "cityport",
    "name": "Cityport",
    "campus": "Oerlikon",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Ccityport/cityport/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung/menu/weekly"
   },
   {
    "id": "octavo",
@@ -91,10 +91,396 @@
    "id": "botgarten",
    "name": "Botanischer Garten",
    "campus": "Other",
-   "url": "https://app.food2050.ch/de/v2/zfv/universitat-zurich%2Cbotanischer-garten/botanischer-garten/mittagsverpflegung/menu/weekly"
+   "url": "https://app.food2050.ch/de/zfv/universitat-zurich,botanischer-garten/botanischer-garten/mittagsverpflegung/menu/weekly"
+  },
+  {
+   "id": "polyterrasse",
+   "name": "Mensa Polyterrasse",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "id": "foodlab",
+   "name": "food&lab",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "id": "archimedes",
+   "name": "Archimedes",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "id": "clausiusbar",
+   "name": "Clausiusbar",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "id": "tannenbar",
+   "name": "Tannenbar",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
+  },
+  {
+   "id": "polysnack",
+   "name": "Polysnack",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "id": "dozentenfoyer",
+   "name": "Dozentenfoyer",
+   "campus": "ETH Zentrum",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "id": "foodmarket",
+   "name": "food market",
+   "campus": "ETH Hönggerberg",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "id": "mendokoro",
+   "name": "Mendokoro",
+   "campus": "ETH Hönggerberg",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "id": "alumni",
+   "name": "Alumni quattro Lounge",
+   "campus": "ETH Hönggerberg",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "id": "fusion",
+   "name": "FUSION meal",
+   "campus": "ETH Hönggerberg",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "id": "riceup",
+   "name": "Rice Up!",
+   "campus": "ETH Hönggerberg",
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
   }
  ],
  "dishes": [
+  {
+   "mensa": "alumni",
+   "date": "2026-10-20",
+   "line": "Classic Pot",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Rindsgehacktes · Hörnli · Apfelmus · Extrahartkäse",
+   "diet": "meat",
+   "kcal": 750.8,
+   "protein": 35.1,
+   "carbs": 98.6,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 2.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 137,
+    "protein": 6.4,
+    "fat": 4.0,
+    "carbs": 18.0,
+    "sugar": 2.7,
+    "salt": 0.52,
+    "satfat": 1.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-20",
+   "line": "Classic Pot Vegan",
+   "name": "G`hacktes mit Hörnli vegan",
+   "desc": "Sojagehacktes · Hörnli · Apfelmus · veganer Käse",
+   "diet": "vegan",
+   "kcal": 652.1,
+   "protein": 25.8,
+   "carbs": 115.1,
+   "fat": 6.0,
+   "fiber": null,
+   "sugar": 19.2,
+   "salt": 3.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 119,
+    "protein": 4.7,
+    "fat": 1.1,
+    "carbs": 21.0,
+    "sugar": 3.5,
+    "salt": 0.65,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-20",
+   "line": "World Pot",
+   "name": "Tandoori Chicken",
+   "desc": "Tandoorisauce · Basmatireis · Wok Gemüse",
+   "diet": "meat",
+   "kcal": 668.6,
+   "protein": 25.8,
+   "carbs": 87.7,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 5.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 122,
+    "protein": 4.7,
+    "fat": 4.4,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "salt": 1.01,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-20",
+   "line": "The Chef",
+   "name": "Fleischkäse Cordon bleu",
+   "desc": "Senfsauce · Zöpfli · Erbsen · Zwiebelcrunch",
+   "diet": "meat",
+   "kcal": 854.9,
+   "protein": 38.9,
+   "carbs": 93.2,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 4.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 156,
+    "protein": 7.1,
+    "fat": 6.2,
+    "carbs": 17.0,
+    "sugar": 1.8,
+    "salt": 0.89,
+    "satfat": 1.9
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-20",
+   "line": "The Expert",
+   "name": "Bifteki im Pitabrot",
+   "desc": "Rindfleisch · Tzatziki · Tomaten · Lattichsalat · Pommes Frites",
+   "diet": "meat",
+   "kcal": 926.1,
+   "protein": 40.6,
+   "carbs": 104.1,
+   "fat": 36.2,
+   "fiber": null,
+   "sugar": 6.0,
+   "salt": 5.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 169,
+    "protein": 7.4,
+    "fat": 6.6,
+    "carbs": 19.0,
+    "sugar": 1.1,
+    "salt": 1.05,
+    "satfat": 2.2
+   },
+   "prices": {
+    "stud": 13.5,
+    "staff": 15.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-20",
+   "line": "The Farmer",
+   "name": "Salat Bowl",
+   "desc": "Stärkebeilage nach Wahl · Salate nach Wahl · Proteinquelle nach Wahl · Pouletspiess",
+   "diet": "meat",
+   "kcal": 712.4,
+   "protein": 49.9,
+   "carbs": 76.7,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 13.7,
+   "salt": 4.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 130,
+    "protein": 9.1,
+    "fat": 4.0,
+    "carbs": 14.0,
+    "sugar": 2.5,
+    "salt": 0.84,
+    "satfat": 0.8
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-20",
+   "line": "The Gardener",
+   "name": "Spätzli Pfanne",
+   "desc": "Bechamel · Käse · Röstzwiebeln · Frucht",
+   "diet": "vegetarian",
+   "kcal": 904.2,
+   "protein": 30.1,
+   "carbs": 87.7,
+   "fat": 51.5,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 165,
+    "protein": 5.5,
+    "fat": 9.4,
+    "carbs": 16.0,
+    "sugar": 2.3,
+    "salt": 0.82,
+    "satfat": 2.8
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 10.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-20",
+   "line": "The Traveller",
+   "name": "Palak Paneer",
+   "desc": "Paneer Käse · Ingwer · Curry · Spinat · Gewürzreis · Naan Brot",
+   "diet": "vegetarian",
+   "kcal": 898.7,
+   "protein": 36.2,
+   "carbs": 109.6,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 3.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 164,
+    "protein": 6.6,
+    "fat": 6.2,
+    "carbs": 20.0,
+    "sugar": 1.3,
+    "salt": 0.72,
+    "satfat": 3.4
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
   {
    "mensa": "bim11",
    "date": "2026-10-20",
@@ -416,6 +802,884 @@
    "climate": "LOW",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung,hauptspeisen,tagesmenu/2026-10-20"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-20",
+   "line": "DELIGHT",
+   "name": "Kare Don",
+   "desc": "Rindsragout Japanische Art · Soja · Zitronengras · Basmatireis · Karotten-Kartoffel Gemüse",
+   "diet": "meat",
+   "kcal": 476.8,
+   "protein": 35.6,
+   "carbs": 60.3,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 14.2,
+   "salt": 7.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 87,
+    "protein": 6.5,
+    "fat": 1.5,
+    "carbs": 11.0,
+    "sugar": 2.6,
+    "salt": 1.39,
+    "satfat": 0.3
+   },
+   "prices": {
+    "stud": 9.2,
+    "staff": 12.2,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-20",
+   "line": "GARDEN",
+   "name": "Son Mandu",
+   "desc": "Koreanische Teigtaschen · Gemüse & Tofu · Black Bean Sauce · Zucchetti · Stangensellerie · Karotten · Jasmi..",
+   "diet": "vegetarian",
+   "kcal": 597.3,
+   "protein": 15.3,
+   "carbs": 126.0,
+   "fat": 3.3,
+   "fiber": null,
+   "sugar": 8.2,
+   "salt": 7.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 109,
+    "protein": 2.8,
+    "fat": 0.6,
+    "carbs": 23.0,
+    "sugar": 1.5,
+    "salt": 1.32,
+    "satfat": 0.1
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-20",
+   "line": "WOK GREEN",
+   "name": "Macau Jay",
+   "desc": "Schlangenbohnen · Macau Currysauce · Karotten · Kohlraben · Zucchetti · Jasminreis",
+   "diet": "vegan",
+   "kcal": 438.4,
+   "protein": 11.0,
+   "carbs": 87.7,
+   "fat": 2.2,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 3.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 80,
+    "protein": 2.0,
+    "fat": 0.4,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "salt": 0.7,
+    "satfat": 0.1
+   },
+   "prices": {
+    "stud": 12.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-20",
+   "line": "WOK STREET",
+   "name": "Macau",
+   "desc": "Kalb · Macau Currysauce · Karotten · Kohlraben · Zucchetti · Jasminreis",
+   "diet": "meat",
+   "kcal": 476.8,
+   "protein": 29.0,
+   "carbs": 76.7,
+   "fat": 6.0,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 3.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 87,
+    "protein": 5.3,
+    "fat": 1.1,
+    "carbs": 14.0,
+    "sugar": 1.7,
+    "salt": 0.64,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 13.2,
+    "staff": 14.2,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Krebstiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-20",
+   "line": "Favorite",
+   "name": "Schweinssteak \"Strindberg\"",
+   "desc": "Zwiebel-Senfkruste · Kräuter-Jus · Bratkartoffeln · Broccoli · Mandeln · pro 100 gr.",
+   "diet": "meat",
+   "kcal": 597.3,
+   "protein": 37.3,
+   "carbs": 34.5,
+   "fat": 31.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 4.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 109,
+    "protein": 6.8,
+    "fat": 5.7,
+    "carbs": 6.3,
+    "sugar": 0.9,
+    "salt": 0.79,
+    "satfat": 1.6
+   },
+   "prices": {
+    "stud": 3.2,
+    "staff": 3.2,
+    "ext": 3.2
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Schalenfrüchte",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-20",
+   "line": "chefs world",
+   "name": "Goldbutt Müllerin Art",
+   "desc": "Butter · Mandeln · Tomaten Concasse · Mandeln · Petersillie Kartoffeln · Spinat",
+   "diet": "fish",
+   "kcal": 591.8,
+   "protein": 34.5,
+   "carbs": 38.4,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 3.3,
+   "salt": 4.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 108,
+    "protein": 6.3,
+    "fat": 4.4,
+    "carbs": 7.0,
+    "sugar": 0.6,
+    "salt": 0.78,
+    "satfat": 1.1
+   },
+   "prices": {
+    "stud": 20.5,
+    "staff": 20.5,
+    "ext": 20.5
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-20",
+   "line": "vitality",
+   "name": "Persisches Shakshuka",
+   "desc": "Eier · Tomaten · Peperonistreifen · Pita-Brot · Shirazi Salat",
+   "diet": "vegetarian",
+   "kcal": 531.6,
+   "protein": 20.3,
+   "carbs": 60.3,
+   "fat": 21.4,
+   "fiber": null,
+   "sugar": 15.9,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 97,
+    "protein": 3.7,
+    "fat": 3.9,
+    "carbs": 11.0,
+    "sugar": 2.9,
+    "salt": 0.48,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 14.9,
+    "staff": 14.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-20",
+   "line": "East",
+   "name": "Schnitzl Burger",
+   "desc": "Ciabattabrot · Planted Schnitzel · Tomaten · Eisbergsalat · Coleslaw · Pommes",
+   "diet": "vegetarian",
+   "kcal": 849.4,
+   "protein": 21.4,
+   "carbs": 126.0,
+   "fat": 25.8,
+   "fiber": null,
+   "sugar": 15.9,
+   "salt": 4.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 155,
+    "protein": 3.9,
+    "fat": 4.7,
+    "carbs": 23.0,
+    "sugar": 2.9,
+    "salt": 0.76,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-20",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Penne rigate · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1101.5,
+   "protein": 49.9,
+   "carbs": 153.4,
+   "fat": 28.5,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 3.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 201,
+    "protein": 9.1,
+    "fat": 5.2,
+    "carbs": 28.0,
+    "sugar": 1.6,
+    "salt": 0.69,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-20",
+   "line": "West",
+   "name": "Foodlab Cheese Burger",
+   "desc": "Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes..",
+   "diet": "meat",
+   "kcal": 1150.8,
+   "protein": 42.7,
+   "carbs": 104.1,
+   "fat": 60.3,
+   "fiber": null,
+   "sugar": 15.9,
+   "salt": 7.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 210,
+    "protein": 7.8,
+    "fat": 11.0,
+    "carbs": 19.0,
+    "sugar": 2.9,
+    "salt": 1.43,
+    "satfat": 2.8
+   },
+   "prices": {
+    "stud": 11.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "fire",
+   "name": "Walliser Rösti",
+   "desc": "Speck · Tomaten · Raclettekäse · Geröstete Zwiebeln · Spiegelei",
+   "diet": "meat",
+   "kcal": 624.7,
+   "protein": 31.8,
+   "carbs": 54.8,
+   "fat": 29.0,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 3.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 114,
+    "protein": 5.8,
+    "fat": 5.3,
+    "carbs": 10.0,
+    "sugar": 1.3,
+    "salt": 0.71,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "green daily",
+   "name": "1001 Nacht",
+   "desc": "Falafel · Tzatziki · Fladenbrot · Eisberg · Kabis · Karotten · Gurken · Tomaten · Dill · Peterli",
+   "diet": "vegetarian",
+   "kcal": 876.8,
+   "protein": 24.7,
+   "carbs": 126.0,
+   "fat": 27.4,
+   "fiber": null,
+   "sugar": 19.7,
+   "salt": 4.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 160,
+    "protein": 4.5,
+    "fat": 5.0,
+    "carbs": 23.0,
+    "sugar": 3.6,
+    "salt": 0.88,
+    "satfat": 1.2
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "grill",
+   "name": "Kalbsgeschnetzeltes Zürcher Art",
+   "desc": "Spätzli · Karotten · Schnittlauch",
+   "diet": "meat",
+   "kcal": 772.7,
+   "protein": 34.0,
+   "carbs": 76.7,
+   "fat": 35.6,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 4.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 141,
+    "protein": 6.2,
+    "fat": 6.5,
+    "carbs": 14.0,
+    "sugar": 1.2,
+    "salt": 0.76,
+    "satfat": 1.5
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 15.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "pasta classica vegi",
+   "name": "Kürbisrisotto mit beurre noisette",
+   "desc": "Carnaroli Risotto · Kürbis · Rucola · Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 608.3,
+   "protein": 17.5,
+   "carbs": 82.2,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 5.5,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 111,
+    "protein": 3.2,
+    "fat": 3.6,
+    "carbs": 15.0,
+    "sugar": 1.0,
+    "salt": 0.82,
+    "satfat": 1.1
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "pasta della nonna",
+   "name": "Burratina cremosa",
+   "desc": "Sedanini Pasta · Tomatensugo · Zucchetti Pesto · Burrata · Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 904.2,
+   "protein": 26.3,
+   "carbs": 109.6,
+   "fat": 37.3,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 1.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 165,
+    "protein": 4.8,
+    "fat": 6.8,
+    "carbs": 20.0,
+    "sugar": 2.3,
+    "salt": 0.23,
+    "satfat": 1.6
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "pizza classica",
+   "name": "Pizza Margherita",
+   "desc": "Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 1090.5,
+   "protein": 54.8,
+   "carbs": 137.0,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 6.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 199,
+    "protein": 10.0,
+    "fat": 6.2,
+    "carbs": 25.0,
+    "sugar": 1.2,
+    "salt": 1.16,
+    "satfat": 3.1
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-20",
+   "line": "pizza mamma mia",
+   "name": "Pizza Bruschetta",
+   "desc": "Tomaten · Mozzarella · Knoblauch · Basilikum · Balsamico Glace · Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 1041.2,
+   "protein": 49.3,
+   "carbs": 126.0,
+   "fat": 36.7,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 5.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 190,
+    "protein": 9.0,
+    "fat": 6.7,
+    "carbs": 23.0,
+    "sugar": 1.8,
+    "salt": 0.99,
+    "satfat": 3.0
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "MEATWORKS",
+   "name": "Schweinsbraten & Rotweinsauce",
+   "desc": "Kartoffelstock · Grüne Bohnen",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "SOUL FOOD",
+   "name": "Fusion-Beefburger",
+   "desc": "Brioche-Bun · Beef-Patty · Bacon · Cheddar-Käse · Tomaten · Fusion Sauce · Country Fries",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "VEGAN",
+   "name": "Plant Based Kebab-Teller",
+   "desc": "Eisberg · Tomaten · Gurkensalat · Kartoffelcubs · Joghurt-Sauce",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 12.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "VEGI",
+   "name": "Pasta",
+   "desc": "Basilikum-Pesto Sauce · Reibkäse · Salat oder Homemade-Getränk",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "WORLD OF ASIA",
+   "name": "Lamm-Tajine",
+   "desc": "Dörrfrüchte · Wok-Gemüse · Tomaten-Reis",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-20",
+   "line": "WORLD OF ASIA VEGI",
+   "name": "Fried Noodles & Spring Roll",
+   "desc": "Wok-Gemüse",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 12.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
   },
   {
    "mensa": "greenlab",
@@ -768,6 +2032,206 @@
    "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/mensa/mittagsverpflegung,hauptspeisen,voll-anders/2026-10-20"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-20",
+   "line": "Ichi",
+   "name": "Miso Ramen",
+   "desc": "Pak Choi · Nori · Mariniertes Ei · Gerösteter Sesam",
+   "diet": "vegetarian",
+   "kcal": 383.6,
+   "protein": 15.3,
+   "carbs": 54.8,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 6.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 70,
+    "protein": 2.8,
+    "fat": 3.6,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.22,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-20",
+   "line": "Ni",
+   "name": "Shoyu Ramen",
+   "desc": "Austernpilze · Nori · Mariniertes Ei · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 405.5,
+   "protein": 15.9,
+   "carbs": 60.3,
+   "fat": 20.3,
+   "fiber": null,
+   "sugar": 4.4,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 74,
+    "protein": 2.9,
+    "fat": 3.7,
+    "carbs": 11.0,
+    "sugar": 0.8,
+    "salt": 1.3,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-20",
+   "line": "Roku",
+   "name": "Kimchi Ramen",
+   "desc": "Tofu Chashu · Nori · mariniertes Ei · Kimchi · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 7.7,
+   "carbs": 9.9,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 1.4,
+    "fat": 1.5,
+    "carbs": 1.8,
+    "sugar": 1.3,
+    "salt": 0.48,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-20",
+   "line": "San",
+   "name": "Tantanmen Ramen",
+   "desc": "Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chiliöl",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 20.8,
+   "carbs": 54.8,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 3.8,
+    "fat": 3.5,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.29,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-20",
+   "line": "Shi",
+   "name": "Chicken Tonkatsu Bowl",
+   "desc": "Crunchy Chicken · Tonkatsu Sauce · Sushireis · Japanischer Krautsalat · Sesam",
+   "diet": "meat",
+   "kcal": 959.0,
+   "protein": 31.8,
+   "carbs": 158.9,
+   "fat": 20.8,
+   "fiber": null,
+   "sugar": 33.4,
+   "salt": 5.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 175,
+    "protein": 5.8,
+    "fat": 3.8,
+    "carbs": 29.0,
+    "sugar": 6.1,
+    "salt": 1.06,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 13.8,
+    "staff": 15.8,
+    "ext": 18.8
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
   },
   {
    "mensa": "obere",
@@ -1127,6 +2591,298 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/platte-14/mittagsverpflegung,hauptspeisen,ying/2026-10-20"
   },
   {
+   "mensa": "polysnack",
+   "date": "2026-10-20",
+   "line": "Al Forno",
+   "name": "Pizza Piccante",
+   "desc": "Tomatensauce · Mozzarella · scharfer Salami · Rucola",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-20",
+   "line": "Pasta",
+   "name": "Casarecce al fume",
+   "desc": "Tomatenrahmsauce · Smoked Tofu · Petersilie · Reibkäse",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-20",
+   "line": "Verde",
+   "name": "Insalata \"California\"",
+   "desc": "Gemischte Salate mit Eisberg · Mais · Speck · Croutons",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-20",
+   "line": "GARDEN",
+   "name": "Krautspätzle",
+   "desc": "Spätzli · Sauerkraut · Röstzwiebeln · Bergkäse · Peterli · Salat",
+   "diet": "vegetarian",
+   "kcal": 734.3,
+   "protein": 25.8,
+   "carbs": 93.2,
+   "fat": 27.4,
+   "fiber": null,
+   "sugar": 10.4,
+   "salt": 4.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 134,
+    "protein": 4.7,
+    "fat": 5.0,
+    "carbs": 17.0,
+    "sugar": 1.9,
+    "salt": 0.74,
+    "satfat": 1.5
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-20",
+   "line": "HOME",
+   "name": "Hirsch Hackbraten",
+   "desc": "Jus Provençal · Kartoffelpüree · Erbsen · Zwiebelcrunch",
+   "diet": "meat",
+   "kcal": 482.2,
+   "protein": 34.5,
+   "carbs": 54.8,
+   "fat": 11.5,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 5.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 88,
+    "protein": 6.3,
+    "fat": 2.1,
+    "carbs": 10.0,
+    "sugar": 2.3,
+    "salt": 0.93,
+    "satfat": 0.8
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-20",
+   "line": "LOCAL",
+   "name": "Paniertes Schweinsschnitzel",
+   "desc": "Kartoffelsalat · Schnittlauch · Zitronenschnitz · Preiselbeeren",
+   "diet": "meat",
+   "kcal": 909.7,
+   "protein": 40.0,
+   "carbs": 87.7,
+   "fat": 42.2,
+   "fiber": null,
+   "sugar": 25.2,
+   "salt": 1.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 166,
+    "protein": 7.3,
+    "fat": 7.7,
+    "carbs": 16.0,
+    "sugar": 4.6,
+    "salt": 0.33,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-20",
+   "line": "STREET",
+   "name": "Laksa Ramen",
+   "desc": "Poulet · Erdnuss Curry · Ingwer · Bohnen · Peperoni · Limetten · Peperoncini · Koriander",
+   "diet": "meat",
+   "kcal": 487.7,
+   "protein": 25.8,
+   "carbs": 65.8,
+   "fat": 14.2,
+   "fiber": null,
+   "sugar": 6.0,
+   "salt": 3.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 89,
+    "protein": 4.7,
+    "fat": 2.6,
+    "carbs": 12.0,
+    "sugar": 1.1,
+    "salt": 0.72,
+    "satfat": 2.1
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Erdnüsse",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-20",
+   "line": "VEGAN",
+   "name": "Falafel Loaded Fries",
+   "desc": "Falafel · Kebabsauce · Pommes frites · Weisskabis · Karotten · Joghurtalternative",
+   "diet": "vegan",
+   "kcal": 865.8,
+   "protein": 26.3,
+   "carbs": 98.6,
+   "fat": 40.6,
+   "fiber": null,
+   "sugar": 13.2,
+   "salt": 4.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 158,
+    "protein": 4.8,
+    "fat": 7.4,
+    "carbs": 18.0,
+    "sugar": 2.4,
+    "salt": 0.77,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 13.0,
+    "ext": 16.0
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Schalenfrüchte",
+    "Senf",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
    "mensa": "raemi59",
    "date": "2026-10-20",
    "line": "global",
@@ -1203,6 +2959,247 @@
    "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,rami-59/rami-59/mittagsverpflegung,hauptspeisen,traditional/2026-10-20"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-20",
+   "line": " Tofu Cashew Bowl",
+   "name": "Tofu Cashew Bowl",
+   "desc": "Roter Reis · Marinierter Tofu · Saison Gemüse · Satay Sauce · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 14.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Soja"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-20",
+   "line": "Chicken Satay Bowl",
+   "name": "Chicken Satay Bowl",
+   "desc": "Reisnudeln · Gegrilltes Poulet Satay · Grüne Bohnen · Rotes Curry · Asia Krautsalat · Kräutersalat · Thai Chilli",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Erdnüsse",
+    "Soja",
+    "Schalenfrüchte",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-20",
+   "line": "Grilled Shrimps",
+   "name": "Grilled Shrimps Bowl",
+   "desc": "Jasmine Rice · Grilled Shrimps · Broccoli · rotes Curry · Asia Krautsalat · Kräutersalat · Puffed Rice",
+   "diet": "fish",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 16.9,
+    "ext": 17.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-20",
+   "line": "Planted Bowl",
+   "name": "Planted Bowl",
+   "desc": "Salatmischung · Planted Chicken Teriyaki · Sweet Corn · Tamarinden Sauce · Asia Kräutersalat · Erdnüsse",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-20",
+   "line": "Rice Up! Bowl",
+   "name": "Rice Up! Bowl",
+   "desc": "Jasmine Rice · Poulet-Bällchen · Broccoli · Grünes Curry · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 13.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Schalenfrüchte",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-20",
+   "line": "Green",
+   "name": "Quesadilla Chili sin carne",
+   "desc": "Pflanzenhack · Cheddar · Mais · Rote Bohnen · Peperoni · Reis · Nachos · Sauerrahm · Salsa · Jalapenos",
+   "diet": "vegetarian",
+   "kcal": 569.9,
+   "protein": 21.4,
+   "carbs": 93.2,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 3.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 104,
+    "protein": 3.9,
+    "fat": 1.5,
+    "carbs": 17.0,
+    "sugar": 1.8,
+    "salt": 0.58,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-20",
+   "line": "World",
+   "name": "Burrito Chili con carne",
+   "desc": "IP-SUISSE Rindfleisch · Cheddar · Mais · Rote Bohnen · Peperoni · Reis · Nachos · Sauerrahm · Salsa · Jalape..",
+   "diet": "meat",
+   "kcal": 767.2,
+   "protein": 38.9,
+   "carbs": 82.2,
+   "fat": 28.5,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 3.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 140,
+    "protein": 7.1,
+    "fat": 5.2,
+    "carbs": 15.0,
+    "sugar": 1.2,
+    "salt": 0.58,
+    "satfat": 1.7
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
   },
   {
    "mensa": "tierspital",
@@ -1653,6 +3650,283 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung,hauptspeisen,lucky-bowl/2026-10-20"
   },
   {
+   "mensa": "alumni",
+   "date": "2026-10-21",
+   "line": "Classic Pot",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Rindsgehacktes · Hörnli · Apfelmus · Extrahartkäse",
+   "diet": "meat",
+   "kcal": 750.8,
+   "protein": 35.1,
+   "carbs": 98.6,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 2.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 137,
+    "protein": 6.4,
+    "fat": 4.0,
+    "carbs": 18.0,
+    "sugar": 2.7,
+    "salt": 0.52,
+    "satfat": 1.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-21",
+   "line": "Classic Pot Vegan",
+   "name": "G`hacktes mit Hörnli vegan",
+   "desc": "Sojagehacktes · Hörnli · Apfelmus · veganer Käse",
+   "diet": "vegan",
+   "kcal": 652.1,
+   "protein": 25.8,
+   "carbs": 115.1,
+   "fat": 6.0,
+   "fiber": null,
+   "sugar": 19.2,
+   "salt": 3.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 119,
+    "protein": 4.7,
+    "fat": 1.1,
+    "carbs": 21.0,
+    "sugar": 3.5,
+    "salt": 0.65,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-21",
+   "line": "World Pot",
+   "name": "Tandoori Chicken",
+   "desc": "Tandoorisauce · Basmatireis · Wok Gemüse",
+   "diet": "meat",
+   "kcal": 668.6,
+   "protein": 25.8,
+   "carbs": 87.7,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 5.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 122,
+    "protein": 4.7,
+    "fat": 4.4,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "salt": 1.01,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-21",
+   "line": "The Chef",
+   "name": "Casarecce con Pollo e Funghi",
+   "desc": "Pasta · Poulet · Champignons · Rahmsauce · Dill · Reibkäse · Saisonsalat",
+   "diet": "meat",
+   "kcal": 865.8,
+   "protein": 34.5,
+   "carbs": 109.6,
+   "fat": 30.7,
+   "fiber": null,
+   "sugar": 11.5,
+   "salt": 1.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 158,
+    "protein": 6.3,
+    "fat": 5.6,
+    "carbs": 20.0,
+    "sugar": 2.1,
+    "salt": 0.35,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-21",
+   "line": "The Expert",
+   "name": "Rind Cannelloni",
+   "desc": "Tomatensauce · Käse · Menusalat",
+   "diet": "meat",
+   "kcal": 827.5,
+   "protein": 30.1,
+   "carbs": 82.2,
+   "fat": 41.1,
+   "fiber": null,
+   "sugar": 18.1,
+   "salt": 4.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 151,
+    "protein": 5.5,
+    "fat": 7.5,
+    "carbs": 15.0,
+    "sugar": 3.3,
+    "salt": 0.8,
+    "satfat": 2.0
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-21",
+   "line": "The Gardener",
+   "name": "Quorn Café de Paris",
+   "desc": "Kräuterbutter Sauce · Rösti · Karotten Duo",
+   "diet": "vegetarian",
+   "kcal": 531.6,
+   "protein": 21.4,
+   "carbs": 52.1,
+   "fat": 23.0,
+   "fiber": null,
+   "sugar": 13.7,
+   "salt": 3.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 97,
+    "protein": 3.9,
+    "fat": 4.2,
+    "carbs": 9.5,
+    "sugar": 2.5,
+    "salt": 0.7,
+    "satfat": 1.0
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 10.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-21",
+   "line": "The Traveller",
+   "name": "Planted Pulled Burger",
+   "desc": "Coleslaw · Zwiebeln · Eisberg · Pommes Frites",
+   "diet": "vegetarian",
+   "kcal": 811.0,
+   "protein": 35.1,
+   "carbs": 98.6,
+   "fat": 25.2,
+   "fiber": null,
+   "sugar": 19.2,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 148,
+    "protein": 6.4,
+    "fat": 4.6,
+    "carbs": 18.0,
+    "sugar": 3.5,
+    "salt": 0.82,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
    "mensa": "bim11",
    "date": "2026-10-21",
    "line": "one",
@@ -1970,6 +4244,880 @@
    "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung,hauptspeisen,tagesmenu/2026-10-21"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-21",
+   "line": "DELIGHT",
+   "name": "Had Yai",
+   "desc": "Pouletsteak - Südthailändische Art · Sweet Chilisauce · Curryreis · Bohnen · Zwiebel · Peperoncini",
+   "diet": "meat",
+   "kcal": 701.4,
+   "protein": 28.5,
+   "carbs": 98.6,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 31.8,
+   "salt": 4.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 128,
+    "protein": 5.2,
+    "fat": 3.5,
+    "carbs": 18.0,
+    "sugar": 5.8,
+    "salt": 0.79,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 9.2,
+    "staff": 12.2,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-21",
+   "line": "GARDEN",
+   "name": "Yaki Udon",
+   "desc": "Gebratene Nudeln - Japan Style\nChinakohl · Zwiebeln · Peperoni · Lauch · Onsen-Ei",
+   "diet": "vegetarian",
+   "kcal": 734.3,
+   "protein": 28.5,
+   "carbs": 115.1,
+   "fat": 13.7,
+   "fiber": null,
+   "sugar": 25.8,
+   "salt": 8.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 134,
+    "protein": 5.2,
+    "fat": 2.5,
+    "carbs": 21.0,
+    "sugar": 4.7,
+    "salt": 1.46,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Fisch",
+    "Soja",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-21",
+   "line": "WOK GREEN",
+   "name": "Koki",
+   "desc": "Paneer · Malabarsauce · Auberginen · Süsskartoffeln · Lauch · Basmatireis",
+   "diet": "vegetarian",
+   "kcal": 734.3,
+   "protein": 27.4,
+   "carbs": 82.2,
+   "fat": 31.2,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 4.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 134,
+    "protein": 5.0,
+    "fat": 5.7,
+    "carbs": 15.0,
+    "sugar": 1.7,
+    "salt": 0.81,
+    "satfat": 3.6
+   },
+   "prices": {
+    "stud": 12.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-21",
+   "line": "WOK STREET",
+   "name": "Mirana",
+   "desc": "Rindfleisch · Malabarsauce · Auberginen · Süsskartoffeln · Lauch · Basmatireis",
+   "diet": "meat",
+   "kcal": 723.4,
+   "protein": 32.9,
+   "carbs": 82.2,
+   "fat": 29.0,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 132,
+    "protein": 6.0,
+    "fat": 5.3,
+    "carbs": 15.0,
+    "sugar": 1.3,
+    "salt": 0.83,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 13.2,
+    "staff": 14.2,
+    "ext": 16.5
+   },
+   "allergens": [],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-21",
+   "line": "Favorite",
+   "name": "Seelachs in Knusperpanade",
+   "desc": "Fregola · Mandelfrischkäse · Tomaten · Buntes Gemüse · Zitrone · pro 100 gr.",
+   "diet": "fish",
+   "kcal": 728.8,
+   "protein": 36.2,
+   "carbs": 76.7,
+   "fat": 27.9,
+   "fiber": null,
+   "sugar": 10.4,
+   "salt": 3.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 133,
+    "protein": 6.6,
+    "fat": 5.1,
+    "carbs": 14.0,
+    "sugar": 1.9,
+    "salt": 0.66,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 3.2,
+    "staff": 3.2,
+    "ext": 3.2
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-21",
+   "line": "chefs world",
+   "name": "Rindsbrasato",
+   "desc": "Sauce Madère · Pommes Duchesse · Grill Tomate mit Pesto",
+   "diet": "meat",
+   "kcal": 712.4,
+   "protein": 49.9,
+   "carbs": 46.0,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 4.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 130,
+    "protein": 9.1,
+    "fat": 6.2,
+    "carbs": 8.4,
+    "sugar": 1.3,
+    "salt": 0.73,
+    "satfat": 1.2
+   },
+   "prices": {
+    "stud": 21.5,
+    "staff": 21.5,
+    "ext": 21.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-21",
+   "line": "vitality",
+   "name": "Son Mandu",
+   "desc": "Koreanische Teigtaschen · Gemüse & Tofu · Black Bean Sauce · Zucchetti · Stangensellerie · Karotten · Jasmi..",
+   "diet": "vegetarian",
+   "kcal": 613.8,
+   "protein": 16.4,
+   "carbs": 131.5,
+   "fat": 2.7,
+   "fiber": null,
+   "sugar": 8.2,
+   "salt": 7.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 112,
+    "protein": 3.0,
+    "fat": 0.5,
+    "carbs": 24.0,
+    "sugar": 1.5,
+    "salt": 1.32,
+    "satfat": 0.0
+   },
+   "prices": {
+    "stud": 14.9,
+    "staff": 14.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sellerie",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-21",
+   "line": "East",
+   "name": "Eierschwämmli Risotto",
+   "desc": "Eierschwämmli · Risottoreis · Sauerrahm · Rucola",
+   "diet": "vegetarian",
+   "kcal": 690.5,
+   "protein": 25.8,
+   "carbs": 82.2,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 1.6,
+   "salt": 5.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 126,
+    "protein": 4.7,
+    "fat": 4.4,
+    "carbs": 15.0,
+    "sugar": 0.3,
+    "salt": 0.92,
+    "satfat": 2.0
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-21",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Rigatoni · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1101.5,
+   "protein": 49.9,
+   "carbs": 153.4,
+   "fat": 28.5,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 201,
+    "protein": 9.1,
+    "fat": 5.2,
+    "carbs": 28.0,
+    "sugar": 1.6,
+    "salt": 0.83,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-21",
+   "line": "West",
+   "name": "Lasagen",
+   "desc": "Rindfleisch · Béchamelsauce · Tomaten · Käse · Menüsalat",
+   "diet": "meat",
+   "kcal": 657.6,
+   "protein": 30.1,
+   "carbs": 52.1,
+   "fat": 35.1,
+   "fiber": null,
+   "sugar": 13.7,
+   "salt": 3.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 120,
+    "protein": 5.5,
+    "fat": 6.4,
+    "carbs": 9.5,
+    "sugar": 2.5,
+    "salt": 0.6,
+    "satfat": 1.9
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "fire",
+   "name": "Chicken Hot & Smoky",
+   "desc": "Pfeffersauce · Hörnli · Mais · Peperoni",
+   "diet": "meat",
+   "kcal": 811.0,
+   "protein": 43.3,
+   "carbs": 76.7,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 4.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 148,
+    "protein": 7.9,
+    "fat": 6.2,
+    "carbs": 14.0,
+    "sugar": 1.7,
+    "salt": 0.75,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "green daily",
+   "name": "Empanadas de frijoles",
+   "desc": "Rote Bohnen · Vegane Jogurt · Koriander · Couscous · Mais",
+   "diet": "vegan",
+   "kcal": 1030.2,
+   "protein": 29.6,
+   "carbs": 153.4,
+   "fat": 29.0,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 5.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 188,
+    "protein": 5.4,
+    "fat": 5.3,
+    "carbs": 28.0,
+    "sugar": 1.2,
+    "salt": 0.96,
+    "satfat": 1.6
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "grill",
+   "name": "Classic Cheese Burger",
+   "desc": "Rindfleisch Patty · Cheddar · Tomate · Salat · Rote Zwiebeln · Pommes frites · Mayo · Ketchup",
+   "diet": "meat",
+   "kcal": 1052.2,
+   "protein": 42.7,
+   "carbs": 93.2,
+   "fat": 53.7,
+   "fiber": null,
+   "sugar": 12.1,
+   "salt": 6.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 192,
+    "protein": 7.8,
+    "fat": 9.8,
+    "carbs": 17.0,
+    "sugar": 2.2,
+    "salt": 1.21,
+    "satfat": 2.8
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "pasta classica",
+   "name": "Pollo alla Bolognese bianca",
+   "desc": "Poulet Bolognese · Basilikumsauce · Pennette Tricolore · Reibkäse · Salat oder Lemonade",
+   "diet": "meat",
+   "kcal": 761.7,
+   "protein": 30.7,
+   "carbs": 104.1,
+   "fat": 23.6,
+   "fiber": null,
+   "sugar": 10.4,
+   "salt": 1.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 139,
+    "protein": 5.6,
+    "fat": 4.3,
+    "carbs": 19.0,
+    "sugar": 1.9,
+    "salt": 0.3,
+    "satfat": 1.2
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "pasta della nonna",
+   "name": "Ricotta Spinat Lasagne",
+   "desc": "Spiegelei · Rucola · Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 537.0,
+   "protein": 25.2,
+   "carbs": 49.9,
+   "fat": 24.7,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 4.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 98,
+    "protein": 4.6,
+    "fat": 4.5,
+    "carbs": 9.1,
+    "sugar": 2.7,
+    "salt": 0.8,
+    "satfat": 1.5
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "pizza classica",
+   "name": "Pizza Margherita",
+   "desc": "Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 1090.5,
+   "protein": 54.8,
+   "carbs": 137.0,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 6.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 199,
+    "protein": 10.0,
+    "fat": 6.2,
+    "carbs": 25.0,
+    "sugar": 1.2,
+    "salt": 1.16,
+    "satfat": 3.1
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-21",
+   "line": "pizza mamma mia",
+   "name": "Döner im Taschenbrot",
+   "desc": "Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Taschenbrot · Salat oder Lemonade",
+   "diet": "vegan",
+   "kcal": 915.2,
+   "protein": 34.5,
+   "carbs": 115.1,
+   "fat": 31.2,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 7.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 167,
+    "protein": 6.3,
+    "fat": 5.7,
+    "carbs": 21.0,
+    "sugar": 2.7,
+    "salt": 1.28,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "MEATWORKS",
+   "name": "Poulet-Piccata",
+   "desc": "Tomatensugo · Petersilien-Risotto · Blumenkohl",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "SOUL FOOD",
+   "name": "Hirschschnitzel",
+   "desc": "Preiselbeeren-Jus · Rotkabis · Spätzli",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 12.5,
+    "staff": 15.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "VEGAN",
+   "name": "Ocean-Stick Burger",
+   "desc": "Sesam-Bun · Wasabi-Mayo · Gurkensalat · Tomaten · Eisberg · Pommes Frites · Ketchup",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 12.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "VEGI",
+   "name": "Rösti Verdura & Spiegelei",
+   "desc": "Grillgemüse · Quark",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "WORLD OF ASIA",
+   "name": "Turkey Stir-Fry",
+   "desc": "Pak-Choi · Basmati Reis",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-21",
+   "line": "WORLD OF ASIA VEGI",
+   "name": "Jack Fruit-Tikka-Masala",
+   "desc": "Pak-Choi · Basmati Reis",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 12.5
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
   },
   {
    "mensa": "greenlab",
@@ -2317,6 +5465,206 @@
    "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/mensa/mittagsverpflegung,hauptspeisen,voll-anders/2026-10-21"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-21",
+   "line": "Ichi",
+   "name": "Miso Ramen",
+   "desc": "Pak Choi · Nori · Mariniertes Ei · Gerösteter Sesam",
+   "diet": "vegetarian",
+   "kcal": 383.6,
+   "protein": 15.3,
+   "carbs": 54.8,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 6.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 70,
+    "protein": 2.8,
+    "fat": 3.6,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.22,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-21",
+   "line": "Ni",
+   "name": "Shoyu Ramen",
+   "desc": "Austernpilze · Nori · Mariniertes Ei · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 405.5,
+   "protein": 15.9,
+   "carbs": 60.3,
+   "fat": 20.3,
+   "fiber": null,
+   "sugar": 4.4,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 74,
+    "protein": 2.9,
+    "fat": 3.7,
+    "carbs": 11.0,
+    "sugar": 0.8,
+    "salt": 1.3,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-21",
+   "line": "Roku",
+   "name": "Kimchi Ramen",
+   "desc": "Tofu Chashu · Nori · mariniertes Ei · Kimchi · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 7.7,
+   "carbs": 9.9,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 1.4,
+    "fat": 1.5,
+    "carbs": 1.8,
+    "sugar": 1.3,
+    "salt": 0.48,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-21",
+   "line": "San",
+   "name": "Tantanmen Ramen",
+   "desc": "Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chiliöl",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 20.8,
+   "carbs": 54.8,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 3.8,
+    "fat": 3.5,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.29,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-21",
+   "line": "Shi",
+   "name": "Chicken Tonkatsu Bowl",
+   "desc": "Crunchy Chicken · Tonkatsu Sauce · Sushireis · Japanischer Krautsalat · Sesam",
+   "diet": "meat",
+   "kcal": 959.0,
+   "protein": 31.8,
+   "carbs": 158.9,
+   "fat": 20.8,
+   "fiber": null,
+   "sugar": 33.4,
+   "salt": 5.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 175,
+    "protein": 5.8,
+    "fat": 3.8,
+    "carbs": 29.0,
+    "sugar": 6.1,
+    "salt": 1.06,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 13.8,
+    "staff": 15.8,
+    "ext": 18.8
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
   },
   {
    "mensa": "obere",
@@ -2672,6 +6020,320 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/platte-14/mittagsverpflegung,hauptspeisen,ying/2026-10-21"
   },
   {
+   "mensa": "polysnack",
+   "date": "2026-10-21",
+   "line": "Al Forno",
+   "name": "Pizza con spinaci e ricotta",
+   "desc": "Tomatensauce · Mozzarella · Spinat · Ricotta",
+   "diet": "vegetarian",
+   "kcal": 953.5,
+   "protein": 54.3,
+   "carbs": 115.1,
+   "fat": 29.6,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 4.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 174,
+    "protein": 9.9,
+    "fat": 5.4,
+    "carbs": 21.0,
+    "sugar": 1.3,
+    "salt": 0.9,
+    "satfat": 3.3
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-21",
+   "line": "Pasta",
+   "name": "Pasta all'amatriciana",
+   "desc": "Rigatoni · pikanter Tomatensauce · Speck · Reibkäse",
+   "diet": "meat",
+   "kcal": 1008.3,
+   "protein": 49.9,
+   "carbs": 115.1,
+   "fat": 36.7,
+   "fiber": null,
+   "sugar": 11.5,
+   "salt": 4.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 184,
+    "protein": 9.1,
+    "fat": 6.7,
+    "carbs": 21.0,
+    "sugar": 2.1,
+    "salt": 0.8,
+    "satfat": 2.7
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-21",
+   "line": "Verde",
+   "name": "Pink Couscous Bowl Combo",
+   "desc": "Randen-Couscous · Pfälzerkarotten · Spinat · Fetakäse · Falafel · Frucht nach Wahl",
+   "diet": "vegetarian",
+   "kcal": 893.2,
+   "protein": 26.3,
+   "carbs": 98.6,
+   "fat": 42.2,
+   "fiber": null,
+   "sugar": 15.3,
+   "salt": 3.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 163,
+    "protein": 4.8,
+    "fat": 7.7,
+    "carbs": 18.0,
+    "sugar": 2.8,
+    "salt": 0.6,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-21",
+   "line": "GARDEN",
+   "name": "Halloumi Mediterraneo",
+   "desc": "Kürbis Hummus · Taboulé · Minze · Petersilie · Pitabrot",
+   "diet": "vegetarian",
+   "kcal": 1194.6,
+   "protein": 38.4,
+   "carbs": 109.6,
+   "fat": 65.8,
+   "fiber": null,
+   "sugar": 7.7,
+   "salt": 8.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 218,
+    "protein": 7.0,
+    "fat": 12.0,
+    "carbs": 20.0,
+    "sugar": 1.4,
+    "salt": 1.54,
+    "satfat": 3.7
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-21",
+   "line": "HOME",
+   "name": "Cauliflower Chicken",
+   "desc": "Blumenkohl · Kokosmilch · Curry · Karotten · Sellerie · Lauch · Jasminreis · Sojasprossen · Koriander",
+   "diet": "meat",
+   "kcal": 657.6,
+   "protein": 26.3,
+   "carbs": 87.7,
+   "fat": 23.0,
+   "fiber": null,
+   "sugar": 4.4,
+   "salt": 5.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 120,
+    "protein": 4.8,
+    "fat": 4.2,
+    "carbs": 16.0,
+    "sugar": 0.8,
+    "salt": 0.94,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-21",
+   "line": "LOCAL",
+   "name": "Wiener Rahmgulasch",
+   "desc": "Schweizer Truthahn Voressen · Butterspätzli · Ofen Peperoni · Rosmarin",
+   "diet": "meat",
+   "kcal": 706.9,
+   "protein": 37.3,
+   "carbs": 76.7,
+   "fat": 26.9,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 5.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 129,
+    "protein": 6.8,
+    "fat": 4.9,
+    "carbs": 14.0,
+    "sugar": 1.8,
+    "salt": 0.92,
+    "satfat": 1.5
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-21",
+   "line": "STREET",
+   "name": "Street Burger",
+   "desc": "Rindfleisch oder Gemüseburger · Sesambun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..",
+   "diet": "meat",
+   "kcal": 942.6,
+   "protein": 41.6,
+   "carbs": 93.2,
+   "fat": 41.1,
+   "fiber": null,
+   "sugar": 16.4,
+   "salt": 7.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 172,
+    "protein": 7.6,
+    "fat": 7.5,
+    "carbs": 17.0,
+    "sugar": 3.0,
+    "salt": 1.4,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-21",
+   "line": "VEGAN",
+   "name": "Zucchini Carbonara",
+   "desc": "Fusilli Integrale · Zucchini · Cremesauce · Veganer Reibkäse · Geräucherter Tofu · Salat",
+   "diet": "vegan",
+   "kcal": 745.3,
+   "protein": 26.3,
+   "carbs": 104.1,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 8.2,
+   "salt": 3.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 136,
+    "protein": 4.8,
+    "fat": 4.0,
+    "carbs": 19.0,
+    "sugar": 1.5,
+    "salt": 0.62,
+    "satfat": 0.8
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
    "mensa": "raemi59",
    "date": "2026-10-21",
    "line": "global",
@@ -2749,6 +6411,244 @@
    "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,rami-59/rami-59/mittagsverpflegung,hauptspeisen,traditional/2026-10-21"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-21",
+   "line": " Tofu Cashew Bowl",
+   "name": "Tofu Cashew Bowl",
+   "desc": "Roter Reis · Marinierter Tofu · Saison Gemüse · Satay Sauce · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 14.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Soja"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-21",
+   "line": "Chicken Satay Bowl",
+   "name": "Chicken Satay Bowl",
+   "desc": "Reisnudeln · Gegrilltes Poulet Satay · Grüne Bohnen · Rotes Curry · Asia Krautsalat · Kräutersalat · Thai Chilli",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Erdnüsse",
+    "Soja",
+    "Schalenfrüchte",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-21",
+   "line": "Grilled Shrimps",
+   "name": "Grilled Shrimps Bowl",
+   "desc": "Jasmine Rice · Grilled Shrimps · Broccoli · rotes Curry · Asia Krautsalat · Kräutersalat · Puffed Rice",
+   "diet": "fish",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 16.9,
+    "ext": 17.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-21",
+   "line": "Planted Bowl",
+   "name": "Planted Bowl",
+   "desc": "Salatmischung · Planted Chicken Teriyaki · Sweet Corn · Tamarinden Sauce · Asia Kräutersalat · Erdnüsse",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-21",
+   "line": "Rice Up! Bowl",
+   "name": "Rice Up! Bowl",
+   "desc": "Jasmine Rice · Poulet-Bällchen · Broccoli · Grünes Curry · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 13.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Schalenfrüchte",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-21",
+   "line": "Green",
+   "name": "Tex Mex Quesadilla",
+   "desc": "Weizentortilla · Pulled Planted · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cream · J..",
+   "diet": "vegetarian",
+   "kcal": 465.8,
+   "protein": 18.1,
+   "carbs": 54.8,
+   "fat": 14.2,
+   "fiber": null,
+   "sugar": 17.5,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 85,
+    "protein": 3.3,
+    "fat": 2.6,
+    "carbs": 10.0,
+    "sugar": 3.2,
+    "salt": 0.47,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-21",
+   "line": "World",
+   "name": "Pulled Pork Burrito",
+   "desc": "Weizentortilla · IP-SUISSE Pulled Pork · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cr..",
+   "diet": "meat",
+   "kcal": 1030.2,
+   "protein": 60.3,
+   "carbs": 93.2,
+   "fat": 42.2,
+   "fiber": null,
+   "sugar": 12.1,
+   "salt": 5.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 188,
+    "protein": 11.0,
+    "fat": 7.7,
+    "carbs": 17.0,
+    "sugar": 2.2,
+    "salt": 0.95,
+    "satfat": 3.0
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
   },
   {
    "mensa": "tierspital",
@@ -3192,6 +7092,282 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung,hauptspeisen,lucky-bowl/2026-10-21"
   },
   {
+   "mensa": "alumni",
+   "date": "2026-10-22",
+   "line": "Classic Pot",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Rindsgehacktes · Hörnli · Apfelmus · Extrahartkäse",
+   "diet": "meat",
+   "kcal": 750.8,
+   "protein": 35.1,
+   "carbs": 98.6,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 2.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 137,
+    "protein": 6.4,
+    "fat": 4.0,
+    "carbs": 18.0,
+    "sugar": 2.7,
+    "salt": 0.52,
+    "satfat": 1.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-22",
+   "line": "Classic Pot Vegan",
+   "name": "G`hacktes mit Hörnli vegan",
+   "desc": "Sojagehacktes · Hörnli · Apfelmus · veganer Käse",
+   "diet": "vegan",
+   "kcal": 652.1,
+   "protein": 25.8,
+   "carbs": 115.1,
+   "fat": 6.0,
+   "fiber": null,
+   "sugar": 19.2,
+   "salt": 3.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 119,
+    "protein": 4.7,
+    "fat": 1.1,
+    "carbs": 21.0,
+    "sugar": 3.5,
+    "salt": 0.65,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-22",
+   "line": "World Pot",
+   "name": "Tandoori Chicken",
+   "desc": "Tandoorisauce · Basmatireis · Wok Gemüse",
+   "diet": "meat",
+   "kcal": 668.6,
+   "protein": 25.8,
+   "carbs": 87.7,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 5.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 122,
+    "protein": 4.7,
+    "fat": 4.4,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "salt": 1.01,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-22",
+   "line": "The Chef",
+   "name": "Kalbs Hackbällchen",
+   "desc": "Tomatensauce · Gnocchi · Broccoli · Chili",
+   "diet": "meat",
+   "kcal": 833.0,
+   "protein": 32.9,
+   "carbs": 76.7,
+   "fat": 41.1,
+   "fiber": null,
+   "sugar": 8.2,
+   "salt": 6.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 152,
+    "protein": 6.0,
+    "fat": 7.5,
+    "carbs": 14.0,
+    "sugar": 1.5,
+    "salt": 1.22,
+    "satfat": 1.6
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-22",
+   "line": "The Expert",
+   "name": "The Smoky Bacon Burger",
+   "desc": "IPS Rindspatty · Zwiebelkonfit · Gruyerekäse · Eisberg · Speck · Gurkensalat · Pommes",
+   "diet": "meat",
+   "kcal": 909.7,
+   "protein": 37.3,
+   "carbs": 76.7,
+   "fat": 48.8,
+   "fiber": null,
+   "sugar": 23.0,
+   "salt": 6.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 166,
+    "protein": 6.8,
+    "fat": 8.9,
+    "carbs": 14.0,
+    "sugar": 4.2,
+    "salt": 1.16,
+    "satfat": 2.7
+   },
+   "prices": {
+    "stud": 13.5,
+    "staff": 15.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-22",
+   "line": "The Gardener",
+   "name": "Fried Gyoza",
+   "desc": "Hoisinsauce · Jasminreis · Wok Gemüse · Pak-Choi · schwarzer Sesam",
+   "diet": "vegan",
+   "kcal": 685.0,
+   "protein": 11.0,
+   "carbs": 142.5,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 19.7,
+   "salt": 6.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 125,
+    "protein": 2.0,
+    "fat": 1.5,
+    "carbs": 26.0,
+    "sugar": 3.6,
+    "salt": 1.14,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 10.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-22",
+   "line": "The Traveller",
+   "name": "Tomaten- Mozzarella Ravioli",
+   "desc": "Zucchetti · Chili · konfierte Cherrytomaten · Feta · Rucola",
+   "diet": "vegetarian",
+   "kcal": 882.3,
+   "protein": 39.5,
+   "carbs": 98.6,
+   "fat": 35.1,
+   "fiber": null,
+   "sugar": 8.2,
+   "salt": 6.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 161,
+    "protein": 7.2,
+    "fat": 6.4,
+    "carbs": 18.0,
+    "sugar": 1.5,
+    "salt": 1.15,
+    "satfat": 2.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
    "mensa": "bim11",
    "date": "2026-10-22",
    "line": "one",
@@ -3510,6 +7686,847 @@
    "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung,hauptspeisen,tagesmenu/2026-10-22"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-22",
+   "line": "DELIGHT",
+   "name": "Jeyuk Bokkeum",
+   "desc": "Schweinebauch · Gochugaru · Ramennudeln · Cipolotti · Pfälzerrüebli · Edamame",
+   "diet": "meat",
+   "kcal": 772.7,
+   "protein": 48.2,
+   "carbs": 54.8,
+   "fat": 38.9,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 8.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 141,
+    "protein": 8.8,
+    "fat": 7.1,
+    "carbs": 10.0,
+    "sugar": 1.8,
+    "salt": 1.5,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 9.2,
+    "staff": 12.2,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-22",
+   "line": "GARDEN",
+   "name": "Kimchi Jjigae",
+   "desc": "Tofu · Kimchi · Cipollotti · Jasmnreis",
+   "diet": "vegan",
+   "kcal": 630.2,
+   "protein": 31.8,
+   "carbs": 82.2,
+   "fat": 18.1,
+   "fiber": null,
+   "sugar": 1.6,
+   "salt": 4.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 115,
+    "protein": 5.8,
+    "fat": 3.3,
+    "carbs": 15.0,
+    "sugar": 0.3,
+    "salt": 0.77,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-22",
+   "line": "WOK GREEN",
+   "name": "Bhindi Korma",
+   "desc": "Okra · Kormasauce · Zucchetti · Stangensellerie · Karotten · Jasminreis",
+   "diet": "vegan",
+   "kcal": 608.3,
+   "protein": 14.2,
+   "carbs": 98.6,
+   "fat": 16.4,
+   "fiber": null,
+   "sugar": 3.3,
+   "salt": 4.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 111,
+    "protein": 2.6,
+    "fat": 3.0,
+    "carbs": 18.0,
+    "sugar": 0.6,
+    "salt": 0.74,
+    "satfat": 2.0
+   },
+   "prices": {
+    "stud": 12.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Schalenfrüchte",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-22",
+   "line": "WOK STREET",
+   "name": "Dak Korma",
+   "desc": "Hirsch · Kormasauce · Zucchetti · Stangensellerie · Karotten · Jasminreis",
+   "diet": "meat",
+   "kcal": 728.8,
+   "protein": 41.1,
+   "carbs": 93.2,
+   "fat": 21.4,
+   "fiber": null,
+   "sugar": 2.7,
+   "salt": 4.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 133,
+    "protein": 7.5,
+    "fat": 3.9,
+    "carbs": 17.0,
+    "sugar": 0.5,
+    "salt": 0.89,
+    "satfat": 2.1
+   },
+   "prices": {
+    "stud": 13.2,
+    "staff": 14.2,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-22",
+   "line": "Favorite",
+   "name": "Had Yai",
+   "desc": "Pouletsteak - Südthailändische Art · Sweet Chilisauce · Curryreis · Bohnen · Zwiebel · Peperoncini · pro 100..",
+   "diet": "meat",
+   "kcal": 767.2,
+   "protein": 35.6,
+   "carbs": 87.7,
+   "fat": 29.0,
+   "fiber": null,
+   "sugar": 26.9,
+   "salt": 3.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 140,
+    "protein": 6.5,
+    "fat": 5.3,
+    "carbs": 16.0,
+    "sugar": 4.9,
+    "salt": 0.72,
+    "satfat": 1.2
+   },
+   "prices": {
+    "stud": 3.2,
+    "staff": 3.2,
+    "ext": 3.2
+   },
+   "allergens": [
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-22",
+   "line": "chefs world",
+   "name": "Rosa Rehrücken",
+   "desc": "Wachholder Jus · Selleriecreme · Kräuterseitling · Brombeere · Crunchy Buchweizen",
+   "diet": "meat",
+   "kcal": 701.4,
+   "protein": 46.6,
+   "carbs": 54.3,
+   "fat": 30.7,
+   "fiber": null,
+   "sugar": 11.5,
+   "salt": 5.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 128,
+    "protein": 8.5,
+    "fat": 5.6,
+    "carbs": 9.9,
+    "sugar": 2.1,
+    "salt": 0.95,
+    "satfat": 1.3
+   },
+   "prices": {
+    "stud": 23.0,
+    "staff": 23.0,
+    "ext": 23.0
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-22",
+   "line": "vitality",
+   "name": "Chana Masala",
+   "desc": "Kichererbsen Curry · Peperoncini · Koriander · Sesam · Basmatireis · Mungsprossen",
+   "diet": "vegan",
+   "kcal": 646.6,
+   "protein": 17.0,
+   "carbs": 98.6,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 4.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 118,
+    "protein": 3.1,
+    "fat": 3.5,
+    "carbs": 18.0,
+    "sugar": 0.9,
+    "salt": 0.76,
+    "satfat": 2.6
+   },
+   "prices": {
+    "stud": 14.9,
+    "staff": 14.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-22",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Rigatoni · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1101.5,
+   "protein": 49.9,
+   "carbs": 153.4,
+   "fat": 28.5,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 201,
+    "protein": 9.1,
+    "fat": 5.2,
+    "carbs": 28.0,
+    "sugar": 1.6,
+    "salt": 0.83,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-22",
+   "line": "West",
+   "name": "Brätschnitzel Paniert",
+   "desc": "Thymiansauce · Kartoffelstock · Ofengemüse",
+   "diet": "meat",
+   "kcal": 778.2,
+   "protein": 34.5,
+   "carbs": 60.3,
+   "fat": 41.1,
+   "fiber": null,
+   "sugar": 10.4,
+   "salt": 5.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 142,
+    "protein": 6.3,
+    "fat": 7.5,
+    "carbs": 11.0,
+    "sugar": 1.9,
+    "salt": 0.98,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "fire",
+   "name": "Döner Loaded Fries",
+   "desc": "Döneralternative aus Soja · Kebabsauce · Pommes frites · Weisskabis · Karotten · Joghurtalternative",
+   "diet": "vegan",
+   "kcal": 843.9,
+   "protein": 26.3,
+   "carbs": 93.2,
+   "fat": 40.6,
+   "fiber": null,
+   "sugar": 14.2,
+   "salt": 3.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 154,
+    "protein": 4.8,
+    "fat": 7.4,
+    "carbs": 17.0,
+    "sugar": 2.6,
+    "salt": 0.59,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Schalenfrüchte",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "green daily",
+   "name": "Taco Bowl",
+   "desc": "Chili sin carne · Cheddar · Taco Kartoffeln · Mexikanischer Salat · Guacamole",
+   "diet": "vegetarian",
+   "kcal": 597.3,
+   "protein": 21.4,
+   "carbs": 54.8,
+   "fat": 25.8,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 3.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 109,
+    "protein": 3.9,
+    "fat": 4.7,
+    "carbs": 10.0,
+    "sugar": 1.8,
+    "salt": 0.7,
+    "satfat": 1.0
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Milch, Laktose",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "grill",
+   "name": "Tandoori Chicken",
+   "desc": "Poulet · Tandoorisauce · Gebratener Reis · Sojasprossen · Koriander",
+   "diet": "meat",
+   "kcal": 646.6,
+   "protein": 31.2,
+   "carbs": 65.8,
+   "fat": 28.5,
+   "fiber": null,
+   "sugar": 18.6,
+   "salt": 7.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 118,
+    "protein": 5.7,
+    "fat": 5.2,
+    "carbs": 12.0,
+    "sugar": 3.4,
+    "salt": 1.34,
+    "satfat": 2.7
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Ei",
+    "Soja",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "pasta classica",
+   "name": "Pasta alla boscaiola",
+   "desc": "Speck · Tomatensugo · Champignons · Rahm · Basilikum · Reibkäse · Salat oder Lemonade",
+   "diet": "meat",
+   "kcal": 822.0,
+   "protein": 31.8,
+   "carbs": 120.6,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 2.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 150,
+    "protein": 5.8,
+    "fat": 3.6,
+    "carbs": 22.0,
+    "sugar": 1.6,
+    "salt": 0.52,
+    "satfat": 1.1
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "pasta della nonna",
+   "name": "Fried Mandu Dumplings",
+   "desc": "Sesamnudeln · Sojasauce · Austernpilze · Karotten · Pak choi · Mungosprossen",
+   "diet": "vegan",
+   "kcal": 668.6,
+   "protein": 17.5,
+   "carbs": 109.6,
+   "fat": 16.4,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 10.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 122,
+    "protein": 3.2,
+    "fat": 3.0,
+    "carbs": 20.0,
+    "sugar": 2.7,
+    "salt": 1.82,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "pizza classica",
+   "name": "Pizza Margherita",
+   "desc": "Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 1090.5,
+   "protein": 54.8,
+   "carbs": 137.0,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 6.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 199,
+    "protein": 10.0,
+    "fat": 6.2,
+    "carbs": 25.0,
+    "sugar": 1.2,
+    "salt": 1.16,
+    "satfat": 3.1
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-22",
+   "line": "pizza mamma mia",
+   "name": "Pizza Prosciutto",
+   "desc": "Tomatensauce · Schinken · Mozzarella · Salat oder Lemonade",
+   "diet": "meat",
+   "kcal": 1052.2,
+   "protein": 65.8,
+   "carbs": 120.6,
+   "fat": 33.4,
+   "fiber": null,
+   "sugar": 6.0,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 192,
+    "protein": 12.0,
+    "fat": 6.1,
+    "carbs": 22.0,
+    "sugar": 1.1,
+    "salt": 1.29,
+    "satfat": 3.0
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "MEATWORKS",
+   "name": "Gehacktes & Hörnli",
+   "desc": "Rindshack · Reibkäse · Apfelmus oder Salat",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "SOUL FOOD",
+   "name": "Big-Mountain-Schnitzelbrot",
+   "desc": "Schweins-Schnitzel · Ciabatta-Brot · Tartar-Sauce · Tomaten · Salat · Gurken · Pommes",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 12.5,
+    "staff": 15.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "VEGAN",
+   "name": "Herbstliche Bowl",
+   "desc": "Veganes Geschnetzeltes · Kürbis · Rotkohl · Kürbiskernen · Champignons · Orangen-Quinoa · Apfel-Vinaigrette",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 12.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "VEGI",
+   "name": "Shashuka",
+   "desc": "Kartoffel · Gemüse · Ei · Tomatensugo · Pita-Brot",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "WORLD OF ASIA",
+   "name": "Gaeng Phet Nue Beef",
+   "desc": "Asia-Gemüse · Jasmin Reis",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-22",
+   "line": "WORLD OF ASIA VEGI",
+   "name": "Fried Tofu",
+   "desc": "Teriyaki-Sauce · Asia-Gemüse · Basmati Reis",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 12.5
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
   },
   {
    "mensa": "greenlab",
@@ -3855,6 +8872,206 @@
    "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/mensa/mittagsverpflegung,hauptspeisen,voll-anders/2026-10-22"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-22",
+   "line": "Ichi",
+   "name": "Miso Ramen",
+   "desc": "Pak Choi · Nori · Mariniertes Ei · Gerösteter Sesam",
+   "diet": "vegetarian",
+   "kcal": 383.6,
+   "protein": 15.3,
+   "carbs": 54.8,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 6.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 70,
+    "protein": 2.8,
+    "fat": 3.6,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.22,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-22",
+   "line": "Ni",
+   "name": "Shoyu Ramen",
+   "desc": "Austernpilze · Nori · Mariniertes Ei · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 405.5,
+   "protein": 15.9,
+   "carbs": 60.3,
+   "fat": 20.3,
+   "fiber": null,
+   "sugar": 4.4,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 74,
+    "protein": 2.9,
+    "fat": 3.7,
+    "carbs": 11.0,
+    "sugar": 0.8,
+    "salt": 1.3,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-22",
+   "line": "Roku",
+   "name": "Kimchi Ramen",
+   "desc": "Tofu Chashu · Nori · mariniertes Ei · Kimchi · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 7.7,
+   "carbs": 9.9,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 1.4,
+    "fat": 1.5,
+    "carbs": 1.8,
+    "sugar": 1.3,
+    "salt": 0.48,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-22",
+   "line": "San",
+   "name": "Tantanmen Ramen",
+   "desc": "Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chiliöl",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 20.8,
+   "carbs": 54.8,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 3.8,
+    "fat": 3.5,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.29,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-22",
+   "line": "Shi",
+   "name": "Chicken Tonkatsu Bowl",
+   "desc": "Crunchy Chicken · Tonkatsu Sauce · Sushireis · Japanischer Krautsalat · Sesam",
+   "diet": "meat",
+   "kcal": 959.0,
+   "protein": 31.8,
+   "carbs": 158.9,
+   "fat": 20.8,
+   "fiber": null,
+   "sugar": 33.4,
+   "salt": 5.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 175,
+    "protein": 5.8,
+    "fat": 3.8,
+    "carbs": 29.0,
+    "sugar": 6.1,
+    "salt": 1.06,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 13.8,
+    "staff": 15.8,
+    "ext": 18.8
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
   },
   {
    "mensa": "obere",
@@ -4209,6 +9426,304 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/platte-14/mittagsverpflegung,hauptspeisen,ying/2026-10-22"
   },
   {
+   "mensa": "polysnack",
+   "date": "2026-10-22",
+   "line": "Al Forno",
+   "name": "Pizza Hawaii",
+   "desc": "Tomatensauce · Schinken · Ananas · Mozarella",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-22",
+   "line": "Pasta",
+   "name": "Tagliatelle cavoletti di Bruxelles",
+   "desc": "Tagliatelle · Limette · Rosenkohl · Crème fraîche · Reibkäse",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-22",
+   "line": "Verde",
+   "name": "Pink Couscous Bowl Combo",
+   "desc": "Randen-Couscous · Pfälzerkarotten · Spinat · Fetakäse · Falafel · Frucht nach Wahl",
+   "diet": "vegetarian",
+   "kcal": 893.2,
+   "protein": 26.3,
+   "carbs": 98.6,
+   "fat": 42.2,
+   "fiber": null,
+   "sugar": 15.3,
+   "salt": 3.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 163,
+    "protein": 4.8,
+    "fat": 7.7,
+    "carbs": 18.0,
+    "sugar": 2.8,
+    "salt": 0.6,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-22",
+   "line": "GARDEN",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Pflanzenhack · Veganer Reibkäse · Apfelmus · Tagessalat",
+   "diet": "vegan",
+   "kcal": 717.9,
+   "protein": 23.6,
+   "carbs": 126.0,
+   "fat": 10.4,
+   "fiber": null,
+   "sugar": 18.1,
+   "salt": 2.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 131,
+    "protein": 4.3,
+    "fat": 1.9,
+    "carbs": 23.0,
+    "sugar": 3.3,
+    "salt": 0.36,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-22",
+   "line": "HOME",
+   "name": "Tessinerfest",
+   "desc": "Schweinsbratwurst · Tomatensauce · Basilikumgnocchi · Broccoli · Chili",
+   "diet": "meat",
+   "kcal": 937.1,
+   "protein": 32.3,
+   "carbs": 71.2,
+   "fat": 54.8,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 5.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 171,
+    "protein": 5.9,
+    "fat": 10.0,
+    "carbs": 13.0,
+    "sugar": 1.6,
+    "salt": 1.07,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-22",
+   "line": "LOCAL",
+   "name": "Wild Burger",
+   "desc": "Hirschburger · Gebratene Pilze · Rotkraut · Gartenkresse · Preisbeeren Dip · Sweet Potato Fries",
+   "diet": "meat",
+   "kcal": 948.0,
+   "protein": 42.2,
+   "carbs": 104.1,
+   "fat": 36.2,
+   "fiber": null,
+   "sugar": 27.4,
+   "salt": 5.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 173,
+    "protein": 7.7,
+    "fat": 6.6,
+    "carbs": 19.0,
+    "sugar": 5.0,
+    "salt": 1.02,
+    "satfat": 1.0
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 18.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-22",
+   "line": "STREET",
+   "name": "Ricotta Spinat Lasagne",
+   "desc": "Spiegelei · Tomatenpesto · Rucola · Menusalat",
+   "diet": "vegetarian",
+   "kcal": 580.9,
+   "protein": 26.3,
+   "carbs": 47.1,
+   "fat": 32.9,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 5.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 106,
+    "protein": 4.8,
+    "fat": 6.0,
+    "carbs": 8.6,
+    "sugar": 2.3,
+    "salt": 0.91,
+    "satfat": 1.3
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 11.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-22",
+   "line": "VEGAN",
+   "name": "Spicy Fried Dumplings",
+   "desc": "Hoisinsauce · Jasminreis · Wok Gemüse · Pak-Choi · schwarzer Sesam",
+   "diet": "vegan",
+   "kcal": 706.9,
+   "protein": 10.4,
+   "carbs": 142.5,
+   "fat": 9.9,
+   "fiber": null,
+   "sugar": 19.7,
+   "salt": 6.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 129,
+    "protein": 1.9,
+    "fat": 1.8,
+    "carbs": 26.0,
+    "sugar": 3.6,
+    "salt": 1.09,
+    "satfat": 0.3
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 14.0,
+    "ext": 17.0
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
    "mensa": "raemi59",
    "date": "2026-10-22",
    "line": "global",
@@ -4286,6 +9801,244 @@
    "climate": "MEDIUM",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,rami-59/rami-59/mittagsverpflegung,hauptspeisen,traditional/2026-10-22"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-22",
+   "line": " Tofu Cashew Bowl",
+   "name": "Tofu Cashew Bowl",
+   "desc": "Roter Reis · Marinierter Tofu · Saison Gemüse · Satay Sauce · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 14.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Soja"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-22",
+   "line": "Chicken Satay Bowl",
+   "name": "Chicken Satay Bowl",
+   "desc": "Reisnudeln · Gegrilltes Poulet Satay · Grüne Bohnen · Rotes Curry · Asia Krautsalat · Kräutersalat · Thai Chilli",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Erdnüsse",
+    "Soja",
+    "Schalenfrüchte",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-22",
+   "line": "Grilled Shrimps",
+   "name": "Grilled Shrimps Bowl",
+   "desc": "Jasmine Rice · Grilled Shrimps · Broccoli · rotes Curry · Asia Krautsalat · Kräutersalat · Puffed Rice",
+   "diet": "fish",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 16.9,
+    "ext": 17.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-22",
+   "line": "Planted Bowl",
+   "name": "Planted Bowl",
+   "desc": "Salatmischung · Planted Chicken Teriyaki · Sweet Corn · Tamarinden Sauce · Asia Kräutersalat · Erdnüsse",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-22",
+   "line": "Rice Up! Bowl",
+   "name": "Rice Up! Bowl",
+   "desc": "Jasmine Rice · Poulet-Bällchen · Broccoli · Grünes Curry · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 13.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Schalenfrüchte",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-22",
+   "line": "Green",
+   "name": "Tex Mex Quesadilla",
+   "desc": "Weizentortilla · Pulled Planted · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cream · J..",
+   "diet": "vegetarian",
+   "kcal": 465.8,
+   "protein": 18.1,
+   "carbs": 54.8,
+   "fat": 14.2,
+   "fiber": null,
+   "sugar": 17.5,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 85,
+    "protein": 3.3,
+    "fat": 2.6,
+    "carbs": 10.0,
+    "sugar": 3.2,
+    "salt": 0.47,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-22",
+   "line": "World",
+   "name": "Pulled Pork Burrito",
+   "desc": "Weizentortilla · IP-SUISSE Pulled Pork · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cr..",
+   "diet": "meat",
+   "kcal": 1030.2,
+   "protein": 60.3,
+   "carbs": 93.2,
+   "fat": 42.7,
+   "fiber": null,
+   "sugar": 12.1,
+   "salt": 5.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 188,
+    "protein": 11.0,
+    "fat": 7.8,
+    "carbs": 17.0,
+    "sugar": 2.2,
+    "salt": 0.95,
+    "satfat": 3.1
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
   },
   {
    "mensa": "tierspital",
@@ -4729,6 +10482,240 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung,hauptspeisen,lucky-bowl/2026-10-22"
   },
   {
+   "mensa": "alumni",
+   "date": "2026-10-23",
+   "line": "Classic Pot",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Rindsgehacktes · Hörnli · Apfelmus · Extrahartkäse",
+   "diet": "meat",
+   "kcal": 750.8,
+   "protein": 35.1,
+   "carbs": 98.6,
+   "fat": 21.9,
+   "fiber": null,
+   "sugar": 14.8,
+   "salt": 2.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 137,
+    "protein": 6.4,
+    "fat": 4.0,
+    "carbs": 18.0,
+    "sugar": 2.7,
+    "salt": 0.52,
+    "satfat": 1.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-23",
+   "line": "Classic Pot Vegan",
+   "name": "G`hacktes mit Hörnli vegan",
+   "desc": "Sojagehacktes · Hörnli · Apfelmus · veganer Käse",
+   "diet": "vegan",
+   "kcal": 652.1,
+   "protein": 25.8,
+   "carbs": 115.1,
+   "fat": 6.0,
+   "fiber": null,
+   "sugar": 19.2,
+   "salt": 3.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 119,
+    "protein": 4.7,
+    "fat": 1.1,
+    "carbs": 21.0,
+    "sugar": 3.5,
+    "salt": 0.65,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "alumni",
+   "date": "2026-10-23",
+   "line": "World Pot",
+   "name": "Tandoori Chicken",
+   "desc": "Tandoorisauce · Basmatireis · Wok Gemüse",
+   "diet": "meat",
+   "kcal": 668.6,
+   "protein": 25.8,
+   "carbs": 87.7,
+   "fat": 24.1,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 5.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 122,
+    "protein": 4.7,
+    "fat": 4.4,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "salt": 1.01,
+    "satfat": 2.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-23",
+   "line": "The Chef",
+   "name": "Schweins Geschnetzeltes Zürcher Art",
+   "desc": "Rahmsauce · Champignons · Ofenkartoffeln · Gemüse",
+   "diet": "meat",
+   "kcal": 569.9,
+   "protein": 24.7,
+   "carbs": 41.6,
+   "fat": 30.7,
+   "fiber": null,
+   "sugar": 8.8,
+   "salt": 3.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 104,
+    "protein": 4.5,
+    "fat": 5.6,
+    "carbs": 7.6,
+    "sugar": 1.6,
+    "salt": 0.64,
+    "satfat": 1.4
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-23",
+   "line": "The Expert",
+   "name": "Poulet Frühlingsrolle",
+   "desc": "Basmatireis · Gemüse · Sweet and Sauer Sauce · Cipollotti",
+   "diet": "meat",
+   "kcal": 728.8,
+   "protein": 18.1,
+   "carbs": 115.1,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 18.1,
+   "salt": 6.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 133,
+    "protein": 3.3,
+    "fat": 3.5,
+    "carbs": 21.0,
+    "sugar": 3.3,
+    "salt": 1.09,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
+   "mensa": "archimedes",
+   "date": "2026-10-23",
+   "line": "The Gardener",
+   "name": "Vegetarisches G' Hackets mit Hörnli",
+   "desc": "Plantbased Hack · Reibkäse · Apfelmus · Salat",
+   "diet": "vegetarian",
+   "kcal": 619.2,
+   "protein": 30.1,
+   "carbs": 87.7,
+   "fat": 13.7,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 2.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 113,
+    "protein": 5.5,
+    "fat": 2.5,
+    "carbs": 16.0,
+    "sugar": 1.7,
+    "salt": 0.46,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 10.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"
+  },
+  {
    "mensa": "bim11",
    "date": "2026-10-23",
    "line": "one",
@@ -5049,6 +11036,723 @@
    "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung,hauptspeisen,tagesmenu/2026-10-23"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-23",
+   "line": "DELIGHT",
+   "name": "Johor",
+   "desc": "Dorsch Knusperli · sweet Chilisauce · gebratener Reis · Broccoli · Blumenkohl · rote Zwiebel",
+   "diet": "fish",
+   "kcal": 833.0,
+   "protein": 24.7,
+   "carbs": 126.0,
+   "fat": 25.2,
+   "fiber": null,
+   "sugar": 35.1,
+   "salt": 7.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 152,
+    "protein": 4.5,
+    "fat": 4.6,
+    "carbs": 23.0,
+    "sugar": 6.4,
+    "salt": 1.28,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 9.2,
+    "staff": 12.2,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Fisch",
+    "Milch, Laktose",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-23",
+   "line": "GARDEN",
+   "name": "Masoor Dal",
+   "desc": "Rote Linsen · Tomaten · Kreuzkümmel · Kurkuma · Koriander · Jasminreis · Naan Brot",
+   "diet": "vegan",
+   "kcal": 685.0,
+   "protein": 21.9,
+   "carbs": 120.6,
+   "fat": 11.5,
+   "fiber": null,
+   "sugar": 6.0,
+   "salt": 4.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 125,
+    "protein": 4.0,
+    "fat": 2.1,
+    "carbs": 22.0,
+    "sugar": 1.1,
+    "salt": 0.78,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-23",
+   "line": "WOK GREEN",
+   "name": "Ssamjang Sesam",
+   "desc": "hausgemachter Saitan · Tahini Sesam Sauce · Edamame · Kartoffel · Bohnen · Jasminreis",
+   "diet": "vegan",
+   "kcal": 553.5,
+   "protein": 31.2,
+   "carbs": 87.7,
+   "fat": 7.1,
+   "fiber": null,
+   "sugar": 15.3,
+   "salt": 8.2,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 101,
+    "protein": 5.7,
+    "fat": 1.3,
+    "carbs": 16.0,
+    "sugar": 2.8,
+    "salt": 1.49,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "clausiusbar",
+   "date": "2026-10-23",
+   "line": "WOK STREET",
+   "name": "Ssamjang Sesam",
+   "desc": "Truthahn · Tahini Sesam Sauce · Edamame · Kartoffel · Bohnen · Jasminreis",
+   "diet": "meat",
+   "kcal": 498.7,
+   "protein": 27.9,
+   "carbs": 71.2,
+   "fat": 10.4,
+   "fiber": null,
+   "sugar": 9.9,
+   "salt": 5.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 91,
+    "protein": 5.1,
+    "fat": 1.9,
+    "carbs": 13.0,
+    "sugar": 1.8,
+    "salt": 0.96,
+    "satfat": 0.3
+   },
+   "prices": {
+    "stud": 13.2,
+    "staff": 14.2,
+    "ext": 16.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Erdnüsse",
+    "Soja",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-23",
+   "line": "Favorite",
+   "name": "Polpetta alla ticinese",
+   "desc": "Kalbshacksteak · Tomaten · Oliven · Mozzarella · Gnocchi · Grillierte Zucchetti · pro 100 gr.",
+   "diet": "meat",
+   "kcal": 794.6,
+   "protein": 31.8,
+   "carbs": 76.7,
+   "fat": 38.4,
+   "fiber": null,
+   "sugar": 10.4,
+   "salt": 4.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 145,
+    "protein": 5.8,
+    "fat": 7.0,
+    "carbs": 14.0,
+    "sugar": 1.9,
+    "salt": 0.73,
+    "satfat": 1.4
+   },
+   "prices": {
+    "stud": 3.2,
+    "staff": 3.2,
+    "ext": 3.2
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-23",
+   "line": "chefs world",
+   "name": "Zanderfilet aus dem Ofen",
+   "desc": "Dillrahmsauce · Venere Reis · Safran Fenchel · Romanesco",
+   "diet": "fish",
+   "kcal": 520.6,
+   "protein": 41.1,
+   "carbs": 60.3,
+   "fat": 8.8,
+   "fiber": null,
+   "sugar": 3.3,
+   "salt": 2.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 95,
+    "protein": 7.5,
+    "fat": 1.6,
+    "carbs": 11.0,
+    "sugar": 0.6,
+    "salt": 0.53,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 22.0,
+    "staff": 22.0,
+    "ext": 22.0
+   },
+   "allergens": [
+    "Fisch",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "dozentenfoyer",
+   "date": "2026-10-23",
+   "line": "vitality",
+   "name": "Döner im Taschenbrot",
+   "desc": "Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Zwiebeln · Taschenbrot · BBQ Taters",
+   "diet": "vegan",
+   "kcal": 882.3,
+   "protein": 29.6,
+   "carbs": 126.0,
+   "fat": 25.8,
+   "fiber": null,
+   "sugar": 11.5,
+   "salt": 6.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 161,
+    "protein": 5.4,
+    "fat": 4.7,
+    "carbs": 23.0,
+    "sugar": 2.1,
+    "salt": 1.18,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 14.9,
+    "staff": 14.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "fire",
+   "name": "Hoki Filet",
+   "desc": "Mandeln · Peterli · Tomaten · Knoblauch · Butter · Zitronensaft · Gemüserisotto",
+   "diet": "fish",
+   "kcal": 734.3,
+   "protein": 39.5,
+   "carbs": 65.8,
+   "fat": 36.2,
+   "fiber": null,
+   "sugar": 5.5,
+   "salt": 4.9,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 134,
+    "protein": 7.2,
+    "fat": 6.6,
+    "carbs": 12.0,
+    "sugar": 1.0,
+    "salt": 0.89,
+    "satfat": 1.2
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "green daily",
+   "name": "Frühlingsrollen mit Gemüse",
+   "desc": "Sweet-Chili Sauce · Jasminreis · Pak-Choi · Wok-Gemüse · Schwarze Sesam",
+   "diet": "vegan",
+   "kcal": 745.3,
+   "protein": 14.2,
+   "carbs": 137.0,
+   "fat": 13.7,
+   "fiber": null,
+   "sugar": 31.2,
+   "salt": 6.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 136,
+    "protein": 2.6,
+    "fat": 2.5,
+    "carbs": 25.0,
+    "sugar": 5.7,
+    "salt": 1.19,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "grill",
+   "name": "Schnitzeljagd",
+   "desc": "Paniertes Schweinsschnitzel · Kartoffelsalat · Schnittlauch · Zitronenschnitz · Preiselbeeren",
+   "diet": "meat",
+   "kcal": 723.4,
+   "protein": 35.1,
+   "carbs": 71.2,
+   "fat": 31.8,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 5.0,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 132,
+    "protein": 6.4,
+    "fat": 5.8,
+    "carbs": 13.0,
+    "sugar": 2.3,
+    "salt": 0.92,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 13.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Sellerie",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "pasta classica vegi",
+   "name": "Tortellini al basilico",
+   "desc": "Tomatenrahmsauce · Basilikum · Reibkäse · Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 887.8,
+   "protein": 34.5,
+   "carbs": 104.1,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 5.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 162,
+    "protein": 6.3,
+    "fat": 6.2,
+    "carbs": 19.0,
+    "sugar": 1.7,
+    "salt": 1.04,
+    "satfat": 2.2
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "pasta della nonna",
+   "name": "Carbonara mit Pfifferlinge",
+   "desc": "Fusilli Integrale · Cremesauce · Pfifferlinge · Veganer Reibkäse · Geräucherter Tofu · Salat oder Lemonade",
+   "diet": "vegan",
+   "kcal": 750.8,
+   "protein": 26.3,
+   "carbs": 104.1,
+   "fat": 23.0,
+   "fiber": null,
+   "sugar": 7.7,
+   "salt": 4.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 137,
+    "protein": 4.8,
+    "fat": 4.2,
+    "carbs": 19.0,
+    "sugar": 1.4,
+    "salt": 0.75,
+    "satfat": 0.9
+   },
+   "prices": {
+    "stud": 9.5,
+    "staff": 13.5,
+    "ext": 16.5
+   },
+   "allergens": [],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-10-23",
+   "line": "pizza classica",
+   "name": "Pizza Margherita",
+   "desc": "Salat oder Lemonade",
+   "diet": "vegetarian",
+   "kcal": 1090.5,
+   "protein": 54.8,
+   "carbs": 137.0,
+   "fat": 34.0,
+   "fiber": null,
+   "sugar": 6.6,
+   "salt": 6.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 199,
+    "protein": 10.0,
+    "fat": 6.2,
+    "carbs": 25.0,
+    "sugar": 1.2,
+    "salt": 1.16,
+    "satfat": 3.1
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "MEATWORKS",
+   "name": "Poulet-Riz Casimir",
+   "desc": "Salat oder Homemade-Getränk",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "SOUL FOOD",
+   "name": "Brasato al Barolo",
+   "desc": "Polenta · grüne Bohnen · Rotweinjus",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "VEGAN",
+   "name": "Sellerie-Schnitzel",
+   "desc": "Broccoli · Lyoner-Kartoffeln · Ketchup",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 12.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "VEGI",
+   "name": "Gemüse-Lasagne",
+   "desc": "Salat oder Homemade-Getränk",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "WORLD OF ASIA",
+   "name": "Schweins-Yuxiang",
+   "desc": "Soba-Nudeln · Wok-Gemüse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Soja",
+    "Sellerie",
+    "Senf",
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
+  },
+  {
+   "mensa": "fusion",
+   "date": "2026-10-23",
+   "line": "WORLD OF ASIA VEGI",
+   "name": "Linsen-Daal",
+   "desc": "Basmati Reis · Wok-Gemüse",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 10.5,
+    "ext": 12.5
+   },
+   "allergens": [
+    "Sellerie",
+    "Senf",
+    "Sulfite",
+    "Lupinen"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"
   },
   {
    "mensa": "greenlab",
@@ -5398,6 +12102,206 @@
    "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-irchel/mensa/mittagsverpflegung,hauptspeisen,voll-anders/2026-10-23"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-23",
+   "line": "Ichi",
+   "name": "Miso Ramen",
+   "desc": "Pak Choi · Nori · Mariniertes Ei · Gerösteter Sesam",
+   "diet": "vegetarian",
+   "kcal": 383.6,
+   "protein": 15.3,
+   "carbs": 54.8,
+   "fat": 19.7,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 6.7,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 70,
+    "protein": 2.8,
+    "fat": 3.6,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.22,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-23",
+   "line": "Ni",
+   "name": "Shoyu Ramen",
+   "desc": "Austernpilze · Nori · Mariniertes Ei · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 405.5,
+   "protein": 15.9,
+   "carbs": 60.3,
+   "fat": 20.3,
+   "fiber": null,
+   "sugar": 4.4,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 74,
+    "protein": 2.9,
+    "fat": 3.7,
+    "carbs": 11.0,
+    "sugar": 0.8,
+    "salt": 1.3,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 10.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-23",
+   "line": "Roku",
+   "name": "Kimchi Ramen",
+   "desc": "Tofu Chashu · Nori · mariniertes Ei · Kimchi · Frühlingszwiebeln",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 7.7,
+   "carbs": 9.9,
+   "fat": 8.2,
+   "fiber": null,
+   "sugar": 7.1,
+   "salt": 2.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 1.4,
+    "fat": 1.5,
+    "carbs": 1.8,
+    "sugar": 1.3,
+    "salt": 0.48,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-23",
+   "line": "San",
+   "name": "Tantanmen Ramen",
+   "desc": "Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chiliöl",
+   "diet": "vegetarian",
+   "kcal": 411.0,
+   "protein": 20.8,
+   "carbs": 54.8,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 4.9,
+   "salt": 7.1,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 75,
+    "protein": 3.8,
+    "fat": 3.5,
+    "carbs": 10.0,
+    "sugar": 0.9,
+    "salt": 1.29,
+    "satfat": 0.2
+   },
+   "prices": {
+    "stud": 12.5,
+    "staff": 14.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Soja",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
+  },
+  {
+   "mensa": "mendokoro",
+   "date": "2026-10-23",
+   "line": "Shi",
+   "name": "Chicken Tonkatsu Bowl",
+   "desc": "Crunchy Chicken · Tonkatsu Sauce · Sushireis · Japanischer Krautsalat · Sesam",
+   "diet": "meat",
+   "kcal": 959.0,
+   "protein": 31.8,
+   "carbs": 158.9,
+   "fat": 20.8,
+   "fiber": null,
+   "sugar": 33.4,
+   "salt": 5.8,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 175,
+    "protein": 5.8,
+    "fat": 3.8,
+    "carbs": 29.0,
+    "sugar": 6.1,
+    "salt": 1.06,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 13.8,
+    "staff": 15.8,
+    "ext": 18.8
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"
   },
   {
    "mensa": "obere",
@@ -5756,6 +12660,270 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,platte-14/platte-14/mittagsverpflegung,hauptspeisen,ying/2026-10-23"
   },
   {
+   "mensa": "polysnack",
+   "date": "2026-10-23",
+   "line": "Al Forno",
+   "name": "Pizza Bruschetta",
+   "desc": "Tomaten · Mozzarella · Knoblauch · Basilikum · Balsamico Glace",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-23",
+   "line": "Pasta",
+   "name": "Pasta ai gamberetti e zafferano",
+   "desc": "Penne · Safransauce · Crevetten · Cipollotti · Rucola",
+   "diet": "fish",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 13.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Gluten",
+    "Krebstiere",
+    "Fisch",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polysnack",
+   "date": "2026-10-23",
+   "line": "Verde",
+   "name": "Pink Couscous Bowl Combo",
+   "desc": "Randen-Couscous · Pfälzerkarotten · Spinat · Fetakäse · Falafel · Frucht nach Wahl",
+   "diet": "vegetarian",
+   "kcal": 893.2,
+   "protein": 26.3,
+   "carbs": 98.6,
+   "fat": 42.2,
+   "fiber": null,
+   "sugar": 15.3,
+   "salt": 3.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 163,
+    "protein": 4.8,
+    "fat": 7.7,
+    "carbs": 18.0,
+    "sugar": 2.8,
+    "salt": 0.6,
+    "satfat": 1.8
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Schalenfrüchte",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-23",
+   "line": "GARDEN",
+   "name": "Pflanzen Geschnetzeltes Zürcher Art",
+   "desc": "Rahmsauce · Gemüse Würfel · Champignons · Rösti",
+   "diet": "vegetarian",
+   "kcal": 641.2,
+   "protein": 38.4,
+   "carbs": 71.2,
+   "fat": 19.2,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 3.3,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 117,
+    "protein": 7.0,
+    "fat": 3.5,
+    "carbs": 13.0,
+    "sugar": 1.7,
+    "salt": 0.6,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-23",
+   "line": "HOME",
+   "name": "Kabeljau in Knusperpanade",
+   "desc": "Weisswein Sauce · Gemüse Brunoise · Wildreis · Blattspinat",
+   "diet": "fish",
+   "kcal": 657.6,
+   "protein": 30.7,
+   "carbs": 87.7,
+   "fat": 18.1,
+   "fiber": null,
+   "sugar": 6.0,
+   "salt": 4.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 120,
+    "protein": 5.6,
+    "fat": 3.3,
+    "carbs": 16.0,
+    "sugar": 1.1,
+    "salt": 0.82,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-23",
+   "line": "STREET",
+   "name": "Chicken Wings",
+   "desc": "Pouletflügeli · Süsskartoffel frites · Pommes frites · Onion Rings · Chili- Mayonnaise",
+   "diet": "meat",
+   "kcal": 1156.3,
+   "protein": 53.7,
+   "carbs": 71.2,
+   "fat": 71.2,
+   "fiber": null,
+   "sugar": 12.1,
+   "salt": 5.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 211,
+    "protein": 9.8,
+    "fat": 13.0,
+    "carbs": 13.0,
+    "sugar": 2.2,
+    "salt": 1.03,
+    "satfat": 2.8
+   },
+   "prices": {
+    "stud": 11.5,
+    "staff": 13.5,
+    "ext": 17.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
+   "mensa": "polyterrasse",
+   "date": "2026-10-23",
+   "line": "VEGAN",
+   "name": "Maccaroni panna e spinaci",
+   "desc": "Rahmsauce · Gemüse Brunoise · Spinat · Röstzwiebeln · Reibkäse · Saisonsalat · Apfel",
+   "diet": "vegan",
+   "kcal": 685.0,
+   "protein": 18.1,
+   "carbs": 109.6,
+   "fat": 17.0,
+   "fiber": null,
+   "sugar": 9.3,
+   "salt": 1.6,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 125,
+    "protein": 3.3,
+    "fat": 3.1,
+    "carbs": 20.0,
+    "sugar": 1.7,
+    "salt": 0.3,
+    "satfat": 0.9
+   },
+   "prices": {
+    "stud": 7.0,
+    "staff": 11.5,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
+  },
+  {
    "mensa": "raemi59",
    "date": "2026-10-23",
    "line": "global",
@@ -5834,6 +13002,244 @@
    "climate": "LOW",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,rami-59/rami-59/mittagsverpflegung,hauptspeisen,traditional/2026-10-23"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-23",
+   "line": " Tofu Cashew Bowl",
+   "name": "Tofu Cashew Bowl",
+   "desc": "Roter Reis · Marinierter Tofu · Saison Gemüse · Satay Sauce · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 14.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Soja"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-23",
+   "line": "Chicken Satay Bowl",
+   "name": "Chicken Satay Bowl",
+   "desc": "Reisnudeln · Gegrilltes Poulet Satay · Grüne Bohnen · Rotes Curry · Asia Krautsalat · Kräutersalat · Thai Chilli",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Erdnüsse",
+    "Soja",
+    "Schalenfrüchte",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-23",
+   "line": "Grilled Shrimps",
+   "name": "Grilled Shrimps Bowl",
+   "desc": "Jasmine Rice · Grilled Shrimps · Broccoli · rotes Curry · Asia Krautsalat · Kräutersalat · Puffed Rice",
+   "diet": "fish",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 16.9,
+    "ext": 17.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Weichtiere"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-23",
+   "line": "Planted Bowl",
+   "name": "Planted Bowl",
+   "desc": "Salatmischung · Planted Chicken Teriyaki · Sweet Corn · Tamarinden Sauce · Asia Kräutersalat · Erdnüsse",
+   "diet": "vegan",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 15.9,
+    "ext": 16.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "riceup",
+   "date": "2026-10-23",
+   "line": "Rice Up! Bowl",
+   "name": "Rice Up! Bowl",
+   "desc": "Jasmine Rice · Poulet-Bällchen · Broccoli · Grünes Curry · Asia Krautsalat · Kräutersalat · Saison Topping",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 13.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Krebstiere",
+    "Fisch",
+    "Soja",
+    "Schalenfrüchte",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-23",
+   "line": "Green",
+   "name": "Planted Chipotle Quesadilla",
+   "desc": "Cheddar · Karotten · Kabis · Peperoni · Nachos · Sauerrahm · Salsa · Jalapenos",
+   "diet": "vegetarian",
+   "kcal": 537.0,
+   "protein": 33.4,
+   "carbs": 60.3,
+   "fat": 14.2,
+   "fiber": null,
+   "sugar": 13.7,
+   "salt": 5.5,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 98,
+    "protein": 6.1,
+    "fat": 2.6,
+    "carbs": 11.0,
+    "sugar": 2.5,
+    "salt": 1.01,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
+  },
+  {
+   "mensa": "tannenbar",
+   "date": "2026-10-23",
+   "line": "World",
+   "name": "Chicken Chipotle Burrito",
+   "desc": "Cheddar · Karotten · Kabis · Peperoni · Nachos · Sauerrahm · Salsa · Jalapenos",
+   "diet": "meat",
+   "kcal": 509.6,
+   "protein": 29.0,
+   "carbs": 60.3,
+   "fat": 14.8,
+   "fiber": null,
+   "sugar": 12.6,
+   "salt": 4.4,
+   "weight": 548,
+   "estimated": true,
+   "per100": {
+    "kcal": 93,
+    "protein": 5.3,
+    "fat": 2.7,
+    "carbs": 11.0,
+    "sugar": 2.3,
+    "salt": 0.81,
+    "satfat": 0.3
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 9.9,
+    "ext": 14.5
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"
   },
   {
    "mensa": "tierspital",

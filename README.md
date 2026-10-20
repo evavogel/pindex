@@ -1,6 +1,6 @@
 # The p-index
 
-**IIFYM: If It Fits Your Mensa.** A pixel-diner dashboard that ranks today's lunch at the UZH mensas (plus Octavo) by protein, with your own mensa preferences and food cravings layered on top.
+**IIFYM: If It Fits Your Mensa.** A pixel-diner dashboard that ranks today's lunch at the UZH and ETH mensas (plus Octavo) by protein, with your own mensa preferences and food cravings layered on top.
 
 Live: **https://emvogel.com/pindex/** (also reachable via https://evavogel.github.io/pindex/).
 
@@ -8,8 +8,8 @@ Live: **https://emvogel.com/pindex/** (also reachable via https://evavogel.githu
 
 - `scrape.py` fetches the rest of this week's lunch menus for every mensa in `mensas.json` and writes `docs/data/menus.json`. Standard library only.
   - UZH mensas (ZFV): the food2050 weekly page lists dishes, and each dish page gives nutrition per portion, weight, prices and allergens.
-  - Octavo: the ETH Cookpit API (facility 23), which publishes nutrition per 100 g only. Per-portion values are scaled to the median food2050 portion weight of the same run and marked as estimates.
-- `docs/data/history.csv` archives every served day: one row per dish with macros, weight and prices (`estimated` = Octavo's scaled values). Rankings are not stored, since they depend on each visitor's house rules.
+  - ETH mensas and Octavo: the ETH Cookpit API (one request for all facilities), which publishes nutrition per 100 g only. Per-portion values are scaled to the median food2050 portion weight of the same run and marked as estimates. FUSION meal and Rice Up! publish no nutrition at all.
+- `docs/data/history.csv` archives every served day: one row per dish with macros, weight and prices (`estimated` = per-100 g values scaled to a portion). Rankings are not stored, since they depend on each visitor's house rules.
 - `docs/index.html` is the whole site (HTML, CSS, JS and the pixel sprites). It reads `data/menus.json` and stores each visitor's settings in their own browser.
 - `.github/workflows/update-menus.yml` runs the scraper on weekday mornings, commits the data and deploys `docs/` to GitHub Pages.
 

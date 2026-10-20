@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The p-index</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Which UZH mensa serves the most protein today? A daily lunch ranking with your own preferences.">
+<meta name="description" content="Which UZH or ETH mensa serves the most protein today? A daily lunch ranking with your own preferences.">
 <meta name="theme-color" content="#1d1230">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -720,7 +720,7 @@ const DIET_BADGE = { vegan: "VEGAN", vegetarian: "VEGGIE", fish: "FISH" };
 function badges(d) {
   let out = DIET_BADGE[d.diet] ? `<span class="badge ${d.diet}">${DIET_BADGE[d.diet]}</span>` : "";
   if (allWeek.has(`${d.mensa}|${d.name}`)) out += `<span class="badge wk" title="On the menu every day this week">ALL WEEK</span>`;
-  if (d.estimated) out += `<span class="badge est" title="Octavo only publishes values per 100 g; portion assumed ${d.weight} g">EST.</span>`;
+  if (d.estimated) out += `<span class="badge est" title="This kitchen publishes values per 100 g only; portion assumed ${d.weight} g">EST.</span>`;
   return out;
 }
 function whyChips(d) {
@@ -868,7 +868,7 @@ function renderFooter() {
   const gen = new Date(data.generated);
   const when = gen.toLocaleString("en-GB", { timeZone: TZ, weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   const errs = data.errors.length ? `<p>Fresh menus unavailable for ${data.errors.map(e => esc(mensaById[e.mensa]?.name || e.mensa)).join(", ")}; showing the last fetched version where there is one.</p>` : "";
-  $("#footer").innerHTML = `<p>Menus fetched ${esc(when)}. UZH mensas: food2050 (ZFV), values per portion. Octavo: ETH Cookpit, values per 100 g scaled to an assumed ${data.estimated_portion_g} g plate (median food2050 portion), marked &asymp;.</p>${errs}<p>Unofficial side project. Nutrition values are the caterers' own estimates.</p>`;
+  $("#footer").innerHTML = `<p>Menus fetched ${esc(when)}. UZH mensas: food2050 (ZFV), values per portion. ETH mensas and Octavo: ETH Cookpit, values per 100 g scaled to an assumed ${data.estimated_portion_g} g plate (median food2050 portion), marked &asymp;.</p>${errs}<p>Unofficial side project. Nutrition values are the caterers' own estimates.</p>`;
 }
 
 function render() {
@@ -914,8 +914,8 @@ function renderHallOfFame() {
   const days = [...new Set(rows.map(r => r.date))].sort();
   const stats = {};
   for (const r of rows) {
-    const s = stats[r.mensa] ??= { n: 0, sum: 0, best: null, won: 0 };
-    s.n++; s.sum += r.v;
+    const s = stats[r.mensa] ??= { n: 0, sum: 0, best: null, won: 0, est: false };
+    s.n++; s.sum += r.v; s.est ||= r.estimated === "True";
     if (!s.best || r.v > s.best.v) s.best = r;
   }
   for (const day of days) {
@@ -934,7 +934,7 @@ function renderHallOfFame() {
       <span class="rank">${ordinal(i + 1)}</span>
       <span class="hof-name">${esc(mensaById[m.id].name)}</span>
       <span class="hof-bar"><i style="width:${(m.avg / max * 100).toFixed(1)}%"></i></span>
-      <span class="hof-val">${m.id === "octavo" ? "&asymp;" : ""}${meta.fmt(m.avg)}<small> ${meta.unit}</small></span>
+      <span class="hof-val">${m.est ? "&asymp;" : ""}${meta.fmt(m.avg)}<small> ${meta.unit}</small></span>
       <span class="hof-rec">Record: <b>${esc(m.best.name)}</b> ${est}${meta.fmt(m.best.v)} ${meta.unit} (${esc(dayLabel(m.best.date))}) · ${m.won} day${m.won === 1 ? "" : "s"} on top</span>
     </li>`;
   }).join("");

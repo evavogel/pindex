@@ -2,7 +2,7 @@
   "timezone": "Europe/Zurich",
   "output": "docs/data/menus.json",
   "history": "docs/data/history.csv",
-  "exclude": "suppe|dessert|nebeangebot|nebenangebot|add-on|bowl4you|tinyfish|kaffeebar",
+  "exclude": "suppe|dessert|nebeangebot|nebenangebot|add-on|bowl4you|tinyfish|kaffeebar|buffet|choose 5|100g|smoothie|ausverkauft|poly-bowls",
   "fallback_portion_g": 550,
   "time_budget_s": 420,
   "mensas": [
@@ -20,6 +20,18 @@
     {"id": "bim11", "name": "BIM11", "campus": "Oerlikon", "source": "food2050", "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/bim11/mittagsverpflegung/menu/weekly"},
     {"id": "cityport", "name": "Cityport", "campus": "Oerlikon", "source": "food2050", "url": "https://app.food2050.ch/de/zfv/universitat-zurich,cityport/cityport/mittagsverpflegung/menu/weekly"},
     {"id": "octavo", "name": "Octavo", "campus": "Oerlikon", "source": "cookpit", "facility": 23, "client_id": "octavo-web", "url": "https://www.restaurant-octavo.ch/unsere-menues/"},
-    {"id": "botgarten", "name": "Botanischer Garten", "campus": "Other", "source": "food2050", "url": "https://app.food2050.ch/de/zfv/universitat-zurich,botanischer-garten/botanischer-garten/mittagsverpflegung/menu/weekly"}
+    {"id": "botgarten", "name": "Botanischer Garten", "campus": "Other", "source": "food2050", "url": "https://app.food2050.ch/de/zfv/universitat-zurich,botanischer-garten/botanischer-garten/mittagsverpflegung/menu/weekly"},
+    {"id": "polyterrasse", "name": "Mensa Polyterrasse", "campus": "ETH Zentrum", "source": "cookpit", "facility": 9, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"},
+    {"id": "foodlab", "name": "food&lab", "campus": "ETH Zentrum", "source": "cookpit", "facility": 7, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"},
+    {"id": "archimedes", "name": "Archimedes", "campus": "ETH Zentrum", "source": "cookpit", "facility": 8, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/archimedes.html"},
+    {"id": "clausiusbar", "name": "Clausiusbar", "campus": "ETH Zentrum", "source": "cookpit", "facility": 3, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"},
+    {"id": "tannenbar", "name": "Tannenbar", "campus": "ETH Zentrum", "source": "cookpit", "facility": 11, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/tannenbar.html"},
+    {"id": "polysnack", "name": "Polysnack", "campus": "ETH Zentrum", "source": "cookpit", "facility": 10, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/polysnack.html"},
+    {"id": "dozentenfoyer", "name": "Dozentenfoyer", "campus": "ETH Zentrum", "source": "cookpit", "facility": 5, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"},
+    {"id": "foodmarket", "name": "food market", "campus": "ETH Hönggerberg", "source": "cookpit", "facility": 19, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"},
+    {"id": "mendokoro", "name": "Mendokoro", "campus": "ETH Hönggerberg", "source": "cookpit", "facility": 16, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/mendokoro.html"},
+    {"id": "alumni", "name": "Alumni quattro Lounge", "campus": "ETH Hönggerberg", "source": "cookpit", "facility": 14, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/alumni-quattro-lounge.html"},
+    {"id": "fusion", "name": "FUSION meal", "campus": "ETH Hönggerberg", "source": "cookpit", "facility": 20, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/fusion-meal.html"},
+    {"id": "riceup", "name": "Rice Up!", "campus": "ETH Hönggerberg", "source": "cookpit", "facility": 22, "client_id": "ethz-wcms", "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/rice-up.html"}
   ]
 }
