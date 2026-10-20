@@ -126,6 +126,22 @@ main { max-width: 980px; margin: 0 auto; padding-block: 22px 40px; padding-left:
 .btn.day[aria-pressed="true"] { background: var(--mustard); color: #2b1b17; }
 .btn.day[aria-pressed="true"] .day-m { color: #5c4636; }
 .badge.wk { background: var(--teal); color: #fff; }
+.actions { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.samuel {
+  display: flex; align-items: flex-end; gap: 10px; padding: 8px 12px 8px 10px; cursor: pointer; background: var(--card);
+  box-shadow: 0 -3px 0 0 var(--line), 0 3px 0 0 var(--line), -3px 0 0 0 var(--line), 3px 0 0 0 var(--line), 4px 5px 0 0 var(--shadow);
+}
+.samuel-box { display: grid; gap: 8px; justify-items: start; padding-bottom: 2px; }
+.samuel-txt { font: 9px/1.5 var(--f-pixel); text-transform: uppercase; letter-spacing: .5px; }
+.samuel input {
+  appearance: none; -webkit-appearance: none; margin: 0; width: 20px; height: 20px; cursor: pointer;
+  border: 3px solid var(--line); background: var(--card-2); display: grid; place-content: center;
+}
+.samuel input:checked { background: var(--red); }
+.samuel input:checked::after { content: ""; width: 6px; height: 6px; background: var(--card); }
+.samuel input:focus-visible { outline: 3px dashed var(--red); outline-offset: 3px; }
+.samuel:has(input:checked) { background: var(--mustard); color: #2b1b17; }
+.samuel:has(input:checked) .sprite { animation: bob .8s steps(2) infinite; }
 
 .notice { margin: 0 4px 24px; padding: 12px 16px; font-size: 16px; background: var(--card-2); }
 .notice b { font: 10px var(--f-pixel); margin-right: 8px; color: var(--red); }
@@ -294,6 +310,7 @@ select, input[type="text"] {
   .sign-sprites .sprite { width: 30px; height: 30px; }
   .tagline { font-size: 9px; }
   .toolbar { grid-template-columns: 1fr; gap: 18px; margin-bottom: 22px; }
+  .actions { flex-direction: row; justify-content: space-between; align-items: flex-end; }
   .days { grid-template-columns: 1fr 1fr; gap: 14px; }
   .btn.day { padding: 8px 10px; font-size: 14px; }
   .ribbon { font-size: 9px; }
@@ -332,7 +349,13 @@ select, input[type="text"] {
 <main>
   <div class="toolbar">
     <nav class="days" id="days" aria-label="Pick a day"></nav>
-    <button class="btn btn-red" id="openRules" type="button">House rules</button>
+    <div class="actions">
+      <label class="samuel" for="samuel" title="+100 points for every Octavo dish and every Schnitzel">
+        <span id="samuelGuy" aria-hidden="true"></span>
+        <span class="samuel-box"><input type="checkbox" id="samuel"><span class="samuel-txt">Samuel<br>bonus</span></span>
+      </label>
+      <button class="btn btn-red" id="openRules" type="button">House rules</button>
+    </div>
   </div>
   <div id="notices"></div>
   <section id="special" aria-live="polite"></section>
@@ -447,6 +470,7 @@ const PAL = {
   w: "#fffdf5", W: "#e2d9c3", o: "#ffb703", q: "#3ec1b4", Q: "#23877d", n: "#ffe08a", N: "#e0b04a",
   x: "#8b5a2b", e: "#f7e1c8", a: "#a0522d", M: "#6b2f14", i: "#5fa8d3", I: "#2c6e99", j: "#e6f4fb",
   P: "#ff8fb8", Z: "#e0558b", S: "#d9653b", z: "#b4472a", v: "#c8781f", V: "#9c5512", d: "#dfe6ea", D: "#aeb8bf",
+  E: "#f2c9a1", G: "#d9a77e", O: "#4e3220", U: "#7a5233", J: "#3b5b8c", K: "#2a4268",
 };
 const SPRITES = {
   burger: [
@@ -515,6 +539,15 @@ const SPRITES = {
     "keaMaaaMaaaMaaek", "keaaaaMaaaMaaaek", ".keaaMaaaMaaaek.", "..keeaaaaaaeek..",
     "...kkeeeeeekk...", ".....kkkkkk.....", "................", "................",
   ],
+  samuel: [ // 12x28: tall, short brown hair, round glasses, clean-shaven
+    "....OOOO....", "...OUUUUO...", "...OUOUUO...", "...OEEEEO...",
+    "...EkEEkE...", "..GkjkkjkG..", "...EkEEkE...", "...EEGEEE...",
+    "...EEGGEE...", "....EEEE....", ".....GG.....", "...qqqqqq...",
+    "..qqqQQqqq..", "..qqqqqqqq..", "..qqqqqqqq..", "..QqqqqqqQ..",
+    "..QqqqqqqQ..", "..QqqqqqqQ..", "..EkkkkkkE..", "...JJJJJJ...",
+    "...JJJJJJ...", "...JJ..JJ...", "...JJ..JJ...", "...JJ..JJ...",
+    "...JK..KJ...", "...JK..KJ...", "...JK..KJ...", "..kkk..kkk..",
+  ],
   shake: [
     "...........t....", "......k...t.....", ".....rr..t......", "....wwwwwtwww...",
     "...wwwwwwwwwww..", "..kkkkkkkkkkkk..", "..kPPPPPPPPPZk..", "..kPwPPPPPPZZk..",
@@ -523,10 +556,11 @@ const SPRITES = {
   ],
 };
 const spriteCache = {};
-function sprite(name, size = 32) {
+function sprite(name, size = 32) { // size = rendered px per 16 sprite pixels
+  const rows = SPRITES[name] || SPRITES.burger;
   if (!spriteCache[name]) {
     let rects = "";
-    (SPRITES[name] || SPRITES.burger).forEach((row, y) => {
+    rows.forEach((row, y) => {
       for (let x = 0; x < row.length;) {
         let w = 1;
         while (row[x + w] === row[x]) w++;
@@ -536,7 +570,8 @@ function sprite(name, size = 32) {
     });
     spriteCache[name] = rects;
   }
-  return `<svg class="sprite" viewBox="0 0 16 16" width="${size}" height="${size}" shape-rendering="crispEdges" aria-hidden="true">${spriteCache[name]}</svg>`;
+  const w = rows[0].length, h = rows.length;
+  return `<svg class="sprite" viewBox="0 0 ${w} ${h}" width="${size * w / 16}" height="${size * h / 16}" shape-rendering="crispEdges" aria-hidden="true">${spriteCache[name]}</svg>`;
 }
 
 // First match on the dish name wins, then on the description, then a diet fallback.
@@ -580,7 +615,9 @@ function toast(msg) {
 }
 
 /* ---------- settings ---------- */
-const DEFAULTS = { mensas: {}, bias: 5, kcalTax: 1, maxKcal: 0, diet: "all", price: "staff", rules: [], view: "mensa" };
+const DEFAULTS = { mensas: {}, bias: 5, kcalTax: 1, maxKcal: 0, diet: "all", price: "staff", rules: [], view: "mensa", samuel: false };
+const SAMUEL_BONUS = 100;
+const SAMUEL_MENSA = "octavo";
 let firstVisit = false;
 function loadSettings() {
   try {
@@ -622,6 +659,7 @@ function evaluate(d) {
   if (pref === "fave" && settings.bias) parts.push(["fave mensa", settings.bias]);
   if (pref === "meh" && settings.bias) parts.push(["meh mensa", -settings.bias]);
   for (const r of settings.rules) if (ruleHits(r, d)) parts.push([r.kw, r.pts]);
+  if (settings.samuel && (d.mensa === SAMUEL_MENSA || norm(d.name).includes("schnitzel"))) parts.push(["Samuel bonus", SAMUEL_BONUS]);
   if (d.protein == null) return { ...d, parts, score: null };
   const tax = settings.kcalTax && d.kcal ? -settings.kcalTax * d.kcal / 100 : 0;
   const score = d.protein + tax + parts.reduce((a, [, v]) => a + v, 0);
@@ -802,6 +840,7 @@ function renderFooter() {
 }
 
 function render() {
+  $("#samuel").checked = !!settings.samuel;
   renderDays();
   renderNotices();
   const list = selectedDate ? dishesFor(selectedDate) : [];
@@ -865,6 +904,11 @@ function wire() {
     if (!b) return;
     selectedDate = b.dataset.date;
     render();
+  });
+  $("#samuel").addEventListener("change", e => {
+    settings.samuel = e.target.checked;
+    changed();
+    toast(settings.samuel ? "Samuel bonus on: Octavo and Schnitzel +100" : "Samuel bonus off");
   });
   $("#viewSeg").addEventListener("click", e => {
     const b = e.target.closest("[data-view]");
@@ -963,6 +1007,7 @@ function wire() {
 
 async function init() {
   $("#signSprites").innerHTML = ["burger", "waffle", "drumstick", "fries", "shake"].map(n => sprite(n, 40)).join("");
+  $("#samuelGuy").innerHTML = sprite("samuel", 34);
   const icon = document.createElement("link");
   icon.rel = "icon";
   icon.href = "data:image/svg+xml," + encodeURIComponent(sprite("burger", 64).replace("<svg ", '<svg xmlns="http://www.w3.org/2000/svg" '));
