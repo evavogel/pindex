@@ -2,6 +2,8 @@
 
 **IIFYM: If It Fits Your Mensa.** A pixel-diner dashboard that ranks today's lunch at the UZH mensas (plus Octavo) by protein, with your own mensa preferences and food cravings layered on top.
 
+Live: **https://emvogel.com/pindex/** (also reachable via https://evavogel.github.io/pindex/).
+
 ## How it works
 
 - `scrape.py` fetches the rest of this week's lunch menus for every mensa in `mensas.json` and writes `docs/data/menus.json`. Standard library only.
@@ -12,13 +14,11 @@
 
 **p-index** of a dish = protein (g) − kcal tax (points per 100 kcal) ± mensa bias (fave/meh) + matching craving rules. Each mensa is ranked by its best dish.
 
-## Deploy (one-time)
+## Deployment
 
-1. Create a GitHub repository named `pindex` and push this folder to its `main` branch.
-2. Repository *Settings → Pages → Build and deployment → Source*: **GitHub Actions**.
-3. *Actions* tab: run **Update menus and deploy** once by hand (`workflow_dispatch`). The site appears at `https://<user>.github.io/pindex/`.
+Repository `evavogel/pindex`, Pages source **GitHub Actions**. Every push to `main` and every scheduled run scrapes, commits `docs/data/menus.json` and deploys. To refresh by hand: *Actions → Update menus and deploy → Run workflow*.
 
-Scheduled workflows run on the default branch only and pause after 60 days without repository activity. The daily data commit keeps the repository active.
+Scheduled workflows pause after 60 days without repository activity. The daily data commit keeps the repository active.
 
 ## Local
 
