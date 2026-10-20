@@ -6,8 +6,10 @@ Sources:
   cookpit (ETH API, used by Octavo): nutrition per 100 g only, so per-portion values are
       estimated with the median food2050 portion weight of the same run.
 
-Writes the JSON file named in mensas.json ("output"). Standard library only.
+Writes the JSON file named in mensas.json ("output") and archives each day's dishes in the
+CSV named in "history". Standard library only.
 """
+import csv
 import json
 import re
 import statistics
@@ -212,6 +214,39 @@ def cookpit_dish(mensa, d, line, meal):
     }
 
 
+# ---------- history archive ----------
+
+HISTORY_FIELDS = ["date", "mensa", "line", "name", "desc", "diet", "protein", "kcal", "carbs", "fat", "fiber",
+                  "sugar", "salt", "weight", "estimated", "price_stud", "price_staff", "price_ext"]
+
+
+def history_row(d):
+    row = {k: d.get(k) for k in HISTORY_FIELDS if not k.startswith("price_")}
+    row.update({f"price_{g}": d["prices"].get(g) for g in ("stud", "staff", "ext")})
+    return {k: "" if v is None else v for k, v in row.items()}
+
+
+def update_history(dishes, previous, today):
+    """Today's dishes replace any earlier run of today; past days only fill gaps (a day whose
+    own runs all failed) from the previous data file."""
+    path = ROOT / CONFIG["history"]
+    day = today.isoformat()
+    rows = []
+    if path.exists():
+        with path.open(encoding="utf-8", newline="") as f:
+            rows = [r for r in csv.DictReader(f) if r["date"] != day]
+    known = {r["date"] for r in rows}
+    gaps = [d for d in previous if d["date"] < day and d["date"] not in known]
+    rows += [history_row(d) for d in gaps + [d for d in dishes if d["date"] == day]]
+    rows.sort(key=lambda r: (r["date"], r["mensa"], r["line"], r["name"]))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=HISTORY_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"History: {len(rows)} dishes over {len({r['date'] for r in rows})} days in {path.name}")
+
+
 def main():
     now = datetime.now(TZ)
     today = now.date()
@@ -243,6 +278,10 @@ def main():
     if not dishes:
         sys.exit("No dishes found at all; keeping the previous data file.")
 
+    path = ROOT / CONFIG["output"]
+    previous = json.loads(path.read_text(encoding="utf-8"))["dishes"] if path.exists() else []
+    update_history(dishes, previous, today)
+
     out = {
         "generated": now.isoformat(timespec="minutes"),
         "today": today.isoformat(),
@@ -251,7 +290,6 @@ def main():
         "dishes": sorted(dishes, key=lambda d: (d["date"], d["mensa"], d["line"])),
         "errors": errors,
     }
-    path = ROOT / CONFIG["output"]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {len(dishes)} dishes to {path} (estimated portion {portion} g, {len(errors)} errors)")

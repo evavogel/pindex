@@ -1,6 +1,7 @@
 {
   "timezone": "Europe/Zurich",
   "output": "docs/data/menus.json",
+  "history": "docs/data/history.csv",
   "exclude": "suppe|dessert|nebeangebot|nebenangebot|add-on|bowl4you|tinyfish|kaffeebar",
   "fallback_portion_g": 550,
   "mensas": [
