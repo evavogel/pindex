@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The p-index</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Which UZH mensa serves the most protein today? A daily lunch ranking with your own preferences.">
+<meta name="theme-color" content="#1d1230">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #fff4dc; --bg-check: #fbe9c4;
+  --card: #fffaf0; --card-2: #fff0d2;
+  --ink: #2b1b17; --ink-2: #5c4636; --muted: #8a7260;
+  --line: #2b1b17; --shadow: rgba(43, 27, 23, .22);
+  --red: #d7263d; --red-2: #a3182b; --mustard: #f4b400; --teal: #1f8f82; --mint: #9fe6da;
+  --gold: #f4b400; --silver: #c9d1d9; --bronze: #d08a4e;
+  --night: #1d1230; --neon: #ff4fa3; --neon-2: #4ff0ff;
+  --track: #ecdcbc;
+  --protein: #d7263d; --carbs: #e0a000; --fat: #178f7f; /* validated: dataviz validate_palette, light */
+  --pos: #1f7a4d; --neg: #a3182b; --on-red: #fff;
+  --f-pixel: "Press Start 2P", ui-monospace, monospace;
+  --f-body: "Pixelify Sans", system-ui, sans-serif;
+  --f-num: "VT323", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #160f1d; --bg-check: #1c1326;
+    --card: #271c31; --card-2: #30233c;
+    --ink: #fff4dc; --ink-2: #e8d6b8; --muted: #b9a58f;
+    --line: #f1dcb3; --shadow: rgba(0, 0, 0, .45);
+    --red: #ff5d73; --red-2: #ff8597; --teal: #3fd0be;
+    --track: #3b2c47;
+    --protein: #f04a63; --carbs: #bb8a00; --fat: #14a090; /* dark: CVD 6.4, relieved by gaps + P/C/F labels */
+    --pos: #5fdc9c; --neg: #ff8597;
+    --on-red: #1d1230;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #160f1d; --bg-check: #1c1326;
+  --card: #271c31; --card-2: #30233c;
+  --ink: #fff4dc; --ink-2: #e8d6b8; --muted: #b9a58f;
+  --line: #f1dcb3; --shadow: rgba(0, 0, 0, .45);
+  --red: #ff5d73; --red-2: #ff8597; --teal: #3fd0be;
+  --track: #3b2c47;
+  --protein: #f04a63; --carbs: #bb8a00; --fat: #14a090; /* dark: CVD 6.4, relieved by gaps + P/C/F labels */
+  --pos: #5fdc9c; --neg: #ff8597;
+  --on-red: #1d1230;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; color: var(--ink); font: 17px/1.4 var(--f-body);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(90deg, var(--bg-check) 50%, transparent 50%),
+    linear-gradient(var(--bg-check) 50%, transparent 50%);
+  background-size: 40px 40px;
+}
+button, input, select { font: inherit; color: inherit; }
+a { color: inherit; }
+.sprite { image-rendering: pixelated; display: block; flex: none; }
+
+/* ---------- pixel frame ---------- */
+.px {
+  background: var(--card);
+  box-shadow:
+    0 -4px 0 0 var(--line), 0 4px 0 0 var(--line),
+    -4px 0 0 0 var(--line), 4px 0 0 0 var(--line),
+    8px 10px 0 0 var(--shadow);
+}
+.btn {
+  cursor: pointer; border: 0; padding: 10px 14px; background: var(--card);
+  font: 10px/1.2 var(--f-pixel); text-transform: uppercase; letter-spacing: .5px;
+  box-shadow: 0 -3px 0 0 var(--line), 0 3px 0 0 var(--line), -3px 0 0 0 var(--line), 3px 0 0 0 var(--line), 4px 5px 0 0 var(--shadow);
+  transition: transform .05s;
+}
+.btn:active { transform: translate(2px, 3px); box-shadow: 0 -3px 0 0 var(--line), 0 3px 0 0 var(--line), -3px 0 0 0 var(--line), 3px 0 0 0 var(--line); }
+.btn:focus-visible, .seg button:focus-visible, .row-head:focus-visible { outline: 3px dashed var(--red); outline-offset: 5px; }
+.btn-red { background: var(--red); color: var(--on-red); }
+
+/* ---------- neon sign ---------- */
+.sign {
+  background: var(--night); color: #fff; text-align: center; padding: 18px 16px 14px;
+  background-image: radial-gradient(circle at 50% 120%, rgba(255, 79, 163, .25), transparent 60%);
+}
+.bulbs {
+  height: 12px; max-width: 900px; margin: 0 auto;
+  background: radial-gradient(circle, #ffd86b 0 3px, rgba(255, 216, 107, .25) 3.5px 5px, transparent 5.5px) 0 0 / 22px 12px repeat-x;
+  animation: chase .8s steps(2) infinite;
+}
+@keyframes chase { to { background-position-x: 22px; } }
+.sign-sprites { display: flex; justify-content: center; gap: 14px; margin: 14px 0 6px; }
+.sign-sprites .sprite { animation: bob 1.6s steps(2) infinite; }
+.sign-sprites .sprite:nth-child(even) { animation-delay: .8s; }
+@keyframes bob { 50% { transform: translateY(-4px); } }
+.sign h1 {
+  margin: 8px 0 4px; font: clamp(19px, 5.4vw, 42px)/1.35 var(--f-pixel); letter-spacing: 1px;
+  color: #ffe3f1; text-shadow: 0 0 2px #fff, 0 0 8px var(--neon), 0 0 18px var(--neon), 0 0 36px var(--neon);
+}
+.sign h1 .alt { color: #e3feff; text-shadow: 0 0 2px #fff, 0 0 8px var(--neon-2), 0 0 18px var(--neon-2), 0 0 36px var(--neon-2); }
+.flicker { animation: flicker 7s infinite; }
+@keyframes flicker { 0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; } 20%, 24%, 55% { opacity: .25; } }
+.tagline { margin: 4px 0 12px; font: 12px/1.6 var(--f-pixel); color: var(--mint); letter-spacing: 1px; }
+.checker {
+  height: 28px;
+  background: conic-gradient(#2b1b17 25%, #fff4dc 0 50%, #2b1b17 0 75%, #fff4dc 0) 0 0 / 28px 28px;
+  border-bottom: 4px solid var(--red);
+}
+
+/* ---------- layout ---------- */
+main { max-width: 980px; margin: 0 auto; padding-block: 22px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.toolbar { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; margin: 6px 4px 24px; }
+.days { display: flex; flex-wrap: wrap; gap: 12px; }
+.days .btn[aria-pressed="true"] { background: var(--mustard); color: #2b1b17; }
+.days .btn small { display: block; margin-top: 5px; font-size: 8px; opacity: .75; }
+
+.notice { margin: 0 4px 24px; padding: 12px 16px; font-size: 16px; background: var(--card-2); }
+.notice b { font: 10px var(--f-pixel); margin-right: 8px; color: var(--red); }
+
+.pixel-h { font: 14px/1.4 var(--f-pixel); margin: 0; letter-spacing: 1px; }
+
+/* ---------- blue plate special ---------- */
+.special { margin: 0 4px 38px; padding: 0 0 18px; position: relative; overflow: hidden; }
+.ribbon {
+  background: var(--red); color: var(--on-red); font: 11px/1 var(--f-pixel); letter-spacing: 1px;
+  padding: 10px 16px; display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+}
+.special-grid { display: grid; grid-template-columns: 170px 1fr; gap: 18px; padding: 18px 20px 0; align-items: start; }
+.plate {
+  width: 160px; height: 160px; border-radius: 50%; display: grid; place-items: center; margin-top: 4px;
+  background: radial-gradient(circle, #fffdf8 0 52%, #e9e2cf 53% 58%, #fffdf8 59% 66%, #d9d0bb 67% 70%, transparent 71%);
+}
+.plate .sprite { animation: bob 1.6s steps(2) infinite; filter: drop-shadow(0 6px 0 rgba(0, 0, 0, .12)); }
+.special h2 { font: 700 clamp(24px, 4.2vw, 34px)/1.15 var(--f-body); margin: 2px 0 6px; }
+.where { margin: 0 0 6px; color: var(--ink-2); font-weight: 600; }
+.desc { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+.special .desc { font-size: 16px; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 4px 0 12px; }
+.stat span { display: block; font: 9px/1 var(--f-pixel); color: var(--muted); letter-spacing: .5px; }
+.stat b { display: block; font: 400 40px/1 var(--f-num); }
+.stat b small { font-size: 22px; }
+.stat.hero b { color: var(--red); font-size: 52px; }
+.why { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; }
+.chip {
+  display: inline-block; padding: 2px 8px; background: var(--card-2); border: 2px solid var(--line);
+  font-size: 14px; line-height: 1.3; white-space: nowrap;
+}
+.chip.pos { color: var(--pos); } .chip.neg { color: var(--neg); }
+
+/* ---------- board ---------- */
+.board-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin: 0 4px 10px; }
+.seg { display: inline-flex; gap: 0; box-shadow: 0 -3px 0 0 var(--line), 0 3px 0 0 var(--line), -3px 0 0 0 var(--line), 3px 0 0 0 var(--line); }
+.seg button { border: 0; background: var(--card); padding: 9px 12px; cursor: pointer; font: 9px/1 var(--f-pixel); text-transform: uppercase; }
+.seg button + button { border-left: 3px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.legend { margin: 6px 4px 18px; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+.key { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.key i { width: 12px; height: 12px; display: inline-block; }
+.board { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+.row { margin: 0 4px; }
+.row-head {
+  width: 100%; border: 0; background: none; cursor: pointer; text-align: left;
+  display: grid; grid-template-columns: 58px 44px 1fr auto; gap: 14px; align-items: center; padding: 12px 14px;
+}
+.row.closed .row-head { cursor: default; }
+.rank { font: 13px/1 var(--f-pixel); text-align: center; padding: 8px 0; background: var(--card-2); }
+.rank-1 .rank { background: var(--gold); color: #2b1b17; }
+.rank-2 .rank { background: var(--silver); color: #2b1b17; }
+.rank-3 .rank { background: var(--bronze); color: #2b1b17; }
+.who { min-width: 0; }
+.who b { font-size: 19px; font-weight: 700; }
+.campus { font: 8px/1 var(--f-pixel); color: var(--muted); margin-left: 6px; letter-spacing: .5px; vertical-align: 2px; }
+.fave-star { color: var(--mustard); }
+.best { display: block; color: var(--ink-2); font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.score { text-align: right; min-width: 64px; }
+.score b { display: block; font: 400 40px/0.9 var(--f-num); }
+.score span { font: 8px/1 var(--f-pixel); color: var(--muted); }
+.chev { font: 9px var(--f-pixel); color: var(--muted); margin-left: 6px; }
+.row-body { padding: 4px 14px 16px; display: grid; gap: 12px; }
+.row-body[hidden] { display: none; }
+.row.closed { opacity: .6; }
+.src-link { font: 9px var(--f-pixel); color: var(--muted); justify-self: end; }
+
+/* ---------- dish card ---------- */
+.dish {
+  display: grid; grid-template-columns: 48px 1fr auto; gap: 12px; padding: 12px 12px 12px 10px;
+  background: var(--card-2); border-left: 4px solid var(--line);
+}
+.board > .dish { margin: 0 4px; }
+.dish h4 { margin: 0 0 2px; font-size: 18px; font-weight: 700; line-height: 1.2; }
+.dish .meta { margin: 0 0 4px; color: var(--ink-2); font-size: 14px; }
+.dish .desc { margin-bottom: 8px; font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.badge { font: 7px/1 var(--f-pixel); padding: 3px 5px; vertical-align: 3px; margin-left: 4px; background: var(--ink); color: var(--bg); letter-spacing: .5px; white-space: nowrap; }
+.badge.vegan { background: #2e7d32; color: #fff; }
+.badge.vegetarian { background: #6aa84f; color: #10210a; }
+.badge.fish { background: #2c6e99; color: #fff; }
+.badge.est { background: var(--mustard); color: #2b1b17; }
+.dish .score b { font-size: 34px; }
+
+.hp { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; margin: 2px 0 6px; }
+.hp-k { font: 8px/1 var(--f-pixel); color: var(--muted); }
+.hp-track { height: 12px; background: var(--track); position: relative; }
+.hp-fill {
+  position: absolute; inset: 0 auto 0 0;
+  background: repeating-linear-gradient(90deg, var(--protein) 0 8px, transparent 8px 10px);
+}
+.hp-v { font: 400 24px/1 var(--f-num); min-width: 64px; text-align: right; }
+.macro { display: grid; grid-template-columns: minmax(90px, 220px) auto; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); }
+.macro-bar { display: flex; gap: 2px; height: 8px; }
+.macro-bar i { flex: 1 1 0; min-width: 2px; }
+.m-p { background: var(--protein); } .m-c { background: var(--carbs); } .m-f { background: var(--fat); }
+
+.empty-card { margin: 0 4px 30px; padding: 26px 20px; display: flex; gap: 18px; align-items: center; }
+.empty-card h2 { font: 14px/1.5 var(--f-pixel); margin: 0 0 6px; }
+.empty-card p { margin: 0; color: var(--ink-2); }
+
+footer { max-width: 980px; margin: 0 auto; padding-block: 8px 40px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); color: var(--muted); font-size: 14px; }
+footer p { margin: 6px 0; }
+
+/* ---------- house rules drawer ---------- */
+dialog.drawer {
+  margin: 0 0 0 auto; height: 100dvh; max-height: 100dvh; width: min(470px, 100vw); max-width: 100vw;
+  border: 0; padding: 0; background: var(--card); color: var(--ink);
+  box-shadow: -4px 0 0 0 var(--line), -12px 0 0 0 var(--shadow);
+}
+dialog.drawer::backdrop { background: rgba(29, 18, 48, .55); }
+.drawer-head {
+  position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 18px; background: var(--night); color: #ffe3f1;
+}
+.drawer-head h2 { margin: 0; font: 14px var(--f-pixel); text-shadow: 0 0 8px var(--neon); }
+.drawer-head .btn { padding: 8px 10px; color: var(--ink); }
+.drawer section { padding: 18px 18px 8px; border-bottom: 4px dotted var(--track); }
+.drawer h3 { font: 10px/1.5 var(--f-pixel); margin: 0 0 10px; color: var(--red); }
+.drawer p.hint { margin: 0 0 12px; font-size: 14px; color: var(--muted); }
+fieldset.campus-set { border: 0; padding: 0; margin: 0 0 16px; }
+fieldset.campus-set legend { font: 9px var(--f-pixel); padding: 0; margin-bottom: 8px; display: flex; gap: 10px; align-items: center; width: 100%; }
+.mini { cursor: pointer; border: 2px solid var(--line); background: var(--card-2); font: 8px/1 var(--f-pixel); padding: 5px 6px; text-transform: uppercase; }
+.pref-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 4px 0; }
+.pref-name { font-size: 16px; }
+.seg-sm { display: inline-flex; box-shadow: 0 0 0 2px var(--line); flex: none; }
+.seg-sm label { cursor: pointer; }
+.seg-sm input { position: absolute; opacity: 0; pointer-events: none; }
+.seg-sm span { display: block; padding: 6px 7px; font: 8px/1 var(--f-pixel); background: var(--card); text-transform: uppercase; }
+.seg-sm label + label span { border-left: 2px solid var(--line); }
+.seg-sm input:checked + span { background: var(--ink); color: var(--bg); }
+.seg-sm .skip input:checked + span { background: var(--muted); color: var(--card); }
+.seg-sm .fave input:checked + span { background: var(--mustard); color: #2b1b17; }
+.seg-sm input:focus-visible + span { outline: 3px dashed var(--red); outline-offset: 2px; }
+.field { display: grid; gap: 4px; margin: 0 0 16px; }
+.field label { font-weight: 600; display: flex; justify-content: space-between; gap: 10px; }
+.field output { font: 22px/1 var(--f-num); color: var(--red); }
+.field small { color: var(--muted); font-size: 13px; }
+input[type="range"] { width: 100%; accent-color: var(--red); }
+select, input[type="text"] {
+  background: var(--card-2); border: 2px solid var(--line); padding: 7px 8px; border-radius: 0; font-size: 16px; min-width: 0;
+}
+.add-rule { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin-bottom: 8px; }
+.add-rule .row2 { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr auto; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
+.chips button { cursor: pointer; }
+.rule-list { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 6px; }
+.rule-list li { display: grid; grid-template-columns: 48px 1fr auto; gap: 8px; align-items: center; padding: 6px 8px; background: var(--card-2); }
+.rule-list li.empty { display: block; color: var(--muted); font-size: 14px; }
+.rule-list .pts { font: 22px/1 var(--f-num); text-align: center; }
+.rule-list .pts.pos { color: var(--pos); } .rule-list .pts.neg { color: var(--neg); }
+.rule-list small { display: block; color: var(--muted); font-size: 13px; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; margin: 6px 4px 18px; }
+
+#toast {
+  position: fixed; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 140%); transition: transform .2s steps(3);
+  background: var(--night); color: #ffe3f1; font: 10px/1.5 var(--f-pixel); padding: 12px 16px; z-index: 10;
+  box-shadow: 0 0 0 3px var(--line); max-width: calc(100vw - 32px);
+}
+#toast:not(.show) { visibility: hidden; }
+#toast.show { transform: translate(-50%, 0); }
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .sign-sprites { gap: 10px; }
+  .sign-sprites .sprite { width: 30px; height: 30px; }
+  .tagline { font-size: 9px; }
+  .toolbar { gap: 16px; margin-bottom: 20px; }
+  .days { width: 100%; flex-wrap: nowrap; gap: 9px; }
+  .days .btn { flex: 1 1 0; padding: 8px 2px; font-size: 9px; text-align: center; }
+  .days .btn small { font-size: 7px; }
+  .ribbon { font-size: 9px; }
+  .special-grid { grid-template-columns: 1fr; padding: 14px 14px 0; }
+  .plate { width: 120px; height: 120px; margin: 0 auto; }
+  .plate .sprite { width: 76px; height: 76px; }
+  .special { padding-bottom: 14px; }
+  .row-head { grid-template-columns: 46px 36px 1fr auto; gap: 10px; padding: 10px; }
+  .row-head .sprite { width: 36px; height: 36px; }
+  .rank { font-size: 10px; }
+  .score { min-width: 48px; }
+  .score b { font-size: 34px; }
+  .dish { grid-template-columns: 36px 1fr auto; gap: 10px; }
+  .dish .sprite { width: 36px; height: 36px; }
+  .macro { grid-template-columns: 1fr; gap: 4px; }
+  .hp { grid-template-columns: 1fr auto; }
+  .hp-k { display: none; }
+  .row-body { padding: 4px 8px 12px; }
+  .stat b { font-size: 34px; } .stat.hero b { font-size: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<header class="sign">
+  <div class="bulbs" aria-hidden="true"></div>
+  <div class="sign-sprites" id="signSprites" aria-hidden="true"></div>
+  <h1>THE <span class="alt">p-<span class="flicker">I</span>NDEX</span></h1>
+  <p class="tagline">IIFYM &middot; If It Fits Your Mensa</p>
+  <div class="bulbs" aria-hidden="true"></div>
+</header>
+<div class="checker" aria-hidden="true"></div>
+
+<main>
+  <div class="toolbar">
+    <nav class="days" id="days" aria-label="Pick a day"></nav>
+    <button class="btn btn-red" id="openRules" type="button">House rules</button>
+  </div>
+  <div id="notices"></div>
+  <section id="special" aria-live="polite"></section>
+  <section id="boardWrap">
+    <div class="board-head">
+      <h2 class="pixel-h">High scores</h2>
+      <div class="seg" id="viewSeg">
+        <button type="button" data-view="mensa">By mensa</button>
+        <button type="button" data-view="dish">All dishes</button>
+      </div>
+    </div>
+    <p class="legend">
+      <span>p-index = protein g &minus; kcal tax + your biases.</span>
+      <span class="key"><i class="m-p"></i>protein</span>
+      <span class="key"><i class="m-c"></i>carbs</span>
+      <span class="key"><i class="m-f"></i>fat</span>
+      <span>(bar = share of kcal)</span>
+    </p>
+    <ol class="board" id="board"></ol>
+  </section>
+</main>
+<footer id="footer"></footer>
+
+<dialog class="drawer" id="rules" aria-labelledby="rulesTitle">
+  <div class="drawer-head">
+    <h2 id="rulesTitle">HOUSE RULES</h2>
+    <button class="btn" type="button" id="closeRules">Done</button>
+  </div>
+  <section>
+    <h3>1. Where do you eat?</h3>
+    <p class="hint">Skip the ones you can't reach. Fave adds the bias below to every dish there; meh subtracts it.</p>
+    <div id="mensaPrefs"></div>
+  </section>
+  <section>
+    <h3>2. Scoring</h3>
+    <div class="field">
+      <label for="kcalTax">Kcal tax <output id="kcalTaxOut"></output></label>
+      <input type="range" id="kcalTax" min="0" max="5" step="0.5">
+      <small>Points subtracted per 100 kcal. 0 = pure protein grams; higher favours lean plates.</small>
+    </div>
+    <div class="field">
+      <label for="bias">Mensa bias <output id="biasOut"></output></label>
+      <input type="range" id="bias" min="0" max="20" step="1">
+      <small>Points added for fave mensas (and subtracted for meh ones).</small>
+    </div>
+    <div class="field">
+      <label for="maxKcal">Max kcal <output id="maxKcalOut"></output></label>
+      <input type="range" id="maxKcal" min="0" max="1500" step="50">
+      <small>Hide dishes above this. Leftmost = no limit.</small>
+    </div>
+    <div class="field">
+      <label for="diet">Diet</label>
+      <select id="diet">
+        <option value="all">Everything</option>
+        <option value="pesc">No meat (fish ok)</option>
+        <option value="veg">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="price">Show prices for</label>
+      <select id="price">
+        <option value="stud">Students</option>
+        <option value="staff">Staff</option>
+        <option value="ext">External</option>
+      </select>
+    </div>
+  </section>
+  <section>
+    <h3>3. Cravings &amp; nopes</h3>
+    <p class="hint">Keywords matched in dish name and description (umlauts optional, use | for "or"). Positive for the stuff your mensa nails, negative for the stuff it doesn't.</p>
+    <div class="add-rule">
+      <input type="text" id="ruleKw" placeholder="e.g. schnitzel | cordon bleu" aria-label="Keyword">
+      <button class="btn" type="button" id="addRule">Add</button>
+      <div class="row2">
+        <select id="rulePts" aria-label="Points">
+          <option value="20">+20</option><option value="10">+10</option><option value="5" selected>+5</option>
+          <option value="-5">&minus;5</option><option value="-10">&minus;10</option><option value="-20">&minus;20</option>
+        </select>
+        <select id="ruleMensa" aria-label="Where"></select>
+        <span></span>
+      </div>
+    </div>
+    <div class="chips" id="ruleChips"></div>
+    <ul class="rule-list" id="ruleList"></ul>
+  </section>
+  <section>
+    <h3>4. Take it to go</h3>
+    <p class="hint">Settings live in this browser.<span id="shareHint"> Copy a link to move them to your phone or hand them to a colleague.</span></p>
+    <div class="btn-row">
+      <button class="btn" type="button" id="copyLink">Copy setup link</button>
+      <button class="btn" type="button" id="resetRules">Reset</button>
+    </div>
+    <input type="text" id="setupLink" readonly hidden aria-label="Setup link" style="width:100%">
+  </section>
+</dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+"use strict";
+const DATA_URL = "data/menus.json";
+const STORE_KEY = "pindex.v1";
+const TZ = "Europe/Zurich";
+const PROTEIN_BAR_MAX = 70; // g; fixed so bars compare across days
+const SHARE_LINKS = true;  // setup links need a host that passes #hash through (GitHub Pages does)
+
+/* ---------- pixel sprites (16x16, one char per pixel) ---------- */
+const PAL = {
+  k: "#2b1b17", b: "#e8a33d", B: "#f6c768", s: "#fff4dc", L: "#2e7d32", l: "#5cb85c", g: "#a7e07a",
+  c: "#ffd23f", C: "#f2b34a", p: "#6b3a1f", t: "#e63946", R: "#9e1b2c", r: "#d62828",
+  y: "#f2b34a", Y: "#b8741a", u: "#fff2a8", m: "#7a3b12", f: "#d98b2b", F: "#a85a16", h: "#f5c26b",
+  w: "#fffdf5", W: "#e2d9c3", o: "#ffb703", q: "#3ec1b4", Q: "#23877d", n: "#ffe08a", N: "#e0b04a",
+  x: "#8b5a2b", e: "#f7e1c8", a: "#a0522d", M: "#6b2f14", i: "#5fa8d3", I: "#2c6e99", j: "#e6f4fb",
+  P: "#ff8fb8", Z: "#e0558b", S: "#d9653b", z: "#b4472a", v: "#c8781f", V: "#9c5512", d: "#dfe6ea", D: "#aeb8bf",
+};
+const SPRITES = {
+  burger: [
+    "................", ".....kkkkkk.....", "...kkbbbbbbkk...", "..kbBbsbbbsbbk..",
+    ".kbBbbbbsbbbbbk.", ".kbbsbbbbbbsbbk.", "kbbbbbbbbbbbbbbk", "kkkkkkkkkkkkkkkk",
+    "kLlLlLlLlLlLlLlk", "kcccccccccccccck", "kppcppppppppcppk", "kppppppppppppppk",
+    "kkkkkkkkkkkkkkkk", "kbbbbbbbbbbbbbbk", ".kbbbbbbbbbbbbk.", "..kkkkkkkkkkkk..",
+  ],
+  waffle: [
+    "................", ".kkkkkkkkkkkkkk.", ".kyyyyyyyyyyyyk.", ".kyYYyYYyYYyYYk.",
+    ".kyYYyYYyYYyYYk.", ".kyyyyyuuuyyyyk.", ".kyYYyuuuuuYYyk.", ".kyYYyuuuuuYYyk.",
+    ".kyyyymuuumyyyk.", ".kyYYymmmmmYYyk.", ".kyYYyYmmYYyYYk.", ".kyyyyyymyyyyyk.",
+    ".kyYYyYYyYYyYYk.", ".kyYYyYYyYYyYYk.", ".kkkkkkkkkkkkkk.", "................",
+  ],
+  drumstick: [
+    "................", ".....kkkkk......", "...kkhhfffkk....", "..khhfffFfffk...",
+    ".khffFfffffFfk..", ".khfffffFffffk..", "kfffFffffffFffk.", "kffffffFfffffFk.",
+    "kFfffFffffffffk.", ".kFffffffFfffk..", "..kFFfffffFkk...", "...kkFFFFkwwk...",
+    ".......kkwwwwk..", "........kwWwwwk.", "........kwwWwk..", ".........kkkk...",
+  ],
+  fries: [
+    "................", "....kk.kk.kk....", "...kcckcckcck...", "..kckcckcCkcck..",
+    "..kcCcckcckcCk..", "..kccCkcCcccck..", ".kttttttttttttk.", ".ktRttttttttRtk.",
+    "..kttttwwttttk..", "..ktttwwwwtttk..", "..kttttwwttttk..", "..ktRttttttRtk..",
+    "...kttttttttk...", "...kttttttttk...", "...kkkkkkkkkk...", "................",
+  ],
+  hotdog: [
+    "................", "................", "................", "................",
+    ".kkkkkkkkkkkkkk.", "kSSSSSSSSSSSSSSk", "kzcczzcczzcczzzk", "kzzzcczzcczzcczk",
+    "kkbbbbbbbbbbbbkk", ".kbBBbbbbbbbbbk.", ".kbbbbbbbbbbbbk.", "..kkkkkkkkkkkk..",
+    "................", "................", "................", "................",
+  ],
+  pizza: [
+    "................", ".kkkkkkkkkkkkkk.", "kBBBBBBBBBBBBBBk", "kbbbbbbbbbbbbbbk",
+    ".kcrrcccccrrcck.", ".kcrrcccccrrcCk.", "..kcccccccccCk..", "..kCccrrccccck..",
+    "...kccrrcccCk...", "...kcccccccck...", "....kcccccCk....", "....kCccrrck....",
+    ".....kcccck.....", "......kcck......", ".......kk.......", "................",
+  ],
+  noodles: [
+    "..............x.", ".............x..", "............x...", "...nnNnnnnNnx...",
+    "..nNnnwwwnnNnn..", ".knnnwwoownnNnk.", "kkkkkkkkkkkkkkkk", "kttttttttttttttk",
+    "ktRttRttRttRtttk", ".kttttttttttttk.", ".kRttttttttttRk.", "..kttttttttttk..",
+    "...kkttttttkk...", ".....kkkkkk.....", "................", "................",
+  ],
+  ricebowl: [
+    "................", "................", "................", ".....kkkkkk.....",
+    "...kkwwwwWwkk...", "..kwwWwwwwwwWk..", ".kwwwwwwwWvvvvk.", ".kwWwwwwvvVvgvk.",
+    "kwwwwwwvvgvvVvvk", "kkkkkkkkkkkkkkkk", "kddddddddddddddk", ".kDDddddddddDDk.",
+    "..kkkkkkkkkkkk..", "................", "................", "................",
+  ],
+  salad: [
+    "................", "................", "......lg..l.....", "...gllLlgllLg...",
+    "..lLgltlLlgtll..", ".lgltLlgLlltlgl.", "kkkkkkkkkkkkkkkk", "kqqqqqqqqqqqqqqk",
+    ".kqqqqqqqqqqqqk.", ".kqqQqqqqqqQqqk.", "..kqqqqqqqqqqk..", "...kkqqqqqqkk...",
+    ".....kkkkkk.....", "................", "................", "................",
+  ],
+  fish: [
+    "................", "................", "................", "................",
+    "....kkkkkk......", "..kkiiiiiikk..kk", ".kjkiiIiiiiIkkIk", "kiiiiiiIiiiiiIIk",
+    "kjjjjjjjjjjjkIIk", ".kjjjjjjjjjjk.Ik", "..kkjjjjjjkk..kk", "....kkkkkk......",
+    "................", "................", "................", "................",
+  ],
+  steak: [
+    "................", "................", "................", "................",
+    "....kkkkkkk.....", "..kkeeeeeeekk...", ".keeaaaaaaaaek..", "keaaMaaaMaaaaek.",
+    "keaMaaaMaaaMaaek", "keaaaaMaaaMaaaek", ".keaaMaaaMaaaek.", "..keeaaaaaaeek..",
+    "...kkeeeeeekk...", ".....kkkkkk.....", "................", "................",
+  ],
+  shake: [
+    "...........t....", "......k...t.....", ".....rr..t......", "....wwwwwtwww...",
+    "...wwwwwwwwwww..", "..kkkkkkkkkkkk..", "..kPPPPPPPPPZk..", "..kPwPPPPPPZZk..",
+    "...kPwPPPPPZk...", "...kPwPPPPPZk...", "....kPPPPPZk....", ".....kPPPZk.....",
+    "......kkkk......", ".......kk.......", ".....kkkkkk.....", "................",
+  ],
+};
+const spriteCache = {};
+function sprite(name, size = 32) {
+  if (!spriteCache[name]) {
+    let rects = "";
+    (SPRITES[name] || SPRITES.burger).forEach((row, y) => {
+      for (let x = 0; x < row.length;) {
+        let w = 1;
+        while (row[x + w] === row[x]) w++;
+        if (row[x] !== ".") rects += `<rect x="${x}" y="${y}" width="${w}" height="1" fill="${PAL[row[x]]}"/>`;
+        x += w;
+      }
+    });
+    spriteCache[name] = rects;
+  }
+  return `<svg class="sprite" viewBox="0 0 16 16" width="${size}" height="${size}" shape-rendering="crispEdges" aria-hidden="true">${spriteCache[name]}</svg>`;
+}
+
+// First match on the dish name wins, then on the description, then a diet fallback.
+const ICON_RULES = [
+  ["burger", /burger|smash/], ["pizza", /pizza|pinsa|flammkuchen|focaccia/],
+  ["waffle", /waffel|waffle|pancake|crepe|french toast|kaiserschmarrn/],
+  ["fish", /fisch|lachs|salmon|thun|tuna|kabeljau|dorsch|forelle|zander|egli|pangasius|crevett|shrimp|garnel|sushi|calamar|fish/],
+  ["drumstick", /poulet|chicken|huhn|hahnchen|wings|nugget|schnitzel|cordon|paniert|knusper|crispy|tempura|katsu|truthahn|pute/],
+  ["hotdog", /wurst|hot ?dog|cervelat|frankfurter|wienerli|chipolata|salsiccia/],
+  ["noodles", /nudel|pasta|spaghetti|penne|gnocchi|hornli|ramen|udon|soba|lasagne|maccheroni|ravioli|tortellini|spatzli|magronen|fusilli|linguine|tagliatelle|pad thai|capuns|pho\b/],
+  ["steak", /steak|entrecote|rind|beef|braten|gulasch|geschnetzelt|kalb|lamm|schwein|kotelett|ghackets|hackfleisch|pulled|kebab|doner|hirsch|burrito|kottbullar|fleischkase|ribs|bao/],
+  ["ricebowl", /curry|reis|risotto|dal\b|biryani|poke|paella|tikka|masala|thai|bami|nasi|aloo|ragout|stroganoff|eintopf|chili|tajine|bowl/],
+  ["fries", /pommes|fries|frites|rosti|kartoffel|wedges/],
+  ["salad", /salat|salad|tofu|gemuse|planted|seitan|falafel|quinoa|tempeh|hummus/],
+];
+function iconFor(d) {
+  for (const text of [norm(d.name), norm(d.desc)]) {
+    const hit = ICON_RULES.find(([, re]) => re.test(text));
+    if (hit) return hit[0];
+  }
+  return { vegan: "salad", vegetarian: "salad", fish: "fish" }[d.diet] || "burger";
+}
+
+/* ---------- helpers ---------- */
+const $ = (sel, el = document) => el.querySelector(sel);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const fmt1 = v => (Math.round(v * 10) / 10).toFixed(1);
+const ordinal = n => n + (["TH", "ST", "ND", "RD"][(n % 100 > 10 && n % 100 < 14) ? 0 : (n % 10 < 4 ? n % 10 : 0)] || "TH");
+const zurichDate = d => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(d);
+const b64e = str => btoa(String.fromCharCode(...new TextEncoder().encode(str))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const b64d = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), c => c.charCodeAt(0)));
+
+let toastTimer;
+function toast(msg) {
+  const t = $("#toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
+}
+
+/* ---------- settings ---------- */
+const DEFAULTS = { mensas: {}, bias: 5, kcalTax: 1, maxKcal: 0, diet: "all", price: "staff", rules: [], view: "mensa" };
+let firstVisit = false;
+function loadSettings() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) return { ...DEFAULTS, ...JSON.parse(raw) };
+  } catch (e) { /* storage blocked: fall through to defaults */ }
+  firstVisit = true;
+  return structuredClone(DEFAULTS);
+}
+function saveSettings() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(settings)); } catch (e) { /* private mode */ }
+}
+let settings = loadSettings();
+
+let pendingSetup = null;
+function readSharedSetup() {
+  const m = location.hash.match(/^#setup=([\w-]+)$/);
+  if (!m) return;
+  history.replaceState(null, "", location.pathname + location.search);
+  try { pendingSetup = JSON.parse(b64d(m[1])); }
+  catch (e) { toast("That setup link looks broken"); }
+}
+
+/* ---------- scoring ---------- */
+const DIET_OK = {
+  all: () => true,
+  pesc: d => d.diet !== "meat",
+  veg: d => d.diet === "vegetarian" || d.diet === "vegan",
+  vegan: d => d.diet === "vegan",
+};
+function ruleHits(rule, d) {
+  if (rule.mensa && rule.mensa !== "*" && rule.mensa !== d.mensa) return false;
+  const hay = norm(`${d.name} ${d.desc}`);
+  return rule.kw.split("|").map(k => norm(k.trim())).filter(Boolean).some(k => hay.includes(k));
+}
+function evaluate(d) {
+  const parts = [];
+  const pref = settings.mensas[d.mensa] || "ok";
+  if (pref === "fave" && settings.bias) parts.push(["fave mensa", settings.bias]);
+  if (pref === "meh" && settings.bias) parts.push(["meh mensa", -settings.bias]);
+  for (const r of settings.rules) if (ruleHits(r, d)) parts.push([r.kw, r.pts]);
+  if (d.protein == null) return { ...d, parts, score: null };
+  const tax = settings.kcalTax && d.kcal ? -settings.kcalTax * d.kcal / 100 : 0;
+  const score = d.protein + tax + parts.reduce((a, [, v]) => a + v, 0);
+  return { ...d, parts, tax, score };
+}
+const byScore = (a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity) || (b.protein ?? 0) - (a.protein ?? 0);
+function dishesFor(date) {
+  return data.dishes
+    .filter(d => d.date === date && (settings.mensas[d.mensa] || "ok") !== "skip")
+    .filter(d => DIET_OK[settings.diet](d))
+    .filter(d => !settings.maxKcal || d.kcal == null || d.kcal <= settings.maxKcal)
+    .map(evaluate)
+    .sort(byScore);
+}
+
+/* ---------- rendering ---------- */
+let data, mensaById, selectedDate;
+const expanded = new Set();
+
+function priceOf(d) {
+  const p = d.prices[settings.price] ?? Object.values(d.prices)[0];
+  return p == null ? "" : `CHF ${p.toFixed(2)}`;
+}
+const approx = d => (d.estimated ? "&asymp;" : "");
+const DIET_BADGE = { vegan: "VEGAN", vegetarian: "VEGGIE", fish: "FISH" };
+function badges(d) {
+  let out = DIET_BADGE[d.diet] ? `<span class="badge ${d.diet}">${DIET_BADGE[d.diet]}</span>` : "";
+  if (d.estimated) out += `<span class="badge est" title="Octavo only publishes values per 100 g; portion assumed ${d.weight} g">EST.</span>`;
+  return out;
+}
+function whyChips(d) {
+  const chips = [];
+  if (d.protein != null) chips.push(`<span class="chip">${approx(d)}${fmt1(d.protein)} protein</span>`);
+  if (d.tax) chips.push(`<span class="chip neg">${fmt1(d.tax)} kcal tax</span>`);
+  for (const [label, v] of d.parts) chips.push(`<span class="chip ${v > 0 ? "pos" : "neg"}">${v > 0 ? "+" : ""}${v} ${esc(label)}</span>`);
+  return chips.join("");
+}
+function macroBar(d) {
+  if (d.protein == null || d.carbs == null || d.fat == null) return "";
+  const parts = [["p", "Protein", d.protein, 4], ["c", "Carbs", d.carbs, 4], ["f", "Fat", d.fat, 9]];
+  const total = parts.reduce((a, [, , g, k]) => a + g * k, 0) || 1;
+  const segs = parts.map(([key, label, g, k]) =>
+    `<i class="m-${key}" style="flex-grow:${(g * k / total).toFixed(3)}" title="${label} ${fmt1(g)} g, ${Math.round(g * k / total * 100)}% of kcal"></i>`).join("");
+  return `<div class="macro"><div class="macro-bar" role="img" aria-label="Protein ${fmt1(d.protein)} g, carbs ${fmt1(d.carbs)} g, fat ${fmt1(d.fat)} g">${segs}</div>` +
+    `<span>${approx(d)}P ${Math.round(d.protein)} · C ${Math.round(d.carbs)} · F ${Math.round(d.fat)} g · ${approx(d)}${Math.round(d.kcal)} kcal</span></div>`;
+}
+function hpBar(d) {
+  if (d.protein == null) return `<p class="desc">No nutrition data published for this dish.</p>`;
+  const pct = Math.min(100, d.protein / PROTEIN_BAR_MAX * 100);
+  return `<div class="hp"><span class="hp-k">PROTEIN</span><span class="hp-track"><span class="hp-fill" style="width:${pct.toFixed(1)}%"></span></span><span class="hp-v">${approx(d)}${fmt1(d.protein)} g</span></div>`;
+}
+function scoreBox(d) {
+  return `<div class="score"><b>${d.score == null ? "?" : Math.round(d.score)}</b><span>p-INDEX</span></div>`;
+}
+function dishCard(d, { showMensa = false, rank = null } = {}) {
+  const m = mensaById[d.mensa];
+  const meta = [showMensa ? `<b>${esc(m.name)}</b>` : "", esc(d.line), priceOf(d)].filter(Boolean).join(" · ");
+  return `<article class="dish" ${rank ? `aria-label="Rank ${rank}"` : ""}>
+    ${sprite(iconFor(d), 48)}
+    <div>
+      <h4>${esc(d.name)}${badges(d)}</h4>
+      <p class="meta">${meta}</p>
+      ${d.desc ? `<p class="desc">${esc(d.desc)}</p>` : ""}
+      ${hpBar(d)}
+      ${macroBar(d)}
+      ${d.parts.length || d.tax ? `<p class="why">${whyChips(d)}</p>` : ""}
+    </div>
+    ${scoreBox(d)}
+  </article>`;
+}
+
+function renderDays() {
+  const dates = [...new Set(data.dishes.map(d => d.date))].sort();
+  $("#days").innerHTML = dates.map(date => {
+    const dt = new Date(`${date}T12:00:00`);
+    const wd = dt.toLocaleDateString("en-GB", { weekday: "short" });
+    const dm = dt.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+    return `<button type="button" class="btn" data-date="${date}" aria-pressed="${date === selectedDate}">${wd}<small>${dm}</small></button>`;
+  }).join("");
+}
+
+function renderNotices() {
+  const out = [];
+  const today = zurichDate(new Date());
+  const weekday = new Date(`${today}T12:00:00`).getDay();
+  if (pendingSetup) out.push(`<div class="notice px"><b>SHARED RULES</b>This link carries someone's house rules.
+    <span class="btn-row"><button type="button" class="btn btn-red" data-setup="load">Load them</button><button type="button" class="btn" data-setup="ignore">Keep mine</button></span></div>`);
+  else if (firstVisit) out.push(`<div class="notice px"><b>NEW HERE?</b>Open <a href="#" data-open-rules>House rules</a> to skip mensas you can't reach, star your faves and add cravings.</div>`);
+  if (weekday >= 1 && weekday <= 5 && data.today < today) {
+    out.push(`<div class="notice px"><b>STALE MENU</b>Data was last fetched on ${esc(data.today)}; today's update has not run (yet).</div>`);
+  }
+  $("#notices").innerHTML = out.join("");
+}
+
+function renderSpecial(list) {
+  const best = list.find(d => d.score != null);
+  if (!best) {
+    $("#special").innerHTML = `<div class="empty-card px">${sprite("shake", 64)}<div><h2>KITCHEN'S CLOSED</h2>
+      <p>${selectedDate ? "Nothing matches your house rules for this day. Loosen the filters?" : "No lunch menus published for the rest of this week. See you Monday."}</p></div></div>`;
+    return;
+  }
+  const m = mensaById[best.mensa];
+  const fave = (settings.mensas[best.mensa] || "ok") === "fave" ? `<span class="fave-star">&#9733;</span> ` : "";
+  $("#special").innerHTML = `<div class="special px">
+    <div class="ribbon"><span>BLUE PLATE SPECIAL</span><span>${esc(m.campus.toUpperCase())}</span></div>
+    <div class="special-grid">
+      <div class="plate">${sprite(iconFor(best), 104)}</div>
+      <div>
+        <h2>${esc(best.name)}${badges(best)}</h2>
+        <p class="where">${fave}${esc(m.name)} · ${esc(best.line)}</p>
+        ${best.desc ? `<p class="desc">${esc(best.desc)}</p>` : ""}
+        <div class="stats">
+          <div class="stat hero"><span>PROTEIN</span><b>${approx(best)}${fmt1(best.protein)}<small>g</small></b></div>
+          <div class="stat"><span>KCAL</span><b>${approx(best)}${Math.round(best.kcal)}</b></div>
+          ${priceOf(best) ? `<div class="stat"><span>PRICE</span><b>${priceOf(best).replace("CHF ", "")}</b></div>` : ""}
+          <div class="stat"><span>p-INDEX</span><b>${Math.round(best.score)}</b></div>
+        </div>
+        ${macroBar(best)}
+        <p class="why">${whyChips(best)}</p>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderBoard(list) {
+  document.querySelectorAll("#viewSeg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === settings.view));
+  if (settings.view === "dish") {
+    $("#board").innerHTML = list.map((d, i) => `<li class="dish-li">${dishCard(d, { showMensa: true, rank: i + 1 })}</li>`).join("")
+      || `<li class="notice">No dishes for this day.</li>`;
+    return;
+  }
+  const active = data.mensas.filter(m => (settings.mensas[m.id] || "ok") !== "skip");
+  const rows = active.map(m => {
+    const dishes = list.filter(d => d.mensa === m.id);
+    const any = data.dishes.some(d => d.date === selectedDate && d.mensa === m.id);
+    return { m, dishes, best: dishes[0], any };
+  });
+  rows.sort((a, b) => byScore(a.best || {}, b.best || {}) || (b.dishes.length - a.dishes.length));
+  let rank = 0;
+  $("#board").innerHTML = rows.map(({ m, dishes, best, any }) => {
+    const fave = (settings.mensas[m.id] || "ok") === "fave" ? ` <span class="fave-star" title="Fave">&#9733;</span>` : "";
+    if (!best) {
+      return `<li class="row px closed"><div class="row-head"><span class="rank">--</span>${sprite("shake", 44)}
+        <span class="who"><b>${esc(m.name)}</b><span class="campus">${esc(m.campus.toUpperCase())}</span>${fave}
+        <span class="best">${any ? "Nothing fits your filters" : "No lunch menu for this day"}</span></span><span></span></div></li>`;
+    }
+    rank++;
+    const open = expanded.has(m.id);
+    const extra = [best.protein != null ? `${approx(best)}${fmt1(best.protein)} g protein` : "no macros", priceOf(best)].filter(Boolean).join(" · ");
+    return `<li class="row px rank-${rank}">
+      <button type="button" class="row-head" data-mensa="${m.id}" aria-expanded="${open}">
+        <span class="rank">${ordinal(rank)}</span>
+        ${sprite(iconFor(best), 44)}
+        <span class="who"><b>${esc(m.name)}</b><span class="campus">${esc(m.campus.toUpperCase())}</span>${fave}
+          <span class="best">${esc(best.name)} · ${extra}</span></span>
+        <span class="score"><b>${best.score == null ? "?" : Math.round(best.score)}</b><span>p-INDEX <span class="chev">${open ? "&#9650;" : "&#9660;"}</span></span></span>
+      </button>
+      <div class="row-body" ${open ? "" : "hidden"}>
+        ${dishes.map(d => dishCard(d)).join("")}
+        <a class="src-link" href="${esc(m.url)}" target="_blank" rel="noopener">Full menu &#8599;</a>
+      </div>
+    </li>`;
+  }).join("");
+}
+
+function renderFooter() {
+  const gen = new Date(data.generated);
+  const when = gen.toLocaleString("en-GB", { timeZone: TZ, weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  const errs = data.errors.length ? `<p>Could not fetch: ${data.errors.map(e => esc(mensaById[e.mensa]?.name || e.mensa)).join(", ")}.</p>` : "";
+  $("#footer").innerHTML = `<p>Menus fetched ${esc(when)}. UZH mensas: food2050 (ZFV), values per portion. Octavo: ETH Cookpit, values per 100 g scaled to an assumed ${data.estimated_portion_g} g plate (median food2050 portion), marked &asymp;.</p>${errs}<p>Unofficial side project. Nutrition values are the caterers' own estimates.</p>`;
+}
+
+function render() {
+  renderDays();
+  renderNotices();
+  const list = selectedDate ? dishesFor(selectedDate) : [];
+  renderSpecial(list);
+  renderBoard(list);
+}
+
+/* ---------- house rules drawer ---------- */
+const PREFS = [["skip", "Skip"], ["meh", "Meh"], ["ok", "OK"], ["fave", "&#9733; Fave"]];
+const QUICK_CRAVINGS = ["poulet | chicken", "schnitzel", "burger", "curry", "fisch | lachs", "tofu", "planted", "rind | beef"];
+
+function renderRulesDrawer() {
+  const campuses = [...new Set(data.mensas.map(m => m.campus))];
+  $("#mensaPrefs").innerHTML = campuses.map(c => `<fieldset class="campus-set"><legend>${esc(c.toUpperCase())}
+      <button type="button" class="mini" data-only="${esc(c)}">only these</button></legend>
+      ${data.mensas.filter(m => m.campus === c).map(m => {
+        const cur = settings.mensas[m.id] || "ok";
+        return `<div class="pref-row"><span class="pref-name">${esc(m.name)}</span>
+          <span class="seg-sm" role="radiogroup" aria-label="${esc(m.name)}">${PREFS.map(([v, l]) =>
+            `<label class="${v}"><input type="radio" name="pref-${m.id}" value="${v}" ${cur === v ? "checked" : ""}><span>${l}</span></label>`).join("")}</span></div>`;
+      }).join("")}</fieldset>`).join("") + `<button type="button" class="mini" data-all-ok>all ok</button>`;
+  for (const id of ["kcalTax", "bias", "maxKcal", "diet", "price"]) $(`#${id}`).value = settings[id];
+  $("#ruleMensa").innerHTML = `<option value="*">anywhere</option>` + data.mensas.map(m => `<option value="${m.id}">at ${esc(m.name)}</option>`).join("");
+  $("#ruleChips").innerHTML = QUICK_CRAVINGS.map(k => `<button type="button" class="chip" data-quick="${esc(k)}">+ ${esc(k)}</button>`).join("");
+  renderRuleList();
+  syncOutputs();
+  $("#copyLink").hidden = $("#shareHint").hidden = !SHARE_LINKS;
+}
+function renderRuleList() {
+  $("#ruleList").innerHTML = settings.rules.length ? settings.rules.map((r, i) => {
+    const hits = data.dishes.filter(d => ruleHits(r, d)).length;
+    const where = r.mensa && r.mensa !== "*" ? `at ${esc(mensaById[r.mensa]?.name || r.mensa)}` : "anywhere";
+    return `<li><span class="pts ${r.pts > 0 ? "pos" : "neg"}">${r.pts > 0 ? "+" : ""}${r.pts}</span>
+      <span><b>${esc(r.kw)}</b><small>${where} · ${hits} dish${hits === 1 ? "" : "es"} this week</small></span>
+      <button type="button" class="mini" data-del="${i}" aria-label="Remove ${esc(r.kw)}">&#10005;</button></li>`;
+  }).join("") : `<li class="empty">No cravings yet. Try "schnitzel" +10 at your favourite mensa, or "planted" -5.</li>`;
+}
+function syncOutputs() {
+  $("#kcalTaxOut").textContent = settings.kcalTax ? `-${settings.kcalTax} / 100 kcal` : "off";
+  $("#biasOut").textContent = settings.bias ? `±${settings.bias}` : "off";
+  $("#maxKcalOut").textContent = settings.maxKcal ? `${settings.maxKcal} kcal` : "no limit";
+}
+function changed() {
+  firstVisit = false;
+  saveSettings();
+  syncOutputs();
+  render();
+}
+function addRule(kw, pts, mensa) {
+  kw = kw.trim();
+  if (!kw) return;
+  settings.rules.push({ kw, pts, mensa });
+  renderRuleList();
+  changed();
+}
+
+/* ---------- events ---------- */
+function wire() {
+  $("#days").addEventListener("click", e => {
+    const b = e.target.closest("[data-date]");
+    if (!b) return;
+    selectedDate = b.dataset.date;
+    render();
+  });
+  $("#viewSeg").addEventListener("click", e => {
+    const b = e.target.closest("[data-view]");
+    if (!b) return;
+    settings.view = b.dataset.view;
+    changed();
+  });
+  $("#board").addEventListener("click", e => {
+    const b = e.target.closest(".row-head[data-mensa]");
+    if (!b) return;
+    const id = b.dataset.mensa;
+    expanded.has(id) ? expanded.delete(id) : expanded.add(id);
+    renderBoard(dishesFor(selectedDate));
+  });
+  const dlg = $("#rules");
+  const openRules = () => { renderRulesDrawer(); dlg.showModal(); };
+  $("#openRules").addEventListener("click", openRules);
+  $("#notices").addEventListener("click", e => {
+    if (e.target.closest("[data-open-rules]")) { e.preventDefault(); openRules(); }
+    const b = e.target.closest("[data-setup]");
+    if (!b) return;
+    if (b.dataset.setup === "load") {
+      settings = { ...DEFAULTS, ...pendingSetup };
+      firstVisit = false;
+      saveSettings();
+      toast("House rules loaded");
+    }
+    pendingSetup = null;
+    render();
+  });
+  $("#closeRules").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener("change", e => {
+    const t = e.target;
+    if (t.name?.startsWith("pref-")) settings.mensas[t.name.slice(5)] = t.value;
+    else if (["kcalTax", "bias", "maxKcal"].includes(t.id)) settings[t.id] = Number(t.value);
+    else if (["diet", "price"].includes(t.id)) settings[t.id] = t.value;
+    else return;
+    changed();
+  });
+  dlg.addEventListener("input", e => {
+    if (!["kcalTax", "bias", "maxKcal"].includes(e.target.id)) return;
+    settings[e.target.id] = Number(e.target.value);
+    changed();
+  });
+  dlg.addEventListener("click", e => {
+    const t = e.target.closest("button");
+    if (!t) return;
+    if (t.dataset.only) {
+      for (const m of data.mensas) {
+        const cur = settings.mensas[m.id] || "ok";
+        settings.mensas[m.id] = m.campus === t.dataset.only ? (cur === "skip" ? "ok" : cur) : "skip";
+      }
+    } else if ("allOk" in t.dataset) {
+      settings.mensas = {};
+    } else if (t.dataset.quick) {
+      addRule(t.dataset.quick, 5, "*");
+      return;
+    } else if (t.dataset.del) {
+      settings.rules.splice(Number(t.dataset.del), 1);
+      renderRuleList();
+    } else return;
+    renderRulesDrawer();
+    changed();
+  });
+  $("#addRule").addEventListener("click", () => {
+    addRule($("#ruleKw").value, Number($("#rulePts").value), $("#ruleMensa").value);
+    $("#ruleKw").value = "";
+  });
+  $("#ruleKw").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); $("#addRule").click(); } });
+  $("#copyLink").addEventListener("click", async () => {
+    const { view, ...portable } = settings;
+    const url = `${location.origin}${location.pathname}#setup=${b64e(JSON.stringify(portable))}`;
+    const out = $("#setupLink");
+    out.value = url;
+    out.hidden = false;
+    try { await navigator.clipboard.writeText(url); toast("Setup link copied"); }
+    catch (e) { out.select(); toast("Select the link and copy it"); }
+  });
+  let resetArmed;
+  $("#resetRules").addEventListener("click", e => {
+    if (!resetArmed) {
+      e.target.textContent = "Sure? Click again";
+      resetArmed = setTimeout(() => { resetArmed = null; e.target.textContent = "Reset"; }, 4000);
+      return;
+    }
+    clearTimeout(resetArmed);
+    resetArmed = null;
+    e.target.textContent = "Reset";
+    settings = structuredClone(DEFAULTS);
+    renderRulesDrawer();
+    changed();
+    toast("House rules reset");
+  });
+}
+
+async function init() {
+  $("#signSprites").innerHTML = ["burger", "waffle", "drumstick", "fries", "shake"].map(n => sprite(n, 40)).join("");
+  const icon = document.createElement("link");
+  icon.rel = "icon";
+  icon.href = "data:image/svg+xml," + encodeURIComponent(sprite("burger", 64).replace("<svg ", '<svg xmlns="http://www.w3.org/2000/svg" '));
+  document.head.appendChild(icon);
+  readSharedSetup();
+  try {
+    const res = await fetch(DATA_URL, { cache: "no-cache" });
+    if (!res.ok) throw new Error(res.status);
+    data = await res.json();
+  } catch (e) {
+    $("#special").innerHTML = `<div class="empty-card px">${sprite("shake", 64)}<div><h2>ORDER LOST</h2><p>Could not load the menu data (${esc(e.message)}).</p></div></div>`;
+    return;
+  }
+  mensaById = Object.fromEntries(data.mensas.map(m => [m.id, m]));
+  const dates = [...new Set(data.dishes.map(d => d.date))].sort();
+  const today = zurichDate(new Date());
+  selectedDate = dates.find(d => d >= today) || null;
+  wire();
+  render();
+  renderFooter();
+}
+init();
+</script>
+</body>
+</html>
