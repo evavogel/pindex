@@ -30,8 +30,12 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch menus
+        if: github.event_name != 'push'  # code pushes only redeploy; menus come from scheduled or manual runs
         run: python -u scrape.py
+        timeout-minutes: 10
+        continue-on-error: true  # a source outage must not block deploying site changes
       - name: Commit menu data
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"

@@ -867,7 +867,7 @@ function renderBoard(list) {
 function renderFooter() {
   const gen = new Date(data.generated);
   const when = gen.toLocaleString("en-GB", { timeZone: TZ, weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-  const errs = data.errors.length ? `<p>Could not fetch: ${data.errors.map(e => esc(mensaById[e.mensa]?.name || e.mensa)).join(", ")}.</p>` : "";
+  const errs = data.errors.length ? `<p>Fresh menus unavailable for ${data.errors.map(e => esc(mensaById[e.mensa]?.name || e.mensa)).join(", ")}; showing the last fetched version where there is one.</p>` : "";
   $("#footer").innerHTML = `<p>Menus fetched ${esc(when)}. UZH mensas: food2050 (ZFV), values per portion. Octavo: ETH Cookpit, values per 100 g scaled to an assumed ${data.estimated_portion_g} g plate (median food2050 portion), marked &asymp;.</p>${errs}<p>Unofficial side project. Nutrition values are the caterers' own estimates.</p>`;
 }
 

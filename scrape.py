@@ -40,14 +40,14 @@ SMALL_WORDS = {"mit", "und", "an", "auf", "im", "in", "vom", "von", "der", "die"
 
 
 def get(url):
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=30) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=20) as r:
                 return r.read().decode("utf-8")
         except OSError:
-            if attempt == 2:
+            if attempt == 1:
                 raise
-            time.sleep(3 * (attempt + 1))
+            time.sleep(3)
 
 
 def number(text):
@@ -122,7 +122,9 @@ def food2050_detail(url):
     return total, per100, number(weight.group(1)) if weight else None, prices, allergens
 
 
-def food2050_dishes(mensa, today, week_end, pool):
+def food2050_dishes(mensa, today, week_end, pool, known):
+    """known: dishes from the previous run keyed by detail URL; their nutrition is reused so a
+    normal run only fetches the weekly page plus dishes that are new or still lack macros."""
     todo = []
     for item in food2050_menu_items(mensa["url"]):
         url = item["detailUrl"]
@@ -136,9 +138,16 @@ def food2050_dishes(mensa, today, week_end, pool):
         line = cat["name"] if isinstance(cat, dict) else path.split(",")[-1].replace("-", " ")
         todo.append((url, day, line, dish))
 
+    def details(t):
+        url, _, _, dish = t
+        old = known.get(url)
+        if old and old["name"] == nice_name(dish["name"]):
+            total = {k: old[k] for k in ("kcal", "protein", "carbs", "fat", "fiber", "sugar", "salt")}
+            return total, old["per100"] or {}, old["weight"], old["prices"], old["allergens"]
+        return food2050_detail(url)
+
     out = []
-    for (url, day, line, dish), (total, per100, weight, prices, allergens) in zip(
-            todo, pool.map(lambda t: food2050_detail(t[0]), todo)):
+    for (url, day, line, dish), (total, per100, weight, prices, allergens) in zip(todo, pool.map(details, todo)):
         stats = dish.get("stats") or {}
         climate = (stats.get("food2050climateImpact") or {}).get("rating")
         balanced = (stats.get("food2050HealthRating") or {}).get("isBalanced")
@@ -251,18 +260,31 @@ def main():
     now = datetime.now(TZ)
     today = now.date()
     week_end = today + timedelta(days=6 - today.weekday())
+    path = ROOT / CONFIG["output"]
+    previous = json.loads(path.read_text(encoding="utf-8"))["dishes"] if path.exists() else []
+    known = {d["url"]: d for d in previous if d["protein"] is not None and not d["estimated"]}
+    deadline = time.monotonic() + CONFIG["time_budget_s"]
     dishes, errors = [], []
-    with ThreadPoolExecutor(max_workers=6) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         for mensa in CONFIG["mensas"]:
-            try:
-                if mensa["source"] == "food2050":
-                    found = food2050_dishes(mensa, today, week_end, pool)
-                else:
-                    found = cookpit_dishes(mensa, today, week_end)
-            except Exception as e:  # one broken source must not take down the others
-                errors.append({"mensa": mensa["id"], "error": f"{type(e).__name__}: {e}"})
-                print(f"!! {mensa['name']}: {e}", file=sys.stderr)
-                continue
+            found, problem = [], None
+            if time.monotonic() > deadline:
+                problem = "time budget used up"
+            else:
+                try:
+                    if mensa["source"] == "food2050":
+                        found = food2050_dishes(mensa, today, week_end, pool, known)
+                    else:
+                        found = cookpit_dishes(mensa, today, week_end)
+                except Exception as e:  # one broken source must not take down the others
+                    problem = f"{type(e).__name__}: {e}"
+                if not found and not problem:
+                    problem = "menu page returned no dishes"
+            if problem:
+                # Keep the last known menu instead of silently dropping the mensa.
+                found = [d for d in previous if d["mensa"] == mensa["id"] and d["date"] >= today.isoformat()]
+                errors.append({"mensa": mensa["id"], "error": problem, "kept": len(found)})
+                print(f"!! {mensa['name']}: {problem}; kept {len(found)} dishes from the last run", file=sys.stderr)
             dishes.extend(found)
             print(f"{mensa['name']:<20} {len(found):>3} dishes")
 
@@ -277,9 +299,6 @@ def main():
 
     if not dishes:
         sys.exit("No dishes found at all; keeping the previous data file.")
-
-    path = ROOT / CONFIG["output"]
-    previous = json.loads(path.read_text(encoding="utf-8"))["dishes"] if path.exists() else []
     update_history(dishes, previous, today)
 
     out = {

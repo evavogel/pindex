@@ -17,7 +17,7 @@ Live: **https://emvogel.com/pindex/** (also reachable via https://evavogel.githu
 
 ## Deployment
 
-Repository `evavogel/pindex`, Pages source **GitHub Actions**. Every push to `main` and every scheduled run scrapes, commits `docs/data/` (menus and history) and deploys. To refresh by hand: *Actions → Update menus and deploy → Run workflow*.
+Repository `evavogel/pindex`, Pages source **GitHub Actions**. Scheduled and manual runs scrape, commit `docs/data/` (menus and history) and deploy; a push to `main` only redeploys. A mensa whose fetch fails keeps its last known menu, and a normal run reuses dish pages it already has, so it sends about 15 requests to food2050. To refresh by hand: *Actions → Update menus and deploy → Run workflow*.
 
 Scheduled workflows pause after 60 days without repository activity. The daily data commit keeps the repository active.
 
