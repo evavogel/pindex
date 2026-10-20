@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<!-- digits only: Pixelify Sans draws 5 like an S, so body numbers come from Silkscreen -->
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&text=0123456789&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #fff4dc; --bg-check: #fbe9c4;
@@ -23,7 +25,7 @@
   --protein: #d7263d; --carbs: #e0a000; --fat: #178f7f; /* validated: dataviz validate_palette, light */
   --pos: #1f7a4d; --neg: #a3182b; --on-red: #fff;
   --f-pixel: "Press Start 2P", ui-monospace, monospace;
-  --f-body: "Pixelify Sans", system-ui, sans-serif;
+  --f-body: "Silkscreen", "Pixelify Sans", system-ui, sans-serif;
   --f-num: "VT323", ui-monospace, monospace;
 }
 @media (prefers-color-scheme: dark) {
@@ -239,6 +241,20 @@ main { max-width: 980px; margin: 0 auto; padding-block: 22px 40px; padding-left:
 .macro-bar i { flex: 1 1 0; min-width: 2px; }
 .m-p { background: var(--protein); } .m-c { background: var(--carbs); } .m-f { background: var(--fat); }
 
+.hof { margin-top: 44px; }
+.hof-card { margin: 0 4px; padding: 6px 16px; }
+.hof-list { list-style: none; margin: 0; padding: 0; }
+.hof-row { display: grid; grid-template-columns: 48px minmax(120px, 190px) 1fr auto; gap: 6px 14px; align-items: center; padding: 12px 0; }
+.hof-row + .hof-row { border-top: 2px dotted var(--track); }
+.hof-row .rank { font-size: 10px; padding: 6px 0; }
+.hof-name { font-weight: 700; font-size: 17px; }
+.hof-bar { height: 12px; background: var(--track); position: relative; }
+.hof-bar i { position: absolute; inset: 0 auto 0 0; background: repeating-linear-gradient(90deg, var(--hof) 0 8px, transparent 8px 10px); }
+.hof-val { font: 400 28px/1 var(--f-num); text-align: right; min-width: 74px; }
+.hof-val small { font-size: 16px; color: var(--muted); }
+.hof-rec { grid-column: 2 / -1; font-size: 14px; color: var(--muted); }
+.hof-rec b { color: var(--ink-2); }
+.hof-protein { --hof: var(--protein); } .hof-fat { --hof: var(--fat); } .hof-kcal { --hof: var(--ink-2); }
 .empty-card { margin: 0 4px 30px; padding: 26px 20px; display: flex; gap: 18px; align-items: center; }
 .empty-card h2 { font: 14px/1.5 var(--f-pixel); margin: 0 0 6px; }
 .empty-card p { margin: 0; color: var(--ink-2); }
@@ -327,6 +343,9 @@ select, input[type="text"] {
   .dish .sprite { width: 36px; height: 36px; }
   .macro { grid-template-columns: 1fr; gap: 4px; }
   .hp { grid-template-columns: 1fr auto; }
+  .hof-row { grid-template-columns: 40px 1fr auto; }
+  .hof-bar { grid-column: 2 / -1; grid-row: 2; }
+  .hof-rec { grid-column: 2 / -1; }
   .hp-k { display: none; }
   .row-body { padding: 4px 8px 12px; }
   .stat b { font-size: 34px; } .stat.hero b { font-size: 44px; }
@@ -375,6 +394,18 @@ select, input[type="text"] {
       <span>(bar = share of kcal)</span>
     </p>
     <ol class="board" id="board"></ol>
+  </section>
+  <section class="hof" id="hofWrap" hidden>
+    <div class="board-head">
+      <h2 class="pixel-h">Hall of fame</h2>
+      <div class="seg" id="hofSeg">
+        <button type="button" data-hof="protein">Protein</button>
+        <button type="button" data-hof="fat">Fat</button>
+        <button type="button" data-hof="kcal">Kcal</button>
+      </div>
+    </div>
+    <p class="legend" id="hofCaption"></p>
+    <div class="hof-card px"><ol class="hof-list" id="hof"></ol></div>
   </section>
 </main>
 <footer id="footer"></footer>
@@ -457,6 +488,7 @@ select, input[type="text"] {
 <script>
 "use strict";
 const DATA_URL = "data/menus.json";
+const HISTORY_URL = "data/history.csv";
 const STORE_KEY = "pindex.v1";
 const TZ = "Europe/Zurich";
 const PROTEIN_BAR_MAX = 70; // g; fixed so bars compare across days
@@ -615,7 +647,7 @@ function toast(msg) {
 }
 
 /* ---------- settings ---------- */
-const DEFAULTS = { mensas: {}, bias: 5, kcalTax: 1, maxKcal: 0, diet: "all", price: "staff", rules: [], view: "mensa", samuel: false };
+const DEFAULTS = { mensas: {}, bias: 5, kcalTax: 1, maxKcal: 0, diet: "all", price: "staff", rules: [], view: "mensa", samuel: false, hof: "protein" };
 const SAMUEL_BONUS = 100;
 const SAMUEL_MENSA = "octavo";
 let firstVisit = false;
@@ -676,7 +708,7 @@ function dishesFor(date) {
 }
 
 /* ---------- rendering ---------- */
-let data, mensaById, selectedDate, dates = [], allWeek = new Set();
+let data, mensaById, selectedDate, dates = [], allWeek = new Set(), history = [];
 const expanded = new Set();
 
 function priceOf(d) {
@@ -848,6 +880,67 @@ function render() {
   renderBoard(list);
 }
 
+/* ---------- hall of fame (served-day archive) ---------- */
+function parseCSV(text) {
+  const rows = [];
+  let row = [], field = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c !== '"') field += c;
+      else if (text[i + 1] === '"') { field += '"'; i++; }
+      else quoted = false;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); rows.push(row); row = []; field = "";
+    } else field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  const [head, ...body] = rows;
+  return body.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+const HOF = {
+  protein: { title: "Who feeds the gains", unit: "g", fmt: fmt1 },
+  fat: { title: "Grease lightning", unit: "g", fmt: fmt1 },
+  kcal: { title: "Calorie bombers", unit: "kcal", fmt: v => String(Math.round(v)) },
+};
+function renderHallOfFame() {
+  const key = settings.hof in HOF ? settings.hof : "protein";
+  const meta = HOF[key];
+  document.querySelectorAll("#hofSeg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.hof === key));
+  const rows = history.filter(r => r[key] !== "").map(r => ({ ...r, v: Number(r[key]) }));
+  const days = [...new Set(rows.map(r => r.date))].sort();
+  const stats = {};
+  for (const r of rows) {
+    const s = stats[r.mensa] ??= { n: 0, sum: 0, best: null, won: 0 };
+    s.n++; s.sum += r.v;
+    if (!s.best || r.v > s.best.v) s.best = r;
+  }
+  for (const day of days) {
+    const top = rows.filter(r => r.date === day).reduce((a, b) => (b.v > a.v ? b : a));
+    stats[top.mensa].won++;
+  }
+  const ranked = Object.entries(stats).filter(([id]) => mensaById[id])
+    .map(([id, s]) => ({ id, ...s, avg: s.sum / s.n })).sort((a, b) => b.avg - a.avg);
+  const max = ranked[0]?.avg || 1;
+  const first = days[0] ? new Date(`${days[0]}T12:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : "";
+  $("#hofCaption").innerHTML = `<span><b>${esc(meta.title)}.</b> Average ${key === "kcal" ? "kcal" : key + " (g)"} per dish over ${days.length} served day${days.length === 1 ? "" : "s"} since ${esc(first)}; record dish and days with the top dish.</span>`;
+  $("#hof").className = `hof-list hof-${key}`;
+  $("#hof").innerHTML = ranked.map((m, i) => {
+    const est = m.best.estimated === "True" ? "&asymp;" : "";
+    return `<li class="hof-row rank-${i + 1}">
+      <span class="rank">${ordinal(i + 1)}</span>
+      <span class="hof-name">${esc(mensaById[m.id].name)}</span>
+      <span class="hof-bar"><i style="width:${(m.avg / max * 100).toFixed(1)}%"></i></span>
+      <span class="hof-val">${m.id === "octavo" ? "&asymp;" : ""}${meta.fmt(m.avg)}<small> ${meta.unit}</small></span>
+      <span class="hof-rec">Record: <b>${esc(m.best.name)}</b> ${est}${meta.fmt(m.best.v)} ${meta.unit} (${esc(dayLabel(m.best.date))}) · ${m.won} day${m.won === 1 ? "" : "s"} on top</span>
+    </li>`;
+  }).join("");
+  $("#hofWrap").hidden = !ranked.length;
+}
+
 /* ---------- house rules drawer ---------- */
 const PREFS = [["skip", "Skip"], ["meh", "Meh"], ["ok", "OK"], ["fave", "&#9733; Fave"]];
 const QUICK_CRAVINGS = ["poulet | chicken", "schnitzel", "burger", "curry", "fisch | lachs", "tofu", "planted", "rind | beef"];
@@ -909,6 +1002,13 @@ function wire() {
     settings.samuel = e.target.checked;
     changed();
     toast(settings.samuel ? "Samuel bonus on: Octavo and Schnitzel +100" : "Samuel bonus off");
+  });
+  $("#hofSeg").addEventListener("click", e => {
+    const b = e.target.closest("[data-hof]");
+    if (!b) return;
+    settings.hof = b.dataset.hof;
+    saveSettings();
+    renderHallOfFame();
   });
   $("#viewSeg").addEventListener("click", e => {
     const b = e.target.closest("[data-view]");
@@ -1031,6 +1131,10 @@ async function init() {
   wire();
   render();
   renderFooter();
+  try {
+    const res = await fetch(HISTORY_URL, { cache: "no-cache" });
+    if (res.ok) { history = parseCSV(await res.text()); renderHallOfFame(); }
+  } catch (e) { /* no archive yet: the section stays hidden */ }
 }
 init();
 </script>
