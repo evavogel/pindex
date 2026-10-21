@@ -89,3 +89,93 @@ date,mensa,line,name,desc,diet,protein,kcal,carbs,fat,fiber,sugar,salt,weight,es
 2026-10-20,yard,world two,Köttbullar,"Preiselbeere Confit, Bratenrahmsauce, Wirz gebraten, Kartoffelstock",meat,31.81,677.0,54.5,33.51,13.1,28.75,4.92,570.0,False,11.0,11.0,15.0
 2026-10-20,zzm,happy bowl,Planted Wurst,"Zwiebelsauce, Rösti, Erbsli & Rüebli",vegan,17.22,731.0,68.85,37.02,20.7,15.88,6.85,630.0,False,6.1,9.0,13.0
 2026-10-20,zzm,lucky bowl,Chicken Wings Malaysische Art,"Fried Rice, Erbsen, Rüebli, Rührei, Bundzwiebel",meat,54.66,1261.0,78.08,80.65,3.8,16.61,5.41,520.0,False,7.5,10.5,15.0
+2026-10-21,alumni,Classic Pot,G`hacktes mit Hörnli,Rindsgehacktes · Hörnli · Apfelmus · Extrahartkäse,meat,35.5,760.4,99.9,22.2,,15.0,2.9,555,True,8.5,10.5,14.5
+2026-10-21,alumni,Classic Pot Vegan,G`hacktes mit Hörnli vegan,Sojagehacktes · Hörnli · Apfelmus · veganer Käse,vegan,26.1,660.5,116.5,6.1,,19.4,3.6,555,True,8.5,10.5,14.5
+2026-10-21,alumni,World Pot,Tandoori Chicken,Tandoorisauce · Basmatireis · Wok Gemüse,meat,26.1,677.1,88.8,24.4,,6.7,5.6,555,True,9.9,11.9,15.9
+2026-10-21,archimedes,The Chef,Casarecce con Pollo e Funghi,Pasta · Poulet · Champignons · Rahmsauce · Dill · Reibkäse · Saisonsalat,meat,35.0,876.9,111.0,31.1,,11.7,1.9,555,True,8.9,11.9,14.9
+2026-10-21,archimedes,The Expert,Rind Cannelloni,Tomatensauce · Käse · Menusalat,meat,30.5,838.0,83.2,41.6,,18.3,4.4,555,True,11.5,13.5,16.5
+2026-10-21,archimedes,The Gardener,Quorn Café de Paris,Kräuterbutter Sauce · Rösti · Karotten Duo,vegetarian,21.6,538.4,52.7,23.3,,13.9,3.9,555,True,7.9,10.9,13.9
+2026-10-21,archimedes,The Traveller,Planted Pulled Burger,Coleslaw · Zwiebeln · Eisberg · Pommes Frites,vegetarian,35.5,821.4,99.9,25.5,,19.4,4.6,555,True,12.5,14.5,17.5
+2026-10-21,bim11,one,Peperoni-Linsen-Gulasch,"Apfel, Zwiebeln, Spätzli, Crème fraîche",vegetarian,23.71,704.0,92.25,22.18,15.93,17.1,3.8,525.0,False,8.9,11.0,17.5
+2026-10-21,bim11,two,Fleischkäse,"Rotweinsauce, Kartoffelstock, Erbsen",meat,33.04,825.0,59.71,46.56,14.42,18.24,7.98,610.0,False,8.9,11.0,17.5
+2026-10-21,bim11,ying nyang,Yaki Soba,"Buchweizennudeln, Seitan, Pilze, gebratener Mais, Karotten, Packchoi, Soja-Mirinsauce",vegan,29.92,519.0,46.99,20.16,7.97,11.99,4.87,520.0,False,8.9,11.0,17.5
+2026-10-21,binzmuehle,butcher,Gnocchi,"Salsiccia Tomaten Rahmsauce, Rucola, Broccoli ,Cipolotti",meat,28.76,904.0,125.31,28.93,12.99,19.37,3.95,640.0,False,7.5,10.5,15.0
+2026-10-21,binzmuehle,garden,Aloo Gobi,"Kartoffeln, Blumenkohl, Kicherererbsen, roter Reis, Koriander, Menüsalat oder Apfelmus",vegan,14.09,574.0,92.87,13.02,9.89,18.95,1.94,555.0,False,6.1,9.0,13.0
+2026-10-21,botgarten,butcher,Poulet Cordon Bleu,"Ketchup, Lyoner Kartoffeln, Tagesgemüse",meat,31.76,644.0,66.58,25.82,8.56,24.38,4.31,590.0,False,7.5,10.5,15.5
+2026-10-21,botgarten,farm,Gnocchi,"all' sugo, mediterranes Gemüse, Menüsalat",vegan,16.24,561.0,101.28,7.88,9.07,16.96,3.75,585.0,False,6.1,9.0,13.0
+2026-10-21,cityport,tagesmenu,Randen-Falafel,"Veganaise Dip, Bulgur, Menüsalat",meat,19.11,660.0,87.13,22.71,13.09,29.74,5.47,448.0,False,6.1,13.0,9.0
+2026-10-21,clausiusbar,DELIGHT,Had Yai,Pouletsteak - Südthailändische Art · Sweet Chilisauce · Curryreis · Bohnen · Zwiebel · Peperoncini,meat,28.9,710.4,99.9,19.4,,32.2,4.4,555,True,9.2,12.2,14.5
+2026-10-21,clausiusbar,GARDEN,Yaki Udon,"Gebratene Nudeln - Japan Style
+Chinakohl · Zwiebeln · Peperoni · Lauch · Onsen-Ei",vegetarian,28.9,743.7,116.5,13.9,,26.1,8.1,555,True,8.9,11.9,13.9
+2026-10-21,clausiusbar,WOK GREEN,Koki,Paneer · Malabarsauce · Auberginen · Süsskartoffeln · Lauch · Basmatireis,vegetarian,27.8,743.7,83.2,31.6,,9.4,4.5,555,True,12.9,13.9,15.9
+2026-10-21,clausiusbar,WOK STREET,Mirana,Rindfleisch · Malabarsauce · Auberginen · Süsskartoffeln · Lauch · Basmatireis,meat,33.3,732.6,83.2,29.4,,7.2,4.6,555,True,13.2,14.2,16.5
+2026-10-21,dozentenfoyer,Favorite,Seelachs in Knusperpanade,Fregola · Mandelfrischkäse · Tomaten · Buntes Gemüse · Zitrone · pro 100 gr.,fish,36.6,738.1,77.7,28.3,,10.5,3.7,555,True,3.2,3.2,3.2
+2026-10-21,dozentenfoyer,chefs world,Rindsbrasato,Sauce Madère · Pommes Duchesse · Grill Tomate mit Pesto,meat,50.5,721.5,46.6,34.4,,7.2,4.1,555,True,21.5,21.5,21.5
+2026-10-21,dozentenfoyer,vitality,Son Mandu,Koreanische Teigtaschen · Gemüse & Tofu · Black Bean Sauce · Zucchetti · Stangensellerie · Karotten · Jasmi..,vegetarian,16.6,621.6,133.2,2.8,,8.3,7.3,555,True,14.9,14.9,14.9
+2026-10-21,foodlab,East,Eierschwämmli Risotto,Eierschwämmli · Risottoreis · Sauerrahm · Rucola,vegetarian,26.1,699.3,83.2,24.4,,1.7,5.1,555,True,8.9,10.9,12.9
+2026-10-21,foodlab,Pasta,Pasta Plausch,Rigatoni · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse,meat,50.5,1115.5,155.4,28.9,,8.9,4.6,555,True,7.9,9.9,11.9
+2026-10-21,foodlab,West,Lasagen,Rindfleisch · Béchamelsauce · Tomaten · Käse · Menüsalat,meat,30.5,666.0,52.7,35.5,,13.9,3.3,555,True,9.9,11.9,13.9
+2026-10-21,foodmarket,fire,Chicken Hot & Smoky,Pfeffersauce · Hörnli · Mais · Peperoni,meat,43.8,821.4,77.7,34.4,,9.4,4.2,555,True,8.5,12.5,15.5
+2026-10-21,foodmarket,green daily,Empanadas de frijoles,Rote Bohnen · Vegane Jogurt · Koriander · Couscous · Mais,vegan,30.0,1043.4,155.4,29.4,,6.7,5.3,555,True,7.0,11.5,14.5
+2026-10-21,foodmarket,grill,Classic Cheese Burger,Rindfleisch Patty · Cheddar · Tomate · Salat · Rote Zwiebeln · Pommes frites · Mayo · Ketchup,meat,43.3,1065.6,94.3,54.4,,12.2,6.7,555,True,11.5,14.5,17.5
+2026-10-21,foodmarket,pasta classica,Pollo alla Bolognese bianca,Poulet Bolognese · Basilikumsauce · Pennette Tricolore · Reibkäse · Salat oder Lemonade,meat,31.1,771.5,105.5,23.9,,10.5,1.7,555,True,8.5,12.5,15.5
+2026-10-21,foodmarket,pasta della nonna,Ricotta Spinat Lasagne,Spiegelei · Rucola · Salat oder Lemonade,vegetarian,25.5,543.9,50.5,25.0,,15.0,4.4,555,True,9.5,13.5,16.5
+2026-10-21,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,55.5,1104.5,138.8,34.4,,6.7,6.4,555,True,7.0,11.5,14.5
+2026-10-21,foodmarket,pizza mamma mia,Döner im Taschenbrot,Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Taschenbrot · Salat oder Lemonade,vegan,35.0,926.9,116.5,31.6,,15.0,7.1,555,True,9.5,12.5,15.5
+2026-10-21,fusion,MEATWORKS,Poulet-Piccata,Tomatensugo · Petersilien-Risotto · Blumenkohl,meat,,,,,,,,,False,8.5,12.5,15.5
+2026-10-21,fusion,SOUL FOOD,Hirschschnitzel,Preiselbeeren-Jus · Rotkabis mit Äpfel · Spätzli,meat,,,,,,,,,False,12.5,15.5,18.5
+2026-10-21,fusion,VEGAN,Ocean-Stick Burger,Sesam-Bun · Wasabi-Mayo · Gurkensalat · Tomaten · Eisberg · Pommes Frites · Ketchup,vegan,,,,,,,,,False,8.9,12.9,16.9
+2026-10-21,fusion,VEGI,Rösti überbacken mit Käse,Mischgemüse · Spiegelei · Quark,vegetarian,,,,,,,,,False,7.0,11.5,14.5
+2026-10-21,fusion,WORLD OF ASIA,Beef Stir-Fry,Basmati Reis · Wok Gemüse,meat,,,,,,,,,False,10.5,12.9,14.5
+2026-10-21,fusion,WORLD OF ASIA VEGI,Jack Fruit-Tikka-Masala,Wok Gemüse · Basmati Reis,vegetarian,,,,,,,,,False,8.5,10.5,12.5
+2026-10-21,greenlab,one,Hummus,"Gerösteter Broccoli, Gurken, Mango, Minze, Koriander Chili Dip, Fladenbrot",vegan,22.5,722.0,54.38,41.88,15.91,12.36,4.29,451.0,False,8.9,11.0,17.5
+2026-10-21,greenlab,two,Sheperds Pie mit,"Linsen und Kartoffeln, Champignon, Gemüse Rohkostsalat",vegetarian,12.36,331.0,38.35,10.61,10.61,15.79,2.32,418.0,False,8.9,11.0,17.5
+2026-10-21,insieme,pasta due,Italia Bowl,,meat,25.79,654.0,75.55,26.09,12.35,22.58,2.83,535.0,False,7.8,10.5,15.0
+2026-10-21,insieme,pasta uno,Neu im Insieme,Italia Bowl della Settimana & Pizza Portafoglio,meat,,,,,,,,,False,7.8,10.5,15.0
+2026-10-21,irchel,butcher,Gnocchi,"Salsiccia Tomaten Rahmsauce, Rucola, Broccoli ,Cipolotti",meat,28.98,901.0,124.48,29.52,12.74,18.36,4.07,640.0,False,7.5,10.5,15.0
+2026-10-21,irchel,farm,Spiegelei im Ratatouille,"Bramata Polenta, Brot-Croutons, Menüsalat oder Apfelmus",vegetarian,27.79,713.0,73.98,31.56,10.3,22.09,4.77,615.0,False,6.1,9.0,13.0
+2026-10-21,irchel,garden,Aloo Gobi,"Kartoffeln, Blumenkohl, Kicherererbsen, roter Reis, Koriander, Menüsalat oder Apfelmus",vegan,15.32,552.0,86.89,13.11,10.46,13.69,2.04,505.0,False,6.1,9.0,13.0
+2026-10-21,irchel,hit,Paniertes Schnitzel,Pommes Frites,meat,31.96,732.0,81.21,28.71,8.41,10.14,3.66,440.0,False,9.5,11.0,14.5
+2026-10-21,irchel,voll anders,Hirsch Pfeffer,"Spätzli, Rotkraut, Preiselbeere, Birnenhälfte, Rosenkohl",meat,31.08,809.0,125.13,11.91,13.94,44.86,7.66,640.0,False,14.5,16.5,18.5
+2026-10-21,mendokoro,Ichi,Miso Ramen,Pak Choi · Nori · Mariniertes Ei · Gerösteter Sesam,vegetarian,15.5,388.5,55.5,20.0,,5.0,6.8,555,True,10.5,12.5,15.5
+2026-10-21,mendokoro,Ni,Shoyu Ramen,Austernpilze · Nori · Mariniertes Ei · Frühlingszwiebeln,vegetarian,16.1,410.7,61.0,20.5,,4.4,7.2,555,True,10.5,12.5,15.5
+2026-10-21,mendokoro,Roku,Kimchi Ramen,Tofu Chashu · Nori · mariniertes Ei · Kimchi · Frühlingszwiebeln,vegetarian,7.8,416.2,10.0,8.3,,7.2,2.7,555,True,12.5,14.5,17.5
+2026-10-21,mendokoro,San,Tantanmen Ramen,Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chiliöl,vegetarian,21.1,416.2,55.5,19.4,,5.0,7.2,555,True,12.5,14.5,17.5
+2026-10-21,mendokoro,Shi,Chicken Tonkatsu Bowl,Crunchy Chicken · Tonkatsu Sauce · Sushireis · Japanischer Krautsalat · Sesam,meat,32.2,971.2,160.9,21.1,,33.9,5.9,555,True,13.8,15.8,18.8
+2026-10-21,obere,menu 1,Spiegelei im Ratatouille,"Bramata Polenta, Brot-Croutons, Menüsalat / Apfelmus",vegetarian,24.66,624.0,62.8,30.05,8.48,25.96,5.64,643.0,False,6.1,9.0,13.0
+2026-10-21,obere,menu 2,Pasta,"Jeden Tag eine neue Kreation, Vegetarisch oder mit Fleisch, Menüsalat / Apfelmus",meat,21.17,559.0,107.48,3.37,9.27,24.27,6.21,500.0,False,,,
+2026-10-21,obere,menu 3,Gnocchi,"Salsiccia Tomaten Rahmsauce, Rucola, Broccoli ,Cipolotti",meat,28.85,904.0,144.11,29.53,13.04,18.46,4.08,640.0,False,7.5,10.5,15.0
+2026-10-21,obere,menu 4,Paniertes Schnitzel,"Ketchup Mayo Zitrone, Pommes frites, Menüsalat / Apfelmus",meat,27.77,929.0,82.28,52.52,5.24,20.11,4.04,420.0,False,9.9,10.9,15.0
+2026-10-21,octavo,Drei,Green Mountain Döner Loaded Fries,Döneralternative aus Soja · Kebabsauce · Pommes frites · Weisskabis · Joghurtalternative · Beilagensalat,vegan,22.2,793.6,77.7,41.1,,14.4,3.3,555,True,12.9,12.9,14.9
+2026-10-21,octavo,Eins,Schweins-Kotelette,Calvados-Rahmsauce · Rösti · glasierte Karotten · Beilagensalat,meat,36.1,632.7,39.4,34.4,,11.7,3.3,555,True,16.0,16.0,18.0
+2026-10-21,octavo,Zwei,Grünes Thai Curry,Poulet-Schenkel Ragout · Jasminreis · Bohnen · Thai Basilikum · Beilagensalat,meat,25.0,660.5,45.0,43.3,,5.0,4.1,555,True,12.9,12.9,14.9
+2026-10-21,platte14,yang,Oriental Beef,"Kichererbsen, Kartoffeln, Reis, Linsen, Zwiebeln, Karotten Salat, Dill",meat,37.33,672.0,68.38,23.34,17.39,26.21,4.79,460.0,False,7.8,10.5,15.0
+2026-10-21,platte14,ying,Gebackene Auberginen,"Linsen Bulgur, Minz Dip, Granatapfel",vegan,19.44,505.0,55.64,22.59,17.54,11.47,4.0,482.0,False,6.9,9.0,13.5
+2026-10-21,polysnack,Al Forno,Pizza con spinaci e ricotta,Tomatensauce · Mozzarella · Spinat · Ricotta,vegetarian,54.9,965.7,116.5,30.0,,7.2,5.0,555,True,9.9,11.9,14.9
+2026-10-21,polysnack,Pasta,Pasta all'amatriciana,Rigatoni · pikanter Tomatensauce · Speck · Reibkäse,meat,50.5,1021.2,116.5,37.2,,11.7,4.4,555,True,10.9,12.9,15.9
+2026-10-21,polysnack,Verde,Pink Couscous Bowl Combo,Randen-Couscous · Pfälzerkarotten · Spinat · Fetakäse · Falafel · Frucht nach Wahl,vegetarian,26.6,904.6,99.9,42.7,,15.5,3.3,555,True,10.9,12.9,15.9
+2026-10-21,polyterrasse,GARDEN,Halloumi Mediterraneo,Kürbis Hummus · Taboulé · Minze · Petersilie · Pitabrot,vegetarian,38.9,1209.9,111.0,66.6,,7.8,8.5,555,True,7.0,11.5,14.5
+2026-10-21,polyterrasse,HOME,Cauliflower Chicken,Blumenkohl · Kokosmilch · Curry · Karotten · Sellerie · Lauch · Jasminreis · Sojasprossen · Koriander,meat,26.6,666.0,88.8,23.3,,4.4,5.2,555,True,8.5,12.5,15.5
+2026-10-21,polyterrasse,LOCAL,Wiener Rahmgulasch,Schweizer Truthahn Voressen · Butterspätzli · Ofen Peperoni · Rosmarin,meat,37.7,716.0,77.7,27.2,,10.0,5.1,555,True,11.5,13.5,17.5
+2026-10-21,polyterrasse,STREET,Street Burger,Rindfleisch oder Gemüseburger · Sesambun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..,meat,42.2,954.6,94.3,41.6,,16.6,7.8,555,True,12.5,14.5,18.5
+2026-10-21,polyterrasse,VEGAN,Zucchini Carbonara,Fusilli Integrale · Zucchini · Cremesauce · Veganer Reibkäse · Geräucherter Tofu · Salat,vegan,26.6,754.8,105.5,22.2,,8.3,3.4,555,True,7.0,11.5,14.5
+2026-10-21,raemi59,global,Gebackene Auberginen,"Linsen Bulgur, Minz Dip, Granatapfel",vegan,20.18,524.0,56.43,23.46,19.12,12.26,4.0,482.0,False,6.9,9.0,13.5
+2026-10-21,raemi59,traditional,Planted Polpette,"Tomatensauce, Pasta, Broccoli",vegan,33.57,825.0,90.16,33.62,15.63,16.44,6.96,680.0,False,6.9,9.0,13.5
+2026-10-21,riceup, Tofu Cashew Bowl,Tofu Cashew Bowl,Roter Reis · Marinierter Tofu · Saison Gemüse · Satay Sauce · Asia Krautsalat · Kräutersalat · Saison Topping,vegan,,,,,,,,,False,9.9,14.9,15.9
+2026-10-21,riceup,Chicken Satay Bowl,Chicken Satay Bowl,Reisnudeln · Gegrilltes Poulet Satay · Grüne Bohnen · Rotes Curry · Asia Krautsalat · Kräutersalat · Thai Chilli,meat,,,,,,,,,False,10.9,15.9,16.9
+2026-10-21,riceup,Grilled Shrimps,Grilled Shrimps Bowl,Jasmine Rice · Grilled Shrimps · Broccoli · rotes Curry · Asia Krautsalat · Kräutersalat · Puffed Rice,fish,,,,,,,,,False,11.9,16.9,17.9
+2026-10-21,riceup,Planted Bowl,Planted Bowl,Salatmischung · Planted Chicken Teriyaki · Sweet Corn · Tamarinden Sauce · Asia Kräutersalat · Erdnüsse,vegan,,,,,,,,,False,10.9,15.9,16.9
+2026-10-21,riceup,Rice Up! Bowl,Rice Up! Bowl,Jasmine Rice · Poulet-Bällchen · Broccoli · Grünes Curry · Asia Krautsalat · Kräutersalat · Saison Topping,meat,,,,,,,,,False,8.9,13.9,14.9
+2026-10-21,tannenbar,Green,Tex Mex Quesadilla,Weizentortilla · Pulled Planted · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cream · J..,vegetarian,18.3,471.8,55.5,14.4,,17.8,2.6,555,True,9.9,9.9,14.5
+2026-10-21,tannenbar,World,Pulled Pork Burrito,Weizentortilla · IP-SUISSE Pulled Pork · Mais · Grüne Bohnen · Peperoni · Cheddar · Nachos · Salsa · Sour cr..,meat,61.0,1043.4,94.3,42.7,,12.2,5.3,555,True,9.9,9.9,14.5
+2026-10-21,tierspital,butcher,Bratwurst,"Zwiebelsauce, Rösti, Erbsli und Rüebli",meat,34.34,927.0,91.05,43.17,17.24,17.3,4.95,711.0,False,7.5,10.5,15.0
+2026-10-21,tierspital,garden,Auberginen Ragout*,"Karamelliert, weisse Bohnen, Bulgur, Koriander, Menüsalat",meat,22.81,556.0,91.29,7.03,22.52,19.69,1.98,555.0,False,6.1,9.0,13.0
+2026-10-21,untere,butcher,Gnocchi,"Salsiccia Tomaten Rahmsauce, Rucola, Broccoli ,Cipolotti",meat,28.85,904.0,144.11,29.53,13.04,18.46,4.08,640.0,False,7.5,10.5,15.0
+2026-10-21,untere,garden,Aloo Gobi,"Kartoffeln, Blumenkohl, Kicherererbsen, roter Reis, Koriander, Menüsalat / Apfelmus",vegan,14.66,573.0,92.57,13.68,10.24,18.15,1.93,555.0,False,6.1,9.0,13.0
+2026-10-21,untere,pure asia,Pulled Pork Bao Bun,"Frühlingszwiebeln, Sriracha Mayo, Rotkabis Salat, Menüsalat / Apfelmus",meat,64.59,1038.0,118.62,31.65,14.98,24.15,4.46,541.0,False,9.0,11.0,15.0
+2026-10-21,yard,soul one,Rösti Walliser Art,"Tomaten Käse Wurzelgemüse, Menüsalat oder Apfelmus",vegetarian,27.83,579.0,48.14,28.05,9.44,7.81,3.9,505.0,False,11.0,11.0,15.0
+2026-10-21,yard,soul two,Kaiserschmarren,"Vanillesauce, Zwetschgen Kompott",vegetarian,13.95,668.0,118.3,14.95,2.3,92.3,0.73,450.0,False,11.0,11.0,15.0
+2026-10-21,yard,world one,Karotten-Kohlauflauf,Randen - Apfelsalat,vegetarian,20.99,715.0,94.8,26.65,8.71,22.95,3.54,570.0,False,11.0,11.0,15.0
+2026-10-21,yard,world two,Köttbullar,"Preiselbeere Confit, Bratenrahmsauce, Wirz gebraten, Kartoffelstock",meat,31.81,677.0,54.5,33.51,13.1,28.75,4.92,570.0,False,11.0,11.0,15.0
+2026-10-21,zzm,happy bowl,Planted Polpette,"Tomatensauce, Pasta, Broccoli",vegan,33.57,815.0,84.81,33.62,16.88,13.76,7.4,680.0,False,6.1,9.0,13.0
+2026-10-21,zzm,lucky bowl,Oriental Beef,"Kichererbsen, Kartoffeln, Reis, Linsen, Zwiebeln, Karotten Salat, Dill",meat,45.52,714.0,68.21,25.3,14.51,16.5,4.94,510.0,False,7.5,10.5,15.0
