@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T11:28+02:00",
+ "generated": "2026-10-21T16:08+02:00",
  "today": "2026-10-21",
  "estimated_portion_g": 555,
  "mensas": [
@@ -1203,8 +1203,8 @@
    "mensa": "foodmarket",
    "date": "2026-10-21",
    "line": "green daily",
-   "name": "Empanadas de frijoles",
-   "desc": "Rote Bohnen · Vegane Jogurt · Koriander · Couscous · Mais",
+   "name": "Börekstange",
+   "desc": "Gefüllt mit Spinat und Feta · Rote Bohnen · Vegane Jogurt · Couscous · Mais",
    "diet": "vegan",
    "kcal": 1043.4,
    "protein": 30.0,
@@ -1391,47 +1391,6 @@
     "Gluten",
     "Milch, Laktose",
     "Sellerie"
-   ],
-   "climate": null,
-   "balanced": null,
-   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
-  },
-  {
-   "mensa": "foodmarket",
-   "date": "2026-10-21",
-   "line": "pizza mamma mia",
-   "name": "Döner im Taschenbrot",
-   "desc": "Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Taschenbrot · Salat oder Lemonade",
-   "diet": "vegan",
-   "kcal": 926.9,
-   "protein": 35.0,
-   "carbs": 116.5,
-   "fat": 31.6,
-   "fiber": null,
-   "sugar": 15.0,
-   "salt": 7.1,
-   "weight": 555,
-   "estimated": true,
-   "per100": {
-    "kcal": 167,
-    "protein": 6.3,
-    "fat": 5.7,
-    "carbs": 21.0,
-    "sugar": 2.7,
-    "salt": 1.28,
-    "satfat": 0.5
-   },
-   "prices": {
-    "stud": 9.5,
-    "staff": 12.5,
-    "ext": 15.5
-   },
-   "allergens": [
-    "Gluten",
-    "Soja",
-    "Sellerie",
-    "Senf",
-    "Sulfite"
    ],
    "climate": null,
    "balanced": null,
@@ -2781,7 +2740,7 @@
    "date": "2026-10-21",
    "line": "STREET",
    "name": "Street Burger",
-   "desc": "Rindfleisch oder Gemüseburger · Sesambun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..",
+   "desc": "Rindfleisch oder Vegiburger · Golden Bun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..",
    "diet": "meat",
    "kcal": 954.6,
    "protein": 42.2,

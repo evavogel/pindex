@@ -116,12 +116,11 @@ Chinakohl · Zwiebeln · Peperoni · Lauch · Onsen-Ei",vegetarian,28.9,743.7,11
 2026-10-21,foodlab,Pasta,Pasta Plausch,Rigatoni · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse,meat,50.5,1115.5,155.4,28.9,,8.9,4.6,555,True,7.9,9.9,11.9
 2026-10-21,foodlab,West,Lasagen,Rindfleisch · Béchamelsauce · Tomaten · Käse · Menüsalat,meat,30.5,666.0,52.7,35.5,,13.9,3.3,555,True,9.9,11.9,13.9
 2026-10-21,foodmarket,fire,Chicken Hot & Smoky,Pfeffersauce · Hörnli · Mais · Peperoni,meat,43.8,821.4,77.7,34.4,,9.4,4.2,555,True,8.5,12.5,15.5
-2026-10-21,foodmarket,green daily,Empanadas de frijoles,Rote Bohnen · Vegane Jogurt · Koriander · Couscous · Mais,vegan,30.0,1043.4,155.4,29.4,,6.7,5.3,555,True,7.0,11.5,14.5
+2026-10-21,foodmarket,green daily,Börekstange,Gefüllt mit Spinat und Feta · Rote Bohnen · Vegane Jogurt · Couscous · Mais,vegan,30.0,1043.4,155.4,29.4,,6.7,5.3,555,True,7.0,11.5,14.5
 2026-10-21,foodmarket,grill,Classic Cheese Burger,Rindfleisch Patty · Cheddar · Tomate · Salat · Rote Zwiebeln · Pommes frites · Mayo · Ketchup,meat,43.3,1065.6,94.3,54.4,,12.2,6.7,555,True,11.5,14.5,17.5
 2026-10-21,foodmarket,pasta classica,Pollo alla Bolognese bianca,Poulet Bolognese · Basilikumsauce · Pennette Tricolore · Reibkäse · Salat oder Lemonade,meat,31.1,771.5,105.5,23.9,,10.5,1.7,555,True,8.5,12.5,15.5
 2026-10-21,foodmarket,pasta della nonna,Ricotta Spinat Lasagne,Spiegelei · Rucola · Salat oder Lemonade,vegetarian,25.5,543.9,50.5,25.0,,15.0,4.4,555,True,9.5,13.5,16.5
 2026-10-21,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,55.5,1104.5,138.8,34.4,,6.7,6.4,555,True,7.0,11.5,14.5
-2026-10-21,foodmarket,pizza mamma mia,Döner im Taschenbrot,Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Taschenbrot · Salat oder Lemonade,vegan,35.0,926.9,116.5,31.6,,15.0,7.1,555,True,9.5,12.5,15.5
 2026-10-21,fusion,MEATWORKS,Poulet-Piccata,Tomatensugo · Petersilien-Risotto · Blumenkohl,meat,,,,,,,,,False,8.5,12.5,15.5
 2026-10-21,fusion,SOUL FOOD,Hirschschnitzel,Preiselbeeren-Jus · Rotkabis mit Äpfel · Spätzli,meat,,,,,,,,,False,12.5,15.5,18.5
 2026-10-21,fusion,VEGAN,Ocean-Stick Burger,Sesam-Bun · Wasabi-Mayo · Gurkensalat · Tomaten · Eisberg · Pommes Frites · Ketchup,vegan,,,,,,,,,False,8.9,12.9,16.9
@@ -157,7 +156,7 @@ Chinakohl · Zwiebeln · Peperoni · Lauch · Onsen-Ei",vegetarian,28.9,743.7,11
 2026-10-21,polyterrasse,GARDEN,Halloumi Mediterraneo,Kürbis Hummus · Taboulé · Minze · Petersilie · Pitabrot,vegetarian,38.9,1209.9,111.0,66.6,,7.8,8.5,555,True,7.0,11.5,14.5
 2026-10-21,polyterrasse,HOME,Cauliflower Chicken,Blumenkohl · Kokosmilch · Curry · Karotten · Sellerie · Lauch · Jasminreis · Sojasprossen · Koriander,meat,26.6,666.0,88.8,23.3,,4.4,5.2,555,True,8.5,12.5,15.5
 2026-10-21,polyterrasse,LOCAL,Wiener Rahmgulasch,Schweizer Truthahn Voressen · Butterspätzli · Ofen Peperoni · Rosmarin,meat,37.7,716.0,77.7,27.2,,10.0,5.1,555,True,11.5,13.5,17.5
-2026-10-21,polyterrasse,STREET,Street Burger,Rindfleisch oder Gemüseburger · Sesambun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..,meat,42.2,954.6,94.3,41.6,,16.6,7.8,555,True,12.5,14.5,18.5
+2026-10-21,polyterrasse,STREET,Street Burger,Rindfleisch oder Vegiburger · Golden Bun · Gruyere Käse · Essiggurke · Zwiebeln · Ketchup · Senf · Pommes fr..,meat,42.2,954.6,94.3,41.6,,16.6,7.8,555,True,12.5,14.5,18.5
 2026-10-21,polyterrasse,VEGAN,Zucchini Carbonara,Fusilli Integrale · Zucchini · Cremesauce · Veganer Reibkäse · Geräucherter Tofu · Salat,vegan,26.6,754.8,105.5,22.2,,8.3,3.4,555,True,7.0,11.5,14.5
 2026-10-21,raemi59,global,Gebackene Auberginen,"Linsen Bulgur, Minz Dip, Granatapfel",vegan,20.18,524.0,56.43,23.46,19.12,12.26,4.0,482.0,False,6.9,9.0,13.5
 2026-10-21,raemi59,traditional,Planted Polpette,"Tomatensauce, Pasta, Broccoli",vegan,33.57,825.0,90.16,33.62,15.63,16.44,6.96,680.0,False,6.9,9.0,13.5
