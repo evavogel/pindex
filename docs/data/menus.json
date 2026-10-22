@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T11:31+02:00",
+ "generated": "2026-10-22T16:10+02:00",
  "today": "2026-10-22",
  "estimated_portion_g": 560,
  "mensas": [
@@ -1161,8 +1161,8 @@
    "mensa": "foodmarket",
    "date": "2026-10-22",
    "line": "fire",
-   "name": "Döner Loaded Fries",
-   "desc": "Döneralternative aus Soja · Kebabsauce · Pommes frites · Weisskabis · Karotten · Joghurtalternative",
+   "name": "Loaded Fries",
+   "desc": "Vegi Nuggets · Kebabsauce · Pommes frites · Weisskabis · Karotten · Joghurtalternative",
    "diet": "vegan",
    "kcal": 862.4,
    "protein": 26.9,
@@ -1270,6 +1270,7 @@
     "ext": 15.9
    },
    "allergens": [
+    "Gluten",
     "Ei",
     "Soja",
     "Milch, Laktose",
@@ -2684,7 +2685,7 @@
    "date": "2026-10-22",
    "line": "HOME",
    "name": "Tessinerfest",
-   "desc": "Schweinsbratwurst · Tomatensauce · Basilikumgnocchi · Broccoli · Chili",
+   "desc": "Schweinsbratwurst · Tomatensauce · Käsespätzli mit Kraut · Broccoli · Chili",
    "diet": "meat",
    "kcal": 957.6,
    "protein": 33.0,
@@ -2711,6 +2712,7 @@
    },
    "allergens": [
     "Gluten",
+    "Ei",
     "Milch, Laktose",
     "Senf"
    ],
