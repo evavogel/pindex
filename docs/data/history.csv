@@ -292,7 +292,7 @@ Basmatireis",vegan,16.8,599.2,67.2,28.0,,2.2,4.6,560,True,8.9,10.9,12.9
 2026-10-23,dozentenfoyer,vitality,Döner im Taschenbrot,Döneralternative aus Soja · Kebabsauce · Eisbergsalat · Tomaten · Zwiebeln · Taschenbrot · BBQ Taters,vegan,31.1,925.8,132.2,27.0,,12.1,6.8,575,True,14.9,14.9,14.9
 2026-10-23,foodmarket,fire,Hoki Filet,Mandeln · Peterli · Tomaten · Knoblauch · Butter · Zitronensaft · Gemüserisotto,fish,41.4,770.5,69.0,38.0,,5.8,5.1,575,True,8.5,12.5,15.5
 2026-10-23,foodmarket,green daily,Frühlingsrollen mit Gemüse,Sweet-Chili Sauce · Jasminreis · Pak-Choi · Wok-Gemüse · Schwarze Sesam,vegan,14.9,782.0,143.8,14.4,,32.8,6.8,575,True,7.0,11.5,14.5
-2026-10-23,foodmarket,grill,Schnitzeljagd,Paniertes Schweinsschnitzel · Kartoffelsalat · Schnittlauch · Zitronenschnitz · Preiselbeeren,meat,36.8,759.0,74.8,33.4,,13.2,5.3,575,True,10.9,13.9,16.9
+2026-10-23,foodmarket,grill,Schnitzeljagd,Paniertes Schweinsschnitzel · Kartoffelsalat · Schnittlauch · Zitronenschnitz,meat,36.8,759.0,74.8,33.4,,13.2,5.3,575,True,10.9,13.9,16.9
 2026-10-23,foodmarket,pasta classica vegi,Tortellini al basilico,Tomatenrahmsauce · Basilikum · Reibkäse · Salat oder Lemonade,vegetarian,36.2,931.5,109.2,35.6,,9.8,6.0,575,True,7.0,11.5,14.5
 2026-10-23,foodmarket,pasta della nonna,Carbonara mit Pfifferlinge,Fusilli Integrale · Cremesauce · Pfifferlinge · Veganer Reibkäse · Geräucherter Tofu · Salat oder Lemonade,vegan,27.6,787.8,109.2,24.1,,8.1,4.3,575,True,9.5,13.5,16.5
 2026-10-23,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,57.5,1144.2,143.8,35.6,,6.9,6.7,575,True,7.0,11.5,14.5
@@ -328,9 +328,8 @@ Basmatireis",vegan,16.8,599.2,67.2,28.0,,2.2,4.6,560,True,8.9,10.9,12.9
 2026-10-23,polysnack,Al Forno,Pizza Bruschetta,Tomaten · Mozzarella · Knoblauch · Basilikum · Balsamico Glace,vegetarian,,,,,,,,,False,9.9,11.9,14.9
 2026-10-23,polysnack,Pasta,Pasta ai gamberetti e zafferano,Penne · Safransauce · Crevetten · Cipollotti · Rucola,fish,,,,,,,,,False,11.9,13.9,16.9
 2026-10-23,polysnack,Verde,Pink Couscous Bowl Combo,Randen-Couscous · Pfälzerkarotten · Spinat · Fetakäse · Falafel · Frucht nach Wahl,vegetarian,27.6,937.2,103.5,44.3,,16.1,3.5,575,True,10.9,12.9,15.9
-2026-10-23,polyterrasse,GARDEN,Pflanzen Geschnetzeltes Zürcher Art,Rahmsauce · Gemüse Würfel · Champignons · Rösti,vegetarian,40.2,672.8,74.8,20.1,,9.8,3.5,575,True,7.0,11.5,14.5
+2026-10-23,polyterrasse,GARDEN,Pflanzen Geschnetzeltes Zürcher Art,Rahmsauce · Gemüse Würfel · Champignons · Spätzli,vegetarian,40.2,672.8,74.8,20.1,,9.8,3.5,575,True,7.0,11.5,14.5
 2026-10-23,polyterrasse,HOME,Kabeljau in Knusperpanade,Weisswein Sauce · Gemüse Brunoise · Wildreis · Blattspinat,fish,32.2,690.0,92.0,19.0,,6.3,4.7,575,True,8.5,12.5,15.5
-2026-10-23,polyterrasse,STREET,Chicken Wings,Pouletflügeli · Süsskartoffel frites · Pommes frites · Onion Rings · Chili- Mayonnaise,meat,56.4,1213.2,74.8,74.8,,12.7,5.9,575,True,11.5,13.5,17.5
 2026-10-23,polyterrasse,VEGAN,Maccaroni panna e spinaci,Rahmsauce · Gemüse Brunoise · Spinat · Röstzwiebeln · Reibkäse · Saisonsalat · Apfel,vegan,19.0,718.8,115.0,17.8,,9.8,1.7,575,True,7.0,11.5,14.5
 2026-10-23,raemi59,global,Tajine,"Auberginen, Karotten, Kichererbsen & Aprikosen, Couscous",vegan,19.32,545.0,82.74,12.47,16.94,25.09,2.5,540.0,False,6.9,9.0,13.5
 2026-10-23,raemi59,traditional,Tofu Casimir,"Mandel Wild Reis, Broccoli",vegan,21.77,603.0,73.49,21.92,10.42,25.79,3.36,630.0,False,6.9,9.0,13.5

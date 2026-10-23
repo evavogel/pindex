@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T11:27+02:00",
+ "generated": "2026-10-23T15:49+02:00",
  "today": "2026-10-23",
  "estimated_portion_g": 575,
  "mensas": [
@@ -1089,7 +1089,7 @@
    "date": "2026-10-23",
    "line": "grill",
    "name": "Schnitzeljagd",
-   "desc": "Paniertes Schweinsschnitzel · Kartoffelsalat · Schnittlauch · Zitronenschnitz · Preiselbeeren",
+   "desc": "Paniertes Schweinsschnitzel · Kartoffelsalat · Schnittlauch · Zitronenschnitz",
    "diet": "meat",
    "kcal": 759.0,
    "protein": 36.8,
@@ -2450,7 +2450,7 @@
    "date": "2026-10-23",
    "line": "GARDEN",
    "name": "Pflanzen Geschnetzeltes Zürcher Art",
-   "desc": "Rahmsauce · Gemüse Würfel · Champignons · Rösti",
+   "desc": "Rahmsauce · Gemüse Würfel · Champignons · Spätzli",
    "diet": "vegetarian",
    "kcal": 672.8,
    "protein": 40.2,
@@ -2476,6 +2476,7 @@
     "ext": 14.5
    },
    "allergens": [
+    "Gluten",
     "Milch, Laktose",
     "Sellerie",
     "Sulfite"
@@ -2519,47 +2520,6 @@
     "Fisch",
     "Milch, Laktose",
     "Sellerie",
-    "Sulfite"
-   ],
-   "climate": null,
-   "balanced": null,
-   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/mensa-polyterrasse.html"
-  },
-  {
-   "mensa": "polyterrasse",
-   "date": "2026-10-23",
-   "line": "STREET",
-   "name": "Chicken Wings",
-   "desc": "Pouletflügeli · Süsskartoffel frites · Pommes frites · Onion Rings · Chili- Mayonnaise",
-   "diet": "meat",
-   "kcal": 1213.2,
-   "protein": 56.4,
-   "carbs": 74.8,
-   "fat": 74.8,
-   "fiber": null,
-   "sugar": 12.7,
-   "salt": 5.9,
-   "weight": 575,
-   "estimated": true,
-   "per100": {
-    "kcal": 211,
-    "protein": 9.8,
-    "fat": 13.0,
-    "carbs": 13.0,
-    "sugar": 2.2,
-    "salt": 1.03,
-    "satfat": 2.8
-   },
-   "prices": {
-    "stud": 11.5,
-    "staff": 13.5,
-    "ext": 17.5
-   },
-   "allergens": [
-    "Gluten",
-    "Ei",
-    "Milch, Laktose",
-    "Senf",
     "Sulfite"
    ],
    "climate": null,
@@ -3377,6 +3337,11 @@
    "mensa": "foodlab",
    "error": "menu page returned no dishes",
    "kept": 0
+  },
+  {
+   "mensa": "clausiusbar",
+   "error": "menu page returned no dishes",
+   "kept": 4
   }
  ]
 }
