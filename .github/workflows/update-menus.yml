@@ -2,8 +2,13 @@ name: Update menus and deploy
 
 on:
   schedule:
-    - cron: "30 4 * * 1-5"   # 05:30 CET / 06:30 CEST
-    - cron: "45 8 * * 1-5"   # 09:45 CET / 10:45 CEST, picks up late menu edits before lunch
+    # GitHub often starts scheduled runs hours late, so several early slots make sure one lands
+    # before lunch. Odd minutes are delayed less than the top of the hour. Times in UTC
+    # (CET = UTC+1, CEST = UTC+2).
+    - cron: "17 3 * * 1-5"
+    - cron: "23 5 * * 1-5"
+    - cron: "37 7 * * 1-5"
+    - cron: "41 9 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]
