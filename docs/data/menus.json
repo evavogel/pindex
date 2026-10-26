@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T08:51+01:00",
+ "generated": "2026-10-26T17:17+01:00",
  "today": "2026-10-26",
  "estimated_portion_g": 535,
  "mensas": [
@@ -609,7 +609,7 @@
    "date": "2026-10-26",
    "line": "butcher",
    "name": "Pouletschenkel",
-   "desc": "Sauerrahm Dip, Baked Potatoe, Bohnen Kürbis Gemüse",
+   "desc": "Sauerrahm Dip, Baked Potatoe, Kürbisgemüse, Erbsen",
    "diet": "meat",
    "kcal": 680.0,
    "protein": 47.51,
@@ -833,7 +833,8 @@
    "allergens": [
     "Gluten",
     "Soja",
-    "Sesam"
+    "Sesam",
+    "Sulfite"
    ],
    "climate": null,
    "balanced": null,
@@ -871,7 +872,9 @@
    },
    "allergens": [
     "Gluten",
-    "Milch, Laktose"
+    "Soja",
+    "Sesam",
+    "Sulfite"
    ],
    "climate": null,
    "balanced": null,
@@ -909,10 +912,10 @@
    },
    "allergens": [
     "Gluten",
-    "Ei",
     "Soja",
-    "Sellerie",
-    "Senf"
+    "Sesam",
+    "Sulfite",
+    "Lupinen"
    ],
    "climate": null,
    "balanced": null,
@@ -951,9 +954,8 @@
    "allergens": [
     "Gluten",
     "Soja",
-    "Milch, Laktose",
-    "Sellerie",
-    "Senf"
+    "Sesam",
+    "Sulfite"
    ],
    "climate": null,
    "balanced": null,
@@ -1075,6 +1077,87 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-26",
+   "line": "East",
+   "name": "Nasi Goreng",
+   "desc": "Indonesisches Reisgericht · Tofu · gebratenem Gemüse · Sambal · Sojasprossen · Frühlingsrollen",
+   "diet": "vegan",
+   "kcal": 695.5,
+   "protein": 28.4,
+   "carbs": 85.6,
+   "fat": 25.7,
+   "fiber": null,
+   "sugar": 11.2,
+   "salt": 8.3,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 130,
+    "protein": 5.3,
+    "fat": 4.8,
+    "carbs": 16.0,
+    "sugar": 2.1,
+    "salt": 1.56,
+    "satfat": 0.7
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sellerie",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-26",
+   "line": "West",
+   "name": "Poulet Wings Oder Kalbshaxe",
+   "desc": "Thymianrahm Sauce · Spinatspätzli · Herbstgemüse",
+   "diet": "meat",
+   "kcal": 813.2,
+   "protein": 39.6,
+   "carbs": 69.5,
+   "fat": 40.1,
+   "fiber": null,
+   "sugar": 5.3,
+   "salt": 4.1,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 152,
+    "protein": 7.4,
+    "fat": 7.5,
+    "carbs": 13.0,
+    "sugar": 1.0,
+    "salt": 0.77,
+    "satfat": 2.8
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Senf",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -1240,7 +1323,7 @@
    "date": "2026-10-26",
    "line": "pasta della nonna",
    "name": "Chiang Mai Nudeln",
-   "desc": "Gebratene Nudeln · Smokey Tofu · rotem Curry · Peperoni · Karotten · Zwiebeln · Knoblauch · Sojasauce",
+   "desc": "Gebratene Nudeln · Planted Chicken · rotem Curry · Peperoni · Karotten · Zwiebeln · Knoblauch · Sojasauce",
    "diet": "vegan",
    "kcal": 513.6,
    "protein": 21.9,
@@ -2431,7 +2514,7 @@
    "date": "2026-10-26",
    "line": "HOME",
    "name": "Noodle Taiwan Style",
-   "desc": "Weizennudeln · Rindhackfleisch · Sojasauce · Sesam · Karottenstreifen · Gurken Stäbchen · Sojasprossen · Kor..",
+   "desc": "Weizennudeln · Poulethackfleisch · Sesam · Karottenstreifen · Gurken Stäbchen · Sojasprossen · Kor..",
    "diet": "meat",
    "kcal": 711.5,
    "protein": 34.2,
@@ -4234,6 +4317,125 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-27",
+   "line": "East",
+   "name": "Falafel",
+   "desc": "Ciabatta · Falafel · Tomaten · Eisbergsalat · Roxy Sauce · Kartoffel Wedges",
+   "diet": "vegan",
+   "kcal": 861.4,
+   "protein": 23.0,
+   "carbs": 112.3,
+   "fat": 31.6,
+   "fiber": null,
+   "sugar": 7.0,
+   "salt": 5.4,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 161,
+    "protein": 4.3,
+    "fat": 5.9,
+    "carbs": 21.0,
+    "sugar": 1.3,
+    "salt": 1.01,
+    "satfat": 0.5
+   },
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-27",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Strozzapreti · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1016.5,
+   "protein": 48.7,
+   "carbs": 112.3,
+   "fat": 38.5,
+   "fiber": null,
+   "sugar": 7.5,
+   "salt": 4.7,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 190,
+    "protein": 9.1,
+    "fat": 7.2,
+    "carbs": 21.0,
+    "sugar": 1.4,
+    "salt": 0.88,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-27",
+   "line": "West",
+   "name": "Foodlab Cheese Burger",
+   "desc": "Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes..",
+   "diet": "meat",
+   "kcal": 1128.8,
+   "protein": 44.4,
+   "carbs": 101.7,
+   "fat": 58.9,
+   "fiber": null,
+   "sugar": 15.0,
+   "salt": 7.8,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 211,
+    "protein": 8.3,
+    "fat": 11.0,
+    "carbs": 19.0,
+    "sugar": 2.8,
+    "salt": 1.45,
+    "satfat": 2.9
+   },
+   "prices": {
+    "stud": 11.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sellerie",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -7390,6 +7592,125 @@
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
   },
   {
+   "mensa": "foodlab",
+   "date": "2026-10-28",
+   "line": "East",
+   "name": "Loades Fries",
+   "desc": "Protaneo Hack · Sriracha Mayonnaise · gepickeltem Gemüse · Pommes Frites",
+   "diet": "vegan",
+   "kcal": 759.7,
+   "protein": 21.4,
+   "carbs": 85.6,
+   "fat": 32.6,
+   "fiber": null,
+   "sugar": 16.1,
+   "salt": 6.2,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 142,
+    "protein": 4.0,
+    "fat": 6.1,
+    "carbs": 16.0,
+    "sugar": 3.0,
+    "salt": 1.16,
+    "satfat": 0.6
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Senf",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-28",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Strozzapreti · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1016.5,
+   "protein": 48.7,
+   "carbs": 112.3,
+   "fat": 38.5,
+   "fiber": null,
+   "sugar": 7.5,
+   "salt": 4.7,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 190,
+    "protein": 9.1,
+    "fat": 7.2,
+    "carbs": 21.0,
+    "sugar": 1.4,
+    "salt": 0.88,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-28",
+   "line": "West",
+   "name": "Berliner Currywurst",
+   "desc": "Currysauce · Pommes · Menüsalat",
+   "diet": "meat",
+   "kcal": 898.8,
+   "protein": 27.3,
+   "carbs": 64.2,
+   "fat": 58.9,
+   "fiber": null,
+   "sugar": 24.1,
+   "salt": 8.5,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 168,
+    "protein": 5.1,
+    "fat": 11.0,
+    "carbs": 12.0,
+    "sugar": 4.5,
+    "salt": 1.59,
+    "satfat": 3.0
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Ei",
+    "Milch, Laktose",
+    "Senf"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
    "mensa": "foodmarket",
    "date": "2026-10-28",
    "line": "fire",
@@ -9645,8 +9966,8 @@
     "Sojabohne",
     "Senf"
    ],
-   "climate": "MEDIUM",
-   "balanced": true,
+   "climate": "HIGH",
+   "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung,hauptspeisen,lucky-bowl/2026-10-28"
   },
   {
@@ -10530,6 +10851,125 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-29",
+   "line": "East",
+   "name": "Gaeng Hung Lay Jay",
+   "desc": "Tofu · Ingwer-Tamarinden-Currysauce · Kartoffeln · Zwiebeln · Schlangenbohnen · Karotten · Erdnüsse · Jasmin..",
+   "diet": "vegan",
+   "kcal": 658.0,
+   "protein": 23.0,
+   "carbs": 101.7,
+   "fat": 17.1,
+   "fiber": null,
+   "sugar": 5.3,
+   "salt": 3.9,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 123,
+    "protein": 4.3,
+    "fat": 3.2,
+    "carbs": 19.0,
+    "sugar": 1.0,
+    "salt": 0.72,
+    "satfat": 0.4
+   },
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Erdnüsse",
+    "Soja",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-29",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Strozzapreti · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": 1016.5,
+   "protein": 48.7,
+   "carbs": 112.3,
+   "fat": 38.5,
+   "fiber": null,
+   "sugar": 7.5,
+   "salt": 4.7,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 190,
+    "protein": 9.1,
+    "fat": 7.2,
+    "carbs": 21.0,
+    "sugar": 1.4,
+    "salt": 0.88,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-10-29",
+   "line": "West",
+   "name": "Holzfäller Steak",
+   "desc": "Schweinesteak · Pommes · Kräuterbutter · Ofengemüse · Knoblauchbaguette",
+   "diet": "meat",
+   "kcal": 957.6,
+   "protein": 32.1,
+   "carbs": 112.3,
+   "fat": 39.6,
+   "fiber": null,
+   "sugar": 20.9,
+   "salt": 6.2,
+   "weight": 535,
+   "estimated": true,
+   "per100": {
+    "kcal": 179,
+    "protein": 6.0,
+    "fat": 7.4,
+    "carbs": 21.0,
+    "sugar": 3.9,
+    "salt": 1.15,
+    "satfat": 2.5
+   },
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Fisch",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -15844,11 +16284,6 @@
   }
  ],
  "errors": [
-  {
-   "mensa": "foodlab",
-   "error": "menu page returned no dishes",
-   "kept": 0
-  },
   {
    "mensa": "mendokoro",
    "error": "menu page returned no dishes",
