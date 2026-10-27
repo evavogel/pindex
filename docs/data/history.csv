@@ -461,11 +461,11 @@ rote Thaicurrysauce (pikant) · Auberginen · Bohnen · Jasminreis",meat,31.9,50
 2026-10-27,foodlab,East,Falafel,Ciabatta · Falafel · Tomaten · Eisbergsalat · Roxy Sauce · Kartoffel Wedges,vegan,22.9,856.5,111.7,31.4,,6.9,5.4,532,True,10.9,12.9,14.9
 2026-10-27,foodlab,Pasta,Pasta Plausch,Strozzapreti · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse,meat,48.4,1010.8,111.7,38.3,,7.4,4.7,532,True,7.9,9.9,11.9
 2026-10-27,foodlab,West,Foodlab Cheese Burger,Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes..,meat,44.2,1122.5,101.1,58.5,,14.9,7.7,532,True,11.9,13.9,15.9
-2026-10-27,foodmarket,fire,Wildhackbraten vom Hirsch,Rosmarinsauce · Spätzli · Karotten · Rosenkohl · Zuchetti,meat,30.3,952.3,74.5,58.5,,5.3,3.9,532,True,8.5,12.5,15.5
-2026-10-27,foodmarket,green daily,Pflanzen -geschnetzeltes Zürcher Art,Champignons · Cremesauce · Rösti · Mischsalat,vegan,36.7,633.1,69.2,21.3,,9.0,3.3,532,True,7.0,11.5,14.5
+2026-10-27,foodmarket,fire,Wildhackbraten vom Hirsch,Rosmarinsauce · Polenta · Karotten · Rosenkohl · Zuchetti,meat,30.3,952.3,74.5,58.5,,5.3,3.9,532,True,8.5,12.5,15.5
+2026-10-27,foodmarket,green daily,Pflanzengeschnetzeltes,Champignons · Cremesauce · Rösti · Mischsalat,vegan,36.7,633.1,69.2,21.3,,9.0,3.3,532,True,7.0,11.5,14.5
 2026-10-27,foodmarket,grill,Banh Mi Hot Dog,Hoisin Wurst · Wasabi Dip · Coleslaw Sweet & Chili · Gurken · Röstzwiebeln · Koriander,meat,41.0,1228.9,101.1,69.2,,28.2,8.0,532,True,11.5,14.5,17.5
 2026-10-27,foodmarket,pasta classica vegi,Penne rigate,Linsenbolgnese · Gemüsebrunoise · Vegane Reibkäse · Salat oder Lemonade,vegan,26.1,766.1,133.0,11.2,,6.9,3.0,532,True,7.0,11.5,14.5
-2026-10-27,foodmarket,pasta della nonna,Farfalle al Pollo di Limone,Poulet · Zitronenpfeffer · Rahmsauce · Zucchetti · Reibkäse · Salat oder Lemonade,meat,36.7,888.4,127.7,23.4,,9.6,3.9,532,True,9.5,13.5,16.5
+2026-10-27,foodmarket,pasta della nonna,Pasta al Pollo di Limone,Poulet · Zitronenpfeffer · Rahmsauce · Zucchetti · Reibkäse · Salat oder Lemonade,meat,36.7,888.4,127.7,23.4,,9.6,3.9,532,True,9.5,13.5,16.5
 2026-10-27,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,51.1,1090.6,154.3,28.2,,6.4,6.8,532,True,7.0,11.5,14.5
 2026-10-27,foodmarket,pizza mamma mia,Flammkuchen nach Elsässer Art,Creme Fraiche · Speck · Zwiebeln · Salat oder Lemonade,meat,39.4,1255.5,111.7,69.2,,6.9,4.7,532,True,11.5,14.5,17.5
 2026-10-27,fusion,MEATWORKS,Kalbsbratwurst,Zwiebelsauce · Rösti · Salat oder Homemade-Getränk,meat,,,,,,,,,False,8.5,12.5,15.5
@@ -496,7 +496,7 @@ rote Thaicurrysauce (pikant) · Auberginen · Bohnen · Jasminreis",meat,31.9,50
 2026-10-27,polysnack,PASTA,Cajun Chicken Pasta,Hörnli · Pouletsreifen · Cajunrahmsauce · Peperoniwürfel · Petersilie · Reibkäse,meat,47.9,877.8,106.4,25.5,,8.5,3.8,532,True,10.9,12.9,15.9
 2026-10-27,polysnack,VERDE,Insalata Cesare,Lattich · Champignons · Cherry Tomaten · Traiteur Ei · Parmesanhobel · Croutons · Kresse · Add on: Pouletstr..,meat,39.9,739.5,20.2,53.2,,3.7,5.4,532,True,10.5,12.5,15.5
 2026-10-27,polyterrasse,GARDEN,Gemüse - Curry mit Kokosreis,Currysauce · Broccoli · Zucchetti · Blumenkohl · Peperoni · Kokosreis · Sojasprossen · Minze · Mango Lassi,vegetarian,11.7,558.6,79.8,19.7,,22.3,3.8,532,True,7.0,11.5,14.5
-2026-10-27,polyterrasse,HOME,Beer Pork,Schweinsvoressen · Biersauce · Gnocchi · Bohnen · Bohnenkraut,meat,22.3,462.8,36.2,23.9,,6.4,3.0,532,True,8.5,12.5,15.5
+2026-10-27,polyterrasse,HOME,Beer Chicken,Poulet Ragout · Biersauce · Gnocchi · Bohnen · Bohnenkraut,meat,22.3,462.8,36.2,23.9,,6.4,3.0,532,True,8.5,12.5,15.5
 2026-10-27,polyterrasse,LOCAL,Tagliatelle agli spinachi e salmone,Vodkasauce · Lachs · Spinat · Reibkäse · Saisonsalat,fish,33.0,792.7,85.1,33.5,,6.9,2.0,532,True,9.5,11.5,15.5
 2026-10-27,polyterrasse,STREET,Miso Ramen,Pak Choi · Austerseitlinge · Räuchertofu · Nori · Gerösteter Sesam,vegan,19.7,420.3,63.8,8.5,,4.8,5.5,532,True,10.0,12.0,16.0
 2026-10-27,polyterrasse,VEGAN,Plantbased Nuggets,Spicy Cocktail Sauce · Pommes frites · Gemüsestäbchen,vegan,22.3,792.7,69.2,43.1,,12.2,2.9,532,True,9.5,14.0,17.0
