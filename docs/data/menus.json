@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T11:07+01:00",
+ "generated": "2026-10-29T12:37+01:00",
  "today": "2026-10-29",
  "estimated_portion_g": 542,
  "mensas": [
@@ -1145,7 +1145,7 @@
    "date": "2026-10-29",
    "line": "West",
    "name": "Holzfäller Steak",
-   "desc": "Schweinesteak · Pommes · Kräuterbutter · Ofengemüse · Knoblauchbaguette",
+   "desc": "Schweinesteak · Pommes · Ofengemüse · Knoblauchbaguette",
    "diet": "meat",
    "kcal": 970.2,
    "protein": 32.5,
@@ -1223,8 +1223,8 @@
    "mensa": "foodmarket",
    "date": "2026-10-29",
    "line": "green daily",
-   "name": "Lasagne",
-   "desc": "Plantbased Hack · Béchamelsauce · Salat",
+   "name": "Gnocchi Pflanzengeschnetzeltes",
+   "desc": "Pflanzenbolognese · Veganer Parmesan · Salat",
    "diet": "vegan",
    "kcal": 596.2,
    "protein": 24.9,
@@ -2607,7 +2607,7 @@
    "date": "2026-10-29",
    "line": "STREET",
    "name": "Greek Chicken",
-   "desc": "Grillierte Pouletbrust · Baked Sweet Potato · Griechischer Salat · Pfefferminz-Sauerrahm Dip",
+   "desc": "Grillierte Pouletbrust · Baked Sweet Potato · Griechischer Salat · Kräuter Dip Alternative",
    "diet": "meat",
    "kcal": 542.0,
    "protein": 41.2,
@@ -2634,6 +2634,7 @@
    },
    "allergens": [
     "Milch, Laktose",
+    "Schalenfrüchte",
     "Senf",
     "Sulfite"
    ],
