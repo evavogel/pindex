@@ -787,8 +787,8 @@ function renderNotices() {
   if (pendingSetup) out.push(`<div class="notice px"><b>SHARED RULES</b>This link carries someone's house rules.
     <span class="btn-row"><button type="button" class="btn btn-red" data-setup="load">Load them</button><button type="button" class="btn" data-setup="ignore">Keep mine</button></span></div>`);
   else if (firstVisit) out.push(`<div class="notice px"><b>NEW HERE?</b>Open <a href="#" data-open-rules>House rules</a> to skip mensas you can't reach, star your faves and add cravings.</div>`);
-  if (weekday >= 1 && weekday <= 5 && data.today < today) {
-    out.push(`<div class="notice px"><b>STALE MENU</b>Data was last fetched on ${esc(data.today)}; today's update has not run (yet).</div>`);
+  if (weekday >= 1 && weekday <= 5 && !dates.includes(today)) {
+    out.push(`<div class="notice px"><b>NO MENU YET</b>Today's menus have not been fetched yet (last update ${esc(data.today)}). They usually arrive during the morning.</div>`);
   }
   $("#notices").innerHTML = out.join("");
 }

@@ -9,6 +9,7 @@ on:
     - cron: "23 5 * * 1-5"
     - cron: "37 7 * * 1-5"
     - cron: "41 9 * * 1-5"
+    - cron: "17 16,20 * * 0"  # Sunday: the scraper looks ahead to next week, so Monday is ready early
   workflow_dispatch:
   push:
     branches: [main]
