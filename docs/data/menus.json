@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T14:41+01:00",
+ "generated": "2026-11-02T18:23+01:00",
  "today": "2026-11-02",
  "estimated_portion_g": 534,
  "mensas": [
@@ -1670,7 +1670,7 @@
    "date": "2026-11-02",
    "line": "menü two",
    "name": "Urdinkel Pasta",
-   "desc": "Kürbis-Sugo, Karotten, Federkohl, Mandeln und, Feta",
+   "desc": "Kürbis-Sugo, Auberginen, Federkohl, Mandeln und, Feta",
    "diet": "vegetarian",
    "kcal": 756.0,
    "protein": 30.68,
@@ -5121,7 +5121,7 @@
    "date": "2026-11-03",
    "line": "two",
    "name": "Urdinkel Pasta",
-   "desc": "Kürbis-Sugo, Karotten, Federkohl, Mandeln und, Feta",
+   "desc": "Kürbis-Sugo, Auberginen, Federkohl, Mandeln und, Feta",
    "diet": "vegetarian",
    "kcal": 756.0,
    "protein": 30.68,
@@ -8576,7 +8576,7 @@
    "date": "2026-11-04",
    "line": "two",
    "name": "Urdinkel Pasta",
-   "desc": "Kürbis-Sugo, Karotten, Federkohl, Mandeln und, Feta",
+   "desc": "Kürbis-Sugo, Auberginen, Federkohl, Mandeln und, Feta",
    "diet": "vegetarian",
    "kcal": 756.0,
    "protein": 30.68,
