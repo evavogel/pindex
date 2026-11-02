@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T10:19+01:00",
+ "generated": "2026-11-02T12:21+01:00",
  "today": "2026-11-02",
  "estimated_portion_g": 534,
  "mensas": [
@@ -822,7 +822,11 @@
     "staff": 12.2,
     "ext": 14.5
    },
-   "allergens": [],
+   "allergens": [
+    "Gluten",
+    "Soja",
+    "Sulfite"
+   ],
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
@@ -831,7 +835,7 @@
    "mensa": "clausiusbar",
    "date": "2026-11-02",
    "line": "GARDEN",
-   "name": "Japanisches Kürbis Churry",
+   "name": "Japanisches Kürbis Curry",
    "desc": "Tofu · Sushireis · Frühlingszwiebel",
    "diet": "vegan",
    "kcal": 662.2,
@@ -860,7 +864,6 @@
    "allergens": [
     "Gluten",
     "Soja",
-    "Sesam",
     "Sulfite"
    ],
    "climate": null,
