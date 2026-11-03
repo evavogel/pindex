@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:58+01:00",
+ "generated": "2026-11-03T13:54+01:00",
  "today": "2026-11-03",
  "estimated_portion_g": 525,
  "mensas": [
@@ -1201,6 +1201,38 @@
   {
    "mensa": "foodmarket",
    "date": "2026-11-03",
+   "line": "fire",
+   "name": "Geschnetzeltes Zürcher Art",
+   "desc": "Schweinsstreifen · Champignonsauce · Pasta · Karotten Duo",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.5,
+    "staff": 12.5,
+    "ext": 15.5
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
+  },
+  {
+   "mensa": "foodmarket",
+   "date": "2026-11-03",
    "line": "green daily",
    "name": "Älpler Rösti mit Spiegelei",
    "desc": "Rösti · Hörnli · Röstzwiebeln · Emmentaler · Spiegelei · Apfelmus · Schnittlauch",
@@ -1284,7 +1316,7 @@
    "date": "2026-11-03",
    "line": "pasta classica",
    "name": "Cajun Chicken Pasta",
-   "desc": "Makkaroni · Cajun · Pouletstreifen · Käserahmsauce · Peperoni · Petersilie · Salat oder Lemonade",
+   "desc": "Pasta · Cajun · Pouletstreifen · Käserahmsauce · Peperoni · Petersilie · Salat oder Lemonade",
    "diet": "meat",
    "kcal": 766.5,
    "protein": 38.9,
@@ -2624,8 +2656,8 @@
    "mensa": "polyterrasse",
    "date": "2026-11-03",
    "line": "GARDEN",
-   "name": "Camembert Risotto",
-   "desc": "Panierter Camembert · Cicorino Rosso · Baumnüsse · Thymian · Preiselbeer Chutney · Tagessalat",
+   "name": "Risotto Burratine",
+   "desc": "Mini Burrata · Cicorino Rosso · Baumnüsse · Thymian · Preiselbeer Chutney · Tagessalat",
    "diet": "vegetarian",
    "kcal": 766.5,
    "protein": 23.6,
@@ -2651,7 +2683,6 @@
     "ext": 14.5
    },
    "allergens": [
-    "Gluten",
     "Milch, Laktose",
     "Schalenfrüchte",
     "Sellerie",

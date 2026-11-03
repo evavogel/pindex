@@ -890,9 +890,10 @@ Jasminreis",meat,33.1,645.0,97.6,11.4,,13.0,5.3,542,True,13.2,14.2,16.5
 2026-11-03,foodlab,East,Juicy Planted Burger,Ciabatta · Planted Patty · Tomaten · Eisbergsalat · Cocktailsauce · Pommes,vegan,34.6,934.5,110.2,35.7,,4.7,5.8,525,True,10.9,12.9,14.9
 2026-11-03,foodlab,Pasta,Pasta Plausch,Penne · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse,meat,63.0,1365.0,168.0,45.1,,9.4,4.5,525,True,7.9,9.9,11.9
 2026-11-03,foodlab,West,Foodlab Cheese Burger,Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes..,meat,43.6,1107.8,99.8,57.8,,14.7,7.6,525,True,11.9,13.9,15.9
+2026-11-03,foodmarket,fire,Geschnetzeltes Zürcher Art,Schweinsstreifen · Champignonsauce · Pasta · Karotten Duo,meat,,,,,,,,,False,8.5,12.5,15.5
 2026-11-03,foodmarket,green daily,Älpler Rösti mit Spiegelei,Rösti · Hörnli · Röstzwiebeln · Emmentaler · Spiegelei · Apfelmus · Schnittlauch,vegetarian,24.1,624.8,78.8,22.1,,13.1,2.5,525,True,7.0,11.5,14.5
 2026-11-03,foodmarket,grill,Teriyaki Donburi Bowl,Lachs · Onsenei · Sushireis · Broccoli · Sesamgurken,fish,32.0,714.0,99.8,20.5,,15.8,4.4,525,True,12.5,15.5,18.5
-2026-11-03,foodmarket,pasta classica,Cajun Chicken Pasta,Makkaroni · Cajun · Pouletstreifen · Käserahmsauce · Peperoni · Petersilie · Salat oder Lemonade,meat,38.9,766.5,94.5,23.1,,7.9,2.2,525,True,8.5,12.5,15.5
+2026-11-03,foodmarket,pasta classica,Cajun Chicken Pasta,Pasta · Cajun · Pouletstreifen · Käserahmsauce · Peperoni · Petersilie · Salat oder Lemonade,meat,38.9,766.5,94.5,23.1,,7.9,2.2,525,True,8.5,12.5,15.5
 2026-11-03,foodmarket,pasta della nonna,Fregola Sarda,Mandel Frischkäse · Tomaten · Oliven · Rucola · Salat oder Lemonade,vegan,25.7,855.8,126.0,25.2,,12.6,2.5,525,True,9.5,13.5,16.5
 2026-11-03,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,50.4,1076.2,152.2,27.8,,6.3,6.7,525,True,7.0,11.5,14.5
 2026-11-03,foodmarket,pizza mamma mia,Lahmacun,Rindfleisch · Paprika · Tomaten · Peterli · Cacik · Rote Zwiebeln · Salat oder Lemonade,meat,29.4,803.2,105.0,27.3,,11.6,4.4,525,True,10.5,13.5,16.5
@@ -928,7 +929,7 @@ Jasminreis",meat,33.1,645.0,97.6,11.4,,13.0,5.3,542,True,13.2,14.2,16.5
 2026-11-03,polysnack,Al forno,geschlossen,geschlossen,vegetarian,,,,,,,,,False,1.0,1.0,1.0
 2026-11-03,polysnack,Pasta,geschlossen,geschlossen,vegetarian,,,,,,,,,False,1.0,1.0,1.0
 2026-11-03,polysnack,Verde,geschlossen,geschlossen,vegetarian,,,,,,,,,False,1.0,1.0,1.0
-2026-11-03,polyterrasse,GARDEN,Camembert Risotto,Panierter Camembert · Cicorino Rosso · Baumnüsse · Thymian · Preiselbeer Chutney · Tagessalat,vegetarian,23.6,766.5,89.2,31.0,,25.2,4.4,525,True,7.0,11.5,14.5
+2026-11-03,polyterrasse,GARDEN,Risotto Burratine,Mini Burrata · Cicorino Rosso · Baumnüsse · Thymian · Preiselbeer Chutney · Tagessalat,vegetarian,23.6,766.5,89.2,31.0,,25.2,4.4,525,True,7.0,11.5,14.5
 2026-11-03,polyterrasse,HOME,Pasta Plausch,Spaghetti · Sauce alla carbonara oder Sauce Bolognese IP-SUISSE · Reibkäse · Blattsalat,meat,28.9,698.2,84.0,25.2,,11.0,2.2,525,True,8.5,12.5,15.5
 2026-11-03,polyterrasse,LOCAL,Hausgemachtes Jumbo Cordon bleu,Pommes Frites · Karotten · Zitronenschnitz,meat,63.0,840.0,99.8,36.2,,3.7,6.0,525,True,14.5,16.5,20.5
 2026-11-03,polyterrasse,STREET,Kara Ninniku Ramen,Poulet · Ei · Pak Choi · Chilli · Knoblauch · Koriander,meat,22.1,451.5,36.8,23.1,,2.1,4.0,525,True,12.5,14.5,18.5
