@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:04+01:00",
+ "generated": "2026-11-05T14:21+01:00",
  "today": "2026-11-05",
  "estimated_portion_g": 524,
  "mensas": [
@@ -1266,7 +1266,7 @@
    "date": "2026-11-05",
    "line": "grill",
    "name": "Karaage Chicken",
-   "desc": "Poulet · Karaage Sauce · Sushireis · Coleslaw · Brunnenkresse",
+   "desc": "Poulet · Karaage Sauce · Roter Sushireis · Coleslaw · Brunnenkresse",
    "diet": "meat",
    "kcal": 791.2,
    "protein": 32.5,
@@ -1410,45 +1410,6 @@
     "stud": 7.0,
     "staff": 11.5,
     "ext": 14.5
-   },
-   "allergens": [
-    "Gluten",
-    "Milch, Laktose",
-    "Sellerie"
-   ],
-   "climate": null,
-   "balanced": null,
-   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
-  },
-  {
-   "mensa": "foodmarket",
-   "date": "2026-11-05",
-   "line": "pizza mamma mia",
-   "name": "Pizza alla bufala",
-   "desc": "Tomatensauce · Büffel Mozzarella · Basilikum · Salat oder Lemonade",
-   "diet": "vegetarian",
-   "kcal": 1063.7,
-   "protein": 57.6,
-   "carbs": 115.3,
-   "fat": 40.3,
-   "fiber": null,
-   "sugar": 6.3,
-   "salt": 5.9,
-   "weight": 524,
-   "estimated": true,
-   "per100": {
-    "kcal": 203,
-    "protein": 11.0,
-    "fat": 7.7,
-    "carbs": 22.0,
-    "sugar": 1.2,
-    "salt": 1.13,
-    "satfat": 4.2
-   },
-   "prices": {
-    "stud": 10.5,
-    "staff": 13.5,
-    "ext": 16.5
    },
    "allergens": [
     "Gluten",
