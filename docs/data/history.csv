@@ -1515,10 +1515,9 @@ pro 100 gr.",meat,35.6,486.4,43.9,16.7,,5.2,4.0,523,True,3.2,3.2,3.2
 2026-11-12,foodlab,East,Gnocci Pfanne,Kartoffel Gnocchi · Hokkaido Kürbis · Pesto Rosso · Rucola,vegetarian,14.0,896.4,75.6,64.8,,8.1,6.7,540,True,8.9,10.9,12.9
 2026-11-12,foodlab,Pasta,Pasta Plausch,Spaghetti · Bolognese · Tomatensauce · Basilikum Pesto · Reibkäse,meat,64.8,1404.0,172.8,46.4,,9.7,4.6,540,True,7.9,9.9,11.9
 2026-11-12,foodlab,West,Hebei,Schwein · Tamarinde · Tomaten · Gurkenraita · Basmatireis,meat,35.6,745.2,81.0,29.2,,5.4,5.0,540,True,9.9,11.9,13.9
-2026-11-12,foodmarket,fire,Grill Bratwurst,Senf · Pommes Rissolées · Mischgemüse,meat,30.8,847.8,64.8,49.7,,6.5,6.9,540,True,8.5,12.5,15.5
+2026-11-12,foodmarket,fire,Grill Bratwurst,Senf · Pommes Rissolées · Karotten · Sellerie · Lauch,meat,30.8,847.8,64.8,49.7,,6.5,6.9,540,True,8.5,12.5,15.5
 2026-11-12,foodmarket,green daily,Takikomi Gohan,Pilze · Reis · Karotten · Edamame · Kefen,vegan,26.5,761.4,145.8,11.9,,4.3,4.5,540,True,7.0,11.5,14.5
-2026-11-12,foodmarket,grill,Dragon Chicken Strips,Spicy Teriyaki · Sesam · Gebratene Nudeln,meat,54.0,734.4,97.2,12.4,,18.4,11.3,540,True,12.5,15.5,18.5
-2026-11-12,foodmarket,pasta classica,Bergsteiger Spätzli mit Speck,Speckstreifen · Käsesauce · Majoran · Thymian · Salat oder Lemonade,meat,36.2,1036.8,81.0,64.8,,8.1,5.7,540,True,8.5,12.5,15.5
+2026-11-12,foodmarket,pasta classica,Bergsteiger Spätzli mit Schinkenwürfel,Schinkenwürfel · Käsesauce · Majoran · Thymian · Salat oder Lemonade,meat,36.2,1036.8,81.0,64.8,,8.1,5.7,540,True,8.5,12.5,15.5
 2026-11-12,foodmarket,pasta della nonna,Gnocchi Cauliflower,Dillsauce · Gerösteter Blumenkohl · Kräuterkruste · Salat oder Lemonade,vegan,17.3,874.8,108.0,39.4,,3.8,5.8,540,True,9.5,13.5,16.5
 2026-11-12,foodmarket,pizza classica,Pizza Margherita,Salat oder Lemonade,vegetarian,51.8,1107.0,156.6,28.6,,6.5,6.9,540,True,7.0,11.5,14.5
 2026-11-12,foodmarket,pizza mamma mia,Pizza Quattro Formaggi,Tomatensauce · Mozzarella · Provolone · Gorgonzola · Parmesan · Basilikum · Salat oder Lemonade,vegetarian,59.4,1117.8,124.2,40.0,,6.5,6.6,540,True,11.5,14.5,17.5

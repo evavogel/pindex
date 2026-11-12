@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:26+01:00",
+ "generated": "2026-11-12T14:53+01:00",
  "today": "2026-11-12",
  "estimated_portion_g": 540,
  "mensas": [
@@ -1116,7 +1116,7 @@
    "date": "2026-11-12",
    "line": "fire",
    "name": "Grill Bratwurst",
-   "desc": "Senf · Pommes Rissolées · Mischgemüse",
+   "desc": "Senf · Pommes Rissolées · Karotten · Sellerie · Lauch",
    "diet": "meat",
    "kcal": 847.8,
    "protein": 30.8,
@@ -1144,6 +1144,7 @@
    "allergens": [
     "Gluten",
     "Milch, Laktose",
+    "Sellerie",
     "Senf"
    ],
    "climate": null,
@@ -1192,44 +1193,9 @@
   {
    "mensa": "foodmarket",
    "date": "2026-11-12",
-   "line": "grill",
-   "name": "Dragon Chicken Strips",
-   "desc": "Spicy Teriyaki · Sesam · Gebratene Nudeln",
-   "diet": "meat",
-   "kcal": 734.4,
-   "protein": 54.0,
-   "carbs": 97.2,
-   "fat": 12.4,
-   "fiber": null,
-   "sugar": 18.4,
-   "salt": 11.3,
-   "weight": 540,
-   "estimated": true,
-   "per100": {
-    "kcal": 136,
-    "protein": 10.0,
-    "fat": 2.3,
-    "carbs": 18.0,
-    "sugar": 3.4,
-    "salt": 2.1,
-    "satfat": 0.4
-   },
-   "prices": {
-    "stud": 12.5,
-    "staff": 15.5,
-    "ext": 18.5
-   },
-   "allergens": [],
-   "climate": null,
-   "balanced": null,
-   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
-  },
-  {
-   "mensa": "foodmarket",
-   "date": "2026-11-12",
    "line": "pasta classica",
-   "name": "Bergsteiger Spätzli mit Speck",
-   "desc": "Speckstreifen · Käsesauce · Majoran · Thymian · Salat oder Lemonade",
+   "name": "Bergsteiger Spätzli mit Schinkenwürfel",
+   "desc": "Schinkenwürfel · Käsesauce · Majoran · Thymian · Salat oder Lemonade",
    "diet": "meat",
    "kcal": 1036.8,
    "protein": 36.2,
@@ -4329,8 +4295,8 @@
    "mensa": "dozentenfoyer",
    "date": "2026-11-13",
    "line": "Favorite",
-   "name": "Pouletschenkel mit Chili & Honig",
-   "desc": "Scharfe Honigsauce · Purpur Weizen · Lattich · Gemüse Brunoise · Kohlrabi · Salbei · pro 100 gr.",
+   "name": "Pouletschenkel Piri Piri",
+   "desc": "Rosmarin Kartoffel · Ratatouille · Chipotle Mayonnaise · pro 100 gr.",
    "diet": "meat",
    "kcal": 669.6,
    "protein": 42.1,
@@ -4357,6 +4323,7 @@
    },
    "allergens": [
     "Gluten",
+    "Ei",
     "Milch, Laktose",
     "Sellerie",
     "Sulfite"
