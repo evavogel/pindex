@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T12:09+01:00",
+ "generated": "2026-11-13T14:15+01:00",
  "today": "2026-11-13",
  "estimated_portion_g": 550,
  "mensas": [
@@ -1052,7 +1052,7 @@
    "date": "2026-11-13",
    "line": "green daily",
    "name": "Seitan Gulasch",
-   "desc": "Paprikasauce · Peperoni · Spaghetti · Sauerrahm · Petersilie",
+   "desc": "Paprikasauce · Peperoni · Gnocchi · Sauerrahm · Petersilie",
    "diet": "vegetarian",
    "kcal": 841.5,
    "protein": 34.6,
@@ -2462,8 +2462,8 @@
    "mensa": "polyterrasse",
    "date": "2026-11-13",
    "line": "GARDEN",
-   "name": "Griechische Moussaka",
-   "desc": "Pflanzenbolognese · Kartoffeln · Auberginen · Zucchetti · Béchamel · Tagessalat",
+   "name": "G`hacktes mit Hörnli",
+   "desc": "Pflanzenhack · Reibkäse · Tagessalat",
    "diet": "vegetarian",
    "kcal": 346.5,
    "protein": 17.1,
