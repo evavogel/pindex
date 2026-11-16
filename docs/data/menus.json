@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-15T22:02+01:00",
- "today": "2026-11-15",
+ "generated": "2026-11-16T12:35+01:00",
+ "today": "2026-11-16",
  "estimated_portion_g": 534,
  "mensas": [
   {
@@ -831,9 +831,13 @@
     "ext": 14.5
    },
    "allergens": [
+    "Gluten",
+    "Fisch",
+    "Erdnüsse",
+    "Soja",
     "Schalenfrüchte",
-    "Senf",
-    "Sulfite"
+    "Sulfite",
+    "Weichtiere"
    ],
    "climate": null,
    "balanced": null,
@@ -911,9 +915,7 @@
     "ext": 15.9
    },
    "allergens": [
-    "Gluten",
-    "Erdnüsse",
-    "Soja"
+    "Gluten"
    ],
    "climate": null,
    "balanced": null,
@@ -949,12 +951,7 @@
     "staff": 14.2,
     "ext": 16.5
    },
-   "allergens": [
-    "Ei",
-    "Milch, Laktose",
-    "Sellerie",
-    "Senf"
-   ],
+   "allergens": [],
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/clausiusbar.html"
@@ -1078,6 +1075,69 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-16",
+   "line": "East",
+   "name": "Älpler Magronen",
+   "desc": "Maccaroni · Rahmsauce · Zwiebeln · Kartoffeln · Apfelmus · Röstzwiebeln",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-16",
+   "line": "West",
+   "name": "Pasta Mediterran",
+   "desc": "Rindfleisch · Mediterranem Gemüse · Rahm · Reibkäse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -1399,7 +1459,7 @@
    "mensa": "fusion",
    "date": "2026-11-16",
    "line": "SOUL FOOD",
-   "name": "Rehpfeffer & Wachholderbeerjus",
+   "name": "Rehpfeffer",
    "desc": "Spätzli · Rotkohl · Maroni",
    "diet": "meat",
    "kcal": null,
@@ -4430,6 +4490,101 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-17",
+   "line": "East",
+   "name": "Gemüse Burger",
+   "desc": "Ciabatta · Gemüse Patty · Tomaten · Eisbergsalat · Smoky BBQ\nSauce · Pommes",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 10.9,
+    "staff": 12.9,
+    "ext": 14.9
+   },
+   "allergens": [
+    "Gluten",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-17",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Vollkorn Fusilli · Bolognese · Tomatensauce · Carbonara Sauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-17",
+   "line": "West",
+   "name": "Foodlab Cheese Burger",
+   "desc": "Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 11.9,
+    "staff": 13.9,
+    "ext": 15.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Senf",
+    "Sesam",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -7758,6 +7913,99 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-18",
+   "line": "East",
+   "name": "Caponata",
+   "desc": "Hausgemachte Arancini · Auberginen · Staudensellerie · Pinienkerne · Oliven",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sellerie"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-18",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Vollkorn Fusilli · Bolognese · Tomatensauce · Carbonara Sauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-18",
+   "line": "West",
+   "name": "Pouletschenkel Piri Piri",
+   "desc": "Schnittlauch Joghurt Dip · Pommes frites · Tomatensalat · Zwiebeln · Petersilie · Minze",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -11109,6 +11357,99 @@
    "climate": null,
    "balanced": null,
    "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/dozentenfoyer.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-19",
+   "line": "East",
+   "name": "Crispy Tender",
+   "desc": "Schnittlauch Joghurt Dip · Bratkartoffeln · Ratatouille",
+   "diet": "vegetarian",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 8.9,
+    "staff": 10.9,
+    "ext": 12.9
+   },
+   "allergens": [
+    "Gluten",
+    "Milch, Laktose",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-19",
+   "line": "Pasta",
+   "name": "Pasta Plausch",
+   "desc": "Vollkorn Fusilli · Bolognese · Tomatensauce · Carbonara Sauce · Basilikum Pesto · Reibkäse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 7.9,
+    "staff": 9.9,
+    "ext": 11.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Milch, Laktose",
+    "Schalenfrüchte"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-19",
+   "line": "West",
+   "name": "Bo Kho",
+   "desc": "Rindsragout Vietnamesisch · Kokos · Zitronengras · Asianudeln · Karotten - Tomatengemüse",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Sesam"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
   },
   {
    "mensa": "foodmarket",
@@ -16885,11 +17226,5 @@
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,zentrum-fur-zahnmedizin/zzm/mittagsverpflegung,hauptspeisen,lucky-bowl/2026-11-20"
   }
  ],
- "errors": [
-  {
-   "mensa": "foodlab",
-   "error": "menu page returned no dishes",
-   "kept": 0
-  }
- ]
+ "errors": []
 }
