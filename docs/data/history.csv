@@ -1777,7 +1777,7 @@ pro 100 gr.",meat,35.6,486.4,43.9,16.7,,5.2,4.0,523,True,3.2,3.2,3.2
 Sauce · Pommes",vegetarian,,,,,,,,,False,10.9,12.9,14.9
 2026-11-17,foodlab,Pasta,Pasta Plausch,Vollkorn Fusilli · Bolognese · Tomatensauce · Carbonara Sauce · Basilikum Pesto · Reibkäse,meat,,,,,,,,,False,7.9,9.9,11.9
 2026-11-17,foodlab,West,Foodlab Cheese Burger,Sesam Bun · rote Zwiebeln gepickelt · Beef Burger · Eisbergsalat · Käse · Tomaten · Cocktail Sauce · Pommes,meat,,,,,,,,,False,11.9,13.9,15.9
-2026-11-17,foodmarket,fire,Rind Meatballs,Pilzrahmsauce · Nudeln · Glasierte Karotten · Schnittlauch,meat,36.4,700.9,74.9,25.7,,7.0,4.1,535,True,8.5,12.5,15.5
+2026-11-17,foodmarket,fire,Rindsvoressen,Pilzrahmsauce · Nudeln · Glasierte Karotten · Schnittlauch,meat,36.4,700.9,74.9,25.7,,7.0,4.1,535,True,8.5,12.5,15.5
 2026-11-17,foodmarket,green daily,Cottage Rösti Sunrise,Gemüserösti · Hüttenkäse · Spiegelei · Schnittlauch,vegetarian,19.8,545.7,50.8,27.3,,8.6,5.2,535,True,7.0,11.5,14.5
 2026-11-17,foodmarket,grill,Hirsch Medaillons medium gebraten,Calvados Sauce · Kartoffelpüree · Karotten · Broccoli · Rosenkohl,meat,29.4,433.4,38.0,15.5,,9.6,2.8,535,True,12.5,15.5,18.5
 2026-11-17,foodmarket,pasta classica vegi,Penne al Gorgonzola,Reibkäse · Salat oder Lemonade,vegetarian,39.1,1257.2,139.1,58.9,,5.3,2.1,535,True,7.0,11.5,14.5
@@ -1818,7 +1818,7 @@ Sauce · Pommes",vegetarian,,,,,,,,,False,10.9,12.9,14.9
 2026-11-17,polysnack,VERDE,Tofu Bowl,Weizennudeln · Geräucherte Tofu · Edamame · grüne Peperoni · Limette · Koriander · Sesamsamen · Sesam-Wasabi..,vegan,37.5,770.4,96.3,23.5,,9.6,11.7,535,True,10.5,12.5,15.5
 2026-11-17,polyterrasse,GARDEN,Dal Makhani,Belugalinsen · Masala Sauce · Gemüsewürfel · Basmatireis · Joghurt- Dip alternative · Koriander · Naan Brot ..,vegan,19.8,674.1,112.3,13.9,,4.8,3.0,535,True,7.0,11.5,14.5
 2026-11-17,polyterrasse,HOME,Greek Manestra,Kritharaki Teigwaren · Rindsbolognese · Reibkäse · Feta · Salat,meat,33.7,727.6,85.6,25.1,,9.6,3.7,535,True,8.5,12.5,15.5
-2026-11-17,polyterrasse,LOCAL,Schweinshuft mit Pfefferkruste,Pommes Frites · Kräuterbutter · Blattsalat,meat,42.3,781.1,69.5,35.8,,7.5,4.3,535,True,11.5,13.5,17.5
+2026-11-17,polyterrasse,LOCAL,Paniertes Schweinsschnitzel,Pommes Frites · Cocktailsauce · Blattsalat,meat,42.3,781.1,69.5,35.8,,7.5,4.3,535,True,11.5,13.5,17.5
 2026-11-17,polyterrasse,STREET,Tantanmen Ramen,Pflanzenhack · Pak Choi · Nori · Mariniertes Ei · Chili,vegetarian,19.8,395.9,53.5,19.3,,5.3,6.9,535,True,10.0,12.0,16.0
 2026-11-17,polyterrasse,VEGAN,Libanesische Bowl,Falafel · Randen Hummus · Couscous · Ras el Hanout Karotten · Harissa Auberginen · Petersilie,vegan,24.6,920.2,133.8,27.3,,16.6,5.1,535,True,7.0,11.5,14.5
 2026-11-17,raemi59,global,«Aloo Gobi»,"Kichererbsen Curry, Blumenkohl Karoffeln, Naan Brot",vegan,23.19,703.0,106.18,19.93,12.58,12.24,4.12,506.0,False,6.9,9.0,13.5

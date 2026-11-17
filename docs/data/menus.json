@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T12:59+01:00",
+ "generated": "2026-11-17T15:43+01:00",
  "today": "2026-11-17",
  "estimated_portion_g": 535,
  "mensas": [
@@ -1236,7 +1236,7 @@
    "mensa": "foodmarket",
    "date": "2026-11-17",
    "line": "fire",
-   "name": "Rind Meatballs",
+   "name": "Rindsvoressen",
    "desc": "Pilzrahmsauce · Nudeln · Glasierte Karotten · Schnittlauch",
    "diet": "meat",
    "kcal": 700.9,
@@ -2817,8 +2817,8 @@
    "mensa": "polyterrasse",
    "date": "2026-11-17",
    "line": "LOCAL",
-   "name": "Schweinshuft mit Pfefferkruste",
-   "desc": "Pommes Frites · Kräuterbutter · Blattsalat",
+   "name": "Paniertes Schweinsschnitzel",
+   "desc": "Pommes Frites · Cocktailsauce · Blattsalat",
    "diet": "meat",
    "kcal": 781.1,
    "protein": 42.3,
@@ -2845,8 +2845,10 @@
    },
    "allergens": [
     "Gluten",
+    "Ei",
     "Fisch",
-    "Sellerie"
+    "Sellerie",
+    "Senf"
    ],
    "climate": null,
    "balanced": null,
@@ -5653,7 +5655,7 @@
    "mensa": "obere",
    "date": "2026-11-18",
    "line": "menu 1",
-   "name": "Mediteraner Dinkelburger",
+   "name": "Mediteraner Dinkelpatty",
    "desc": "Bratkartoffeln, Rahmlauch",
    "diet": "vegetarian",
    "kcal": 621.0,
