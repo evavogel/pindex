@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T12:52+01:00",
+ "generated": "2026-11-18T15:21+01:00",
  "today": "2026-11-18",
  "estimated_portion_g": 534,
  "mensas": [
@@ -1138,7 +1138,7 @@
    "date": "2026-11-18",
    "line": "fire",
    "name": "Chicken Tikka Masala",
-   "desc": "Poulet · Tomaten · Basmatireis · Zitronenraita mit Sambal",
+   "desc": "Poulet Meat Balls · Tomaten · Basmatireis · Zitronenraita mit Sambal",
    "diet": "meat",
    "kcal": 640.8,
    "protein": 30.4,
@@ -1164,6 +1164,7 @@
     "ext": 15.5
    },
    "allergens": [
+    "Gluten",
     "Ei",
     "Milch, Laktose",
     "Sellerie",
