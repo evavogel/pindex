@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T12:50+01:00",
+ "generated": "2026-11-20T15:11+01:00",
  "today": "2026-11-20",
  "estimated_portion_g": 535,
  "mensas": [
@@ -1079,45 +1079,6 @@
     "Gluten",
     "Soja",
     "Sulfite"
-   ],
-   "climate": null,
-   "balanced": null,
-   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg/food-market-pizza-pasta.html"
-  },
-  {
-   "mensa": "foodmarket",
-   "date": "2026-11-20",
-   "line": "grill",
-   "name": "Hausgemachtes Schweins Cordon bleu",
-   "desc": "Pommes frites · Karotten · Zitronenschnitz",
-   "diet": "meat",
-   "kcal": 861.4,
-   "protein": 53.5,
-   "carbs": 69.5,
-   "fat": 38.0,
-   "fiber": null,
-   "sugar": 3.7,
-   "salt": 6.2,
-   "weight": 535,
-   "estimated": true,
-   "per100": {
-    "kcal": 161,
-    "protein": 10.0,
-    "fat": 7.1,
-    "carbs": 13.0,
-    "sugar": 0.7,
-    "salt": 1.16,
-    "satfat": 1.8
-   },
-   "prices": {
-    "stud": 13.5,
-    "staff": 16.5,
-    "ext": 19.5
-   },
-   "allergens": [
-    "Gluten",
-    "Ei",
-    "Milch, Laktose"
    ],
    "climate": null,
    "balanced": null,
