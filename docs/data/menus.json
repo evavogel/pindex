@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T14:05+01:00",
+ "generated": "2026-11-25T16:50+01:00",
  "today": "2026-11-25",
  "estimated_portion_g": 540,
  "mensas": [
@@ -601,7 +601,7 @@
     "Milch",
     "Sulfite"
    ],
-   "climate": null,
+   "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,hauptspeisen,butcher/2026-11-25"
   },
@@ -642,7 +642,7 @@
     "Sojabohne",
     "Senf"
    ],
-   "climate": null,
+   "climate": "LOW",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,hauptspeisen,garden/2026-11-25"
   },
@@ -4101,7 +4101,7 @@
     "Milch",
     "Sulfite"
    ],
-   "climate": null,
+   "climate": "MEDIUM",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,hauptspeisen,butcher/2026-11-26"
   },
@@ -4141,7 +4141,7 @@
     "Sulfite",
     "Senf"
    ],
-   "climate": null,
+   "climate": "MEDIUM",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,farm/2026-11-26"
   },
@@ -4580,36 +4580,60 @@
    "date": "2026-11-26",
    "line": "Pasta",
    "name": "Pasta Plausch",
-   "desc": "Garganelli Canuti · Bolognese · Tomatensauce · Carbonara Sauce · Basilikum Pesto · Reibkäse",
+   "desc": "Garganelli Canuti · Bolognese · Tomatensauce · Carbonara\nSauce · Basilikum Pesto · Reibkäse",
    "diet": "meat",
-   "kcal": 1279.8,
-   "protein": 54.0,
-   "carbs": 151.2,
-   "fat": 45.9,
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
    "fiber": null,
-   "sugar": 14.6,
-   "salt": 3.7,
-   "weight": 540,
-   "estimated": true,
-   "per100": {
-    "kcal": 237,
-    "protein": 10.0,
-    "fat": 8.5,
-    "carbs": 28.0,
-    "sugar": 2.7,
-    "salt": 0.69,
-    "satfat": 3.1
-   },
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
    "prices": {
     "stud": 7.9,
     "staff": 9.9,
-    "ext": 11.9
+    "ext": 10.9
    },
    "allergens": [
     "Gluten",
     "Ei",
     "Milch, Laktose",
-    "Schalenfrüchte"
+    "Schalenfrüchte",
+    "Sulfite"
+   ],
+   "climate": null,
+   "balanced": null,
+   "url": "https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/zentrum/food-lab.html"
+  },
+  {
+   "mensa": "foodlab",
+   "date": "2026-11-26",
+   "line": "West",
+   "name": "Karaage",
+   "desc": "Japanisches Pouletgericht · Teriyaki Sauce · Fried Rice · Kabissalat Japanische Art",
+   "diet": "meat",
+   "kcal": null,
+   "protein": null,
+   "carbs": null,
+   "fat": null,
+   "fiber": null,
+   "sugar": null,
+   "salt": null,
+   "weight": null,
+   "estimated": false,
+   "per100": null,
+   "prices": {
+    "stud": 9.9,
+    "staff": 11.9,
+    "ext": 13.9
+   },
+   "allergens": [
+    "Gluten",
+    "Ei",
+    "Sulfite"
    ],
    "climate": null,
    "balanced": null,
@@ -7483,7 +7507,7 @@
     "Sulfite",
     "Senf"
    ],
-   "climate": null,
+   "climate": "MEDIUM",
    "balanced": false,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,hauptspeisen,butcher/2026-11-27"
   },
@@ -7521,7 +7545,7 @@
    "allergens": [
     "Sulfite"
    ],
-   "climate": null,
+   "climate": "LOW",
    "balanced": true,
    "url": "https://app.food2050.ch/de/zfv/universitat-zurich,campus-oerlikon/mensa-binzmuhle/mittagsverpflegung,hauptspeisen,garden/2026-11-27"
   },
